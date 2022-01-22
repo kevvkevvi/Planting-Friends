@@ -1,0 +1,794 @@
+<html style="height: 100%">
+
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+
+
+    <style>
+        .websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+}
+.Page-outer{
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  width:100%;
+  margin-left:0;
+  height:824px;
+  min-width:200px;
+  max-width:380.86px;
+  margin:auto;
+  background-color:rgba(238, 244, 237, 1);
+  filter:drop-shadow(10px 4px 30px rgba(0, 0, 0, 0.10000000149011612));
+  border-radius:17.79697608947754px;
+  overflow:hidden;
+}
+.Frame-outer{
+  z-index:2;
+}
+.iOS---status-bar-wit{
+  position:relative;
+  z-index:11;
+  margin-left:0px;
+  width:379.2px;
+  min-width:379.2px;
+  height:44.49px;
+  margin-top:0px;
+  margin-bottom:779.51px;
+  min-height:44.49px;
+  overflow:hidden;
+}
+.iOS---status-bar-wit-outer{
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.notch{
+  position:relative;
+  z-index:12;
+  margin-left:0.25px;
+  width:221.45px;
+  height:28.31px;
+  margin-top:0px;
+  margin-bottom:16.180000000000003px;
+  min-height:28.31px;
+  content:url({{url_for('static', filename='ui1/notch.png')}});
+}
+.notch-outer{
+  z-index:12;
+  justify-content:center;
+  position:relative;
+  display:flex;
+}
+.time{
+  position:relative;
+  z-index:13;
+  margin-left:32px;
+  width:32.36px;
+  min-width:32.36px;
+  margin-top:-31.490000000000002px;
+  margin-bottom:10.250000000000007px;
+  min-height:21.24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(2, 2, 2, 1);
+  font-style:normal;
+  font-family:SF Pro Text;
+  font-weight:400;
+  font-size:15.167877197265625px;
+  letter-spacing:-0.04908042449068489px;
+  line-height:21.235029220581055px;
+}
+.time-outer{
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---status-{
+  position:relative;
+  z-index:14;
+  margin-left:306px;
+  width:57.84px;
+  min-width:57.84px;
+  height:14.24px;
+  margin-top:-29.490000000000002px;
+  margin-bottom:15.25px;
+  min-height:14.24px;
+}
+.iOS---icon---status--outer{
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small--{
+  position:relative;
+  z-index:25;
+  margin-left:36px;
+  width:22.25px;
+  min-width:22.25px;
+  height:14.24px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:14.24px;
+  overflow:hidden;
+}
+.iOS---icon---small---outer{
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.charge{
+  position:relative;
+  z-index:28;
+  margin-left:-2.230000000000018px;
+  width:16.02px;
+  height:6.53px;
+  margin-top:0.28999999999999915px;
+  content:url({{url_for('static', filename='ui1/charge.png')}});
+}
+.charge-outer{
+  z-index:28;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.node{
+  position:relative;
+  z-index:27;
+  margin-left:20.930000000000007px;
+  width:1.18px;
+  height:3.56px;
+  margin-top:-0.6800000000000033px;
+  content:url({{url_for('static', filename='ui1/node.png')}});
+}
+.node-outer{
+  z-index:27;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.outline-border{
+  position:relative;
+  z-index:26;
+  margin-left:-0.6700000000000159px;
+  width:19.58px;
+  height:10.08px;
+  margin-top:-0.1600000000000037px;
+  content:url({{url_for('static', filename='ui1/outline_border.png')}});
+}
+.outline-border-outer{
+  z-index:26;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.iOS---icon---small---1{
+  position:relative;
+  z-index:22;
+  margin-left:20px;
+  width:14.24px;
+  min-width:14.24px;
+  height:14.24px;
+  margin-top:-14.24px;
+  margin-bottom:0px;
+  min-height:14.24px;
+}
+.iOS---icon---small---1-outer{
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.icon{
+  position:relative;
+  z-index:23;
+  margin-left:-29px;
+  width:13.59px;
+  min-width:13.59px;
+  height:9.76px;
+  margin-top:3px;
+  margin-bottom:1.480000000000004px;
+  min-height:9.76px;
+  content:url({{url_for('static', filename='ui1/icon.png')}});
+}
+.icon-outer{
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small---2{
+  position:relative;
+  z-index:19;
+  margin-left:0px;
+  width:17.8px;
+  min-width:17.8px;
+  height:14.24px;
+  margin-top:-14.24px;
+  margin-bottom:0px;
+  min-height:14.24px;
+}
+.iOS---icon---small---2-outer{
+  z-index:19;
+  position:relative;
+  display:flex;
+}
+.icon-1{
+  position:relative;
+  z-index:20;
+  margin-left:-61px;
+  width:15.13px;
+  min-width:15.13px;
+  height:9.49px;
+  margin-top:3px;
+  margin-bottom:1.75px;
+  min-height:9.49px;
+  content:url({{url_for('static', filename='ui1/icon_1.png')}});
+}
+.icon-1-outer{
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small---3{
+  position:relative;
+  z-index:17;
+  margin-left:0px;
+  width:10.68px;
+  min-width:10.68px;
+  height:14.24px;
+  margin-top:-14.24px;
+  margin-bottom:0px;
+  min-height:14.24px;
+  visibility:hidden;
+}
+.iOS---icon---small---3-outer{
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.Bluetooth{
+  position:relative;
+  z-index:18;
+  margin-left:-72px;
+  width:6.18px;
+  min-width:6.18px;
+  height:10.47px;
+  margin-top:2px;
+  margin-bottom:1.7700000000000031px;
+  min-height:10.47px;
+  content:url({{url_for('static', filename='ui1/Bluetooth.png')}});
+}
+.Bluetooth-outer{
+  z-index:18;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small---4{
+  position:relative;
+  z-index:15;
+  margin-left:0px;
+  width:10.68px;
+  min-width:10.68px;
+  height:14.24px;
+  margin-top:-14.24px;
+  margin-bottom:0px;
+  min-height:14.24px;
+  visibility:hidden;
+}
+.iOS---icon---small---4-outer{
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Alarm{
+  position:relative;
+  z-index:16;
+  margin-left:-85px;
+  width:8.9px;
+  min-width:8.9px;
+  height:8.12px;
+  margin-top:4px;
+  margin-bottom:2.1200000000000045px;
+  min-height:8.12px;
+  content:url({{url_for('static', filename='ui1/Alarm.png')}});
+}
+.Alarm-outer{
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.battery-percentage{
+  position:relative;
+  z-index:24;
+  margin-left:36px;
+  width:27px;
+  min-width:27px;
+  height:15px;
+  margin-top:0.759999999999998px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:SF Pro Text;
+  font-weight:400;
+  font-size:10.678186416625977px;
+  letter-spacing:-0.004750985915244499px;
+  line-height:14.237581253051758px;
+  visibility:hidden;
+}
+.battery-percentage-outer{
+  z-index:24;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.carrier{
+  position:relative;
+  z-index:21;
+  margin-left:20px;
+  width:31px;
+  min-width:31px;
+  height:15px;
+  margin-top:0.759999999999998px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:SF Pro Text;
+  font-weight:400;
+  font-size:10.678186416625977px;
+  letter-spacing:-0.004750985915244499px;
+  line-height:14.237581253051758px;
+  visibility:hidden;
+}
+.carrier-outer{
+  z-index:21;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Ellipse-91{
+  position:relative;
+  z-index:3;
+  margin-left:81px;
+  width:217.12px;
+  min-width:217.12px;
+  height:217.12px;
+  margin-top:-731px;
+  margin-bottom:513.88px;
+  min-height:217.12px;
+  content:url({{url_for('static', filename='ui1/Ellipse_91.png')}});
+}
+.Ellipse-91-outer{
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.icon-1-1{
+  position:relative;
+  z-index:10;
+  margin-left:109px;
+  width:162.84px;
+  min-width:162.84px;
+  height:169.96px;
+  margin-top:-707px;
+  margin-bottom:537.04px;
+  min-height:169.96px;
+  content:url({{url_for('static', filename='ui1/icon_1_1.png')}});
+}
+.icon-1-1-outer{
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Planting-Friends{
+  position:relative;
+  z-index:9;
+  margin-left:61px;
+  width:268.73px;
+  min-width:268.73px;
+  margin-top:-481px;
+  margin-bottom:432.88px;
+  min-height:48.12px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:35.048152923583984px;
+  line-height:40px;
+}
+.Planting-Friends-outer{
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Be-patience--You-fri{
+  position:relative;
+  z-index:8;
+  margin-left:36px;
+  width:315.9px;
+  min-width:315.9px;
+  margin-top:-412px;
+  margin-bottom:329.24px;
+  min-height:82.76px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:17.59051513671875px;
+  line-height:196.6249942779541%;
+}
+.Be-patience--You-fri-outer{
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.q---------------32{
+  position:relative;
+  z-index:4;
+  margin-left:118px;
+  width:145.05px;
+  min-width:145.05px;
+  height:116.97px;
+  margin-top:-285px;
+  margin-bottom:168.02999999999997px;
+  min-height:116.97px;
+  content:url({{url_for('static', filename='ui1/________________32.png')}});
+}
+.q---------------32-outer{
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Ellipse-92{
+  position:relative;
+  z-index:5;
+  margin-left:0px;
+  width:380.86px;
+  min-width:380.86px;
+  height:221.57px;
+  margin-top:-222px;
+  margin-bottom:0.43000000000006366px;
+  min-height:221.57px;
+  content:url({{url_for('static', filename='ui1/Ellipse_92.png')}});
+}
+.Ellipse-92-outer{
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Frame-929{
+  position:relative;
+  z-index:6;
+  margin-left:117px;
+  width:144.16px;
+  min-width:144.16px;
+  height:45.91px;
+  margin-top:-117px;
+  margin-bottom:71.09000000000003px;
+  min-height:45.91px;
+  background-color:rgba(228, 242, 216, 1);
+  filter:drop-shadow(0px 3.5593953132629395px 3.5593953132629395px rgba(0, 0, 0, 0.25));
+  border-radius:33.717620849609375px;
+}
+.Frame-929-outer{
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.Let-s-start{
+  position:relative;
+  z-index:20;
+  margin-left:36px;
+  width:72.97px;
+  min-width:72.97px;
+  margin-top:13px;
+  margin-bottom:12.43999999999994px;
+  min-height:20.47px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:16.061771392822266px;
+  line-height:18px;
+}
+.Let-s-start-outer{
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+
+    </style>
+
+
+    </head>
+    <body class="websiteBody">
+      <div class="Page-outer">
+    <div
+      id="Page"
+      data-name="Page"
+      class="Page"
+    >
+      <div class="Frame-outer">
+      <div
+        id="Frame"
+        data-name="iPhone 13 Pro Max - 95"
+        class="Frame"
+      >
+        <div class="iOS---status-bar-wit-outer">
+        <div
+          id="iOS---status-bar-wit"
+          data-name="iOS / status-bar-with-notch"
+          class="iOS---status-bar-wit"
+        >
+          <div class="notch-outer">
+          <img
+            id="notch"
+            data-name="notch"
+            alt="notch"
+            class="notch"
+          >
+          </div>
+          <div class="time-outer">
+          <div
+            id="time"
+            data-name="time"
+            class="time"
+          ><div key="0">9:41</div>
+          </div>
+          </div>
+          <div class="iOS---icon---status--outer">
+          <div
+            id="iOS---icon---status-"
+            data-name="iOS / icon / status-bar"
+            class="iOS---icon---status-"
+          >
+            <div class="iOS---icon---small---outer">
+            <div
+              id="iOS---icon---small--"
+              data-name="iOS / icon / small / battery"
+              class="iOS---icon---small--"
+            >
+              <div class="charge-outer">
+              <img
+                id="charge"
+                data-name="charge"
+                alt="charge"
+                class="charge"
+              >
+              </div>
+              <div class="node-outer">
+              <img
+                id="node"
+                data-name="node"
+                alt="node"
+                class="node"
+              >
+              </div>
+              <div class="outline-border-outer">
+              <img
+                id="outline-border"
+                data-name="outline border"
+                alt="outline border"
+                class="outline-border"
+              >
+              </div>
+            </div>
+            </div>
+            <div class="iOS---icon---small---1-outer">
+            <div
+              id="iOS---icon---small---1"
+              data-name="iOS / icon / small / Wifi"
+              class="iOS---icon---small---1"
+            >
+              <div class="icon-outer">
+              <img
+                id="icon"
+                data-name="icon"
+                alt="icon"
+                class="icon"
+              >
+              </div>
+            </div>
+            </div>
+            <div class="iOS---icon---small---2-outer">
+            <div
+              id="iOS---icon---small---2"
+              data-name="iOS / icon / small / Mobile Signal"
+              class="iOS---icon---small---2"
+            >
+              <div class="icon-1-outer">
+              <img
+                id="icon-1"
+                data-name="icon"
+                alt="icon"
+                class="icon-1"
+              >
+              </div>
+            </div>
+            </div>
+            <div class="iOS---icon---small---3-outer">
+            <div
+              id="iOS---icon---small---3"
+              data-name="iOS / icon / small / bluetooth"
+              class="iOS---icon---small---3"
+            >
+              <div class="Bluetooth-outer">
+              <img
+                id="Bluetooth"
+                data-name="Bluetooth"
+                alt="Bluetooth"
+                class="Bluetooth"
+              >
+              </div>
+            </div>
+            </div>
+            <div class="iOS---icon---small---4-outer">
+            <div
+              id="iOS---icon---small---4"
+              data-name="iOS / icon / small / clock"
+              class="iOS---icon---small---4"
+            >
+              <div class="Alarm-outer">
+              <img
+                id="Alarm"
+                data-name="Alarm"
+                alt="Alarm"
+                class="Alarm"
+              >
+              </div>
+            </div>
+            </div>
+            <div class="battery-percentage-outer">
+            <div
+              id="battery-percentage"
+              data-name="battery percentage"
+              class="battery-percentage"
+            ><div key="0">100%</div>
+            </div>
+            </div>
+            <div class="carrier-outer">
+            <div
+              id="carrier"
+              data-name="carrier"
+              class="carrier"
+            ><div key="0">Figma</div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="Ellipse-91-outer">
+        <img
+          id="Ellipse-91"
+          data-name="Ellipse 91"
+          alt="Ellipse 91"
+          class="Ellipse-91"
+        >
+        </div>
+        <div class="icon-1-1-outer">
+        <img
+          id="icon-1-1"
+          data-name="icon 1"
+          alt="icon 1"
+          class="icon-1-1"
+        >
+        </div>
+
+        <div class="Planting-Friends-outer">
+        <div
+          id="Planting-Friends"
+          data-name="Planting Friends"
+          class="Planting-Friends"
+        ><div key="0">Planting Friends</div>
+        </div>
+        </div>
+        <div class="Be-patience--You-fri-outer">
+        <div
+          id="Be-patience--You-fri"
+          data-name="Be patience, You friends will come soon"
+          class="Be-patience--You-fri"
+        ><div key="0">Be patience, </div>
+<div key="1">You friends will come soon</div>
+<div key="2">&nbsp;</div>
+        </div>
+        </div>
+        <div class="q---------------32-outer">
+        <img
+          id="q---------------32"
+          data-name="长出来的人(干净的导出版本) 32"
+          alt="长出来的人(干净的导出版本) 32"
+          class="q---------------32"
+        >
+        </div>
+
+        <div class="Ellipse-92-outer">
+        <img
+          id="Ellipse-92"
+          data-name="Ellipse 92"
+          alt="Ellipse 92"
+          class="Ellipse-92"
+        >
+        </div>
+
+        <a href="/uid2">
+            <div class="Frame-929-outer">
+                <div
+                  id="Frame-929"
+                  data-name="Frame 929"
+                  class="Frame-929"
+                >
+             <div class="Let-s-start-outer">
+              <div
+                id="Let-s-start"
+                data-name="Let’s start"
+                class="Let-s-start"
+              ><div key="0">Let’s start</div>
+              </div>
+              </div>
+            </div>
+            </div>
+        </a>
+
+
+          </div>
+
+
+
+
+      </div>
+    </div>
+    </div>
+    </body>
+  </html>

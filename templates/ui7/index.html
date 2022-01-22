@@ -1,0 +1,5605 @@
+<html style="height: 100%">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+  <title>ui7</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam:400">
+    <style>
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+}
+.Page-outer{
+  /*z-index:1;*/
+}
+.Frame{
+  /*position:relative;*/
+  /*z-index:2;*/
+  width:100%;
+  margin-left:0;
+  height:818px;
+  min-width:200px;
+  max-width:378.08px;
+  margin:auto;
+  background-color:rgba(238, 244, 237, 1);
+  border-radius:17.690000534057617px;
+  overflow:hidden;
+}
+.Frame-outer{
+  z-index:2;
+}
+.Rectangle-48{
+  /*position:relative;*/
+  /*z-index:4;*/
+  margin-left:-2px;
+  width:379.85px;
+  min-width:379.85px;
+  height:109.54px;
+  margin-top:-11px;
+  margin-bottom:719.46px;
+  min-height:109.54px;
+}
+.Rectangle-48-outer{
+  /*z-index:4;*/
+  /*position:relative;*/
+  display:flex;
+}
+.Frame-366{
+  position:fixed;
+  z-index:184;
+  margin-left:auto;
+  width:383.38px;
+  min-width:200px;
+  height:99.82px;
+  min-height:99.82px;
+  left:0px;
+  right:0;
+  top:0px;
+  bottom:0;
+  margin-right:auto;
+  max-width:378.08px;
+  background-color:rgba(255, 255, 255, 1);
+}
+.Frame-366-outer{
+  z-index:184;
+  position:relative;
+  display:flex;
+}
+.iOS---status-bar-wit{
+  position:relative;
+  z-index:190;
+  margin-left:0px;
+  width:376.44px;
+  min-width:376.44px;
+  height:44.17px;
+  margin-top:0px;
+  margin-bottom:55.64999999999999px;
+  min-height:44.17px;
+  overflow:hidden;
+}
+.iOS---status-bar-wit-outer{
+  z-index:190;
+  position:relative;
+  display:flex;
+}
+.notch{
+  position:relative;
+  z-index:191;
+  margin-left:-0.5999999999999659px;
+  width:219.84px;
+  height:28.11px;
+  margin-top:0px;
+  margin-bottom:16.060000000000002px;
+  min-height:28.11px;
+  content:url({{url_for('static', filename='ui7/notch.png')}});
+}
+.notch-outer{
+  z-index:191;
+  justify-content:center;
+  position:relative;
+  display:flex;
+}
+.time{
+  position:relative;
+  z-index:192;
+  margin-left:32px;
+  width:32.12px;
+  min-width:32.12px;
+  margin-top:-31.17px;
+  margin-bottom:10.090000000000003px;
+  min-height:21.08px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(2, 2, 2, 1);
+  font-style:normal;
+  font-family:SF Pro Text;
+  font-weight:400;
+  font-size:15.0574312210083px;
+  letter-spacing:-0.04836826297078829px;
+  line-height:21.08040428161621px;
+}
+.time-outer{
+  z-index:192;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---status-{
+  position:relative;
+  z-index:193;
+  margin-left:218px;
+  width:142.69px;
+  min-width:142.69px;
+  height:15px;
+  margin-top:-29.17px;
+  margin-bottom:14.170000000000002px;
+  min-height:15px;
+}
+.iOS---icon---status--outer{
+  z-index:193;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small--{
+  position:relative;
+  z-index:204;
+  margin-left:121px;
+  width:22.08px;
+  min-width:22.08px;
+  height:14.13px;
+  margin-top:0px;
+  margin-bottom:0.8699999999999974px;
+  min-height:14.13px;
+  overflow:hidden;
+}
+.iOS---icon---small---outer{
+  z-index:204;
+  position:relative;
+  display:flex;
+}
+.charge{
+  position:relative;
+  z-index:207;
+  margin-left:-0.18000000000000682px;
+  width:15.9px;
+  height:6.48px;
+  margin-top:0.34999999999999787px;
+  content:url({{url_for('static', filename='ui7/charge.png')}});
+}
+.charge-outer{
+  z-index:207;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.node{
+  position:relative;
+  z-index:206;
+  margin-left:21.090000000000032px;
+  width:1.17px;
+  height:3.53px;
+  margin-top:-0.6000000000000014px;
+  content:url({{url_for('static', filename='ui7/node.png')}});
+}
+.node-outer{
+  z-index:206;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.outline-border{
+  position:relative;
+  z-index:205;
+  margin-left:-0.6499999999999773px;
+  width:19.43px;
+  height:10.01px;
+  margin-top:-0.12000000000000455px;
+  content:url({{url_for('static', filename='ui7/outline_border.png')}});
+}
+.outline-border-outer{
+  z-index:205;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.iOS---icon---small---1{
+  position:relative;
+  z-index:201;
+  margin-left:76px;
+  width:14.13px;
+  min-width:14.13px;
+  height:14.13px;
+  margin-top:-15px;
+  margin-bottom:0.8699999999999974px;
+  min-height:14.13px;
+}
+.iOS---icon---small---1-outer{
+  z-index:201;
+  position:relative;
+  display:flex;
+}
+.icon{
+  position:relative;
+  z-index:202;
+  margin-left:1px;
+  width:13.49px;
+  min-width:13.49px;
+  height:9.69px;
+  margin-top:3px;
+  margin-bottom:1.4400000000000048px;
+  min-height:9.69px;
+  content:url({{url_for('static', filename='ui7/icon.png')}});
+}
+.icon-outer{
+  z-index:202;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small---2{
+  position:relative;
+  z-index:198;
+  margin-left:25px;
+  width:17.67px;
+  min-width:17.67px;
+  height:14.13px;
+  margin-top:-15px;
+  margin-bottom:0.8699999999999974px;
+  min-height:14.13px;
+}
+.iOS---icon---small---2-outer{
+  z-index:198;
+  position:relative;
+  display:flex;
+}
+.icon-1{
+  position:relative;
+  z-index:199;
+  margin-left:1px;
+  width:15.02px;
+  min-width:15.02px;
+  height:9.42px;
+  margin-top:3px;
+  margin-bottom:1.7100000000000009px;
+  min-height:9.42px;
+  content:url({{url_for('static', filename='ui7/icon_1.png')}});
+}
+.icon-1-outer{
+  z-index:199;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small---3{
+  position:relative;
+  z-index:196;
+  margin-left:12px;
+  width:10.6px;
+  min-width:10.6px;
+  height:14.13px;
+  margin-top:-15px;
+  margin-bottom:0.8699999999999974px;
+  min-height:14.13px;
+}
+.iOS---icon---small---3-outer{
+  z-index:196;
+  position:relative;
+  display:flex;
+}
+.Bluetooth{
+  position:relative;
+  z-index:197;
+  margin-left:3px;
+  width:6.14px;
+  min-width:6.14px;
+  height:10.39px;
+  margin-top:2px;
+  margin-bottom:1.740000000000002px;
+  min-height:10.39px;
+  content:url({{url_for('static', filename='ui7/Bluetooth.png')}});
+}
+.Bluetooth-outer{
+  z-index:197;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---small---4{
+  position:relative;
+  z-index:194;
+  margin-left:0px;
+  width:10.6px;
+  min-width:10.6px;
+  height:14.13px;
+  margin-top:-15px;
+  margin-bottom:0.8699999999999974px;
+  min-height:14.13px;
+}
+.iOS---icon---small---4-outer{
+  z-index:194;
+  position:relative;
+  display:flex;
+}
+.Alarm{
+  position:relative;
+  z-index:195;
+  margin-left:1px;
+  width:8.83px;
+  min-width:8.83px;
+  height:8.07px;
+  margin-top:4px;
+  margin-bottom:2.0600000000000023px;
+  min-height:8.07px;
+  content:url({{url_for('static', filename='ui7/Alarm.png')}});
+}
+.Alarm-outer{
+  z-index:195;
+  position:relative;
+  display:flex;
+}
+.battery-percentage{
+  position:relative;
+  z-index:203;
+  margin-left:92px;
+  width:27px;
+  min-width:27px;
+  height:15px;
+  margin-top:0px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:SF Pro Text;
+  font-weight:400;
+  font-size:10.600431442260742px;
+  letter-spacing:-0.0046820482293026796px;
+  line-height:14.133909225463867px;
+}
+.battery-percentage-outer{
+  z-index:203;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.carrier{
+  position:relative;
+  z-index:200;
+  margin-left:44px;
+  width:30px;
+  min-width:30px;
+  height:15px;
+  margin-top:0px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:SF Pro Text;
+  font-weight:400;
+  font-size:10.600431442260742px;
+  letter-spacing:-0.0046820482293026796px;
+  line-height:14.133909225463867px;
+}
+.carrier-outer{
+  z-index:200;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.image-275{
+  position:relative;
+  z-index:185;
+  margin-left:0px;
+  width:378.08px;
+  min-width:378.08px;
+  height:98.94px;
+  margin-top:-99.82px;
+  margin-bottom:0.8799999999999955px;
+  min-height:98.94px;
+  content:url({{url_for('static', filename='ui7/image_275.png')}});
+}
+.image-275-outer{
+  z-index:185;
+  position:relative;
+  display:flex;
+}
+.My-friendship-Garden{
+  position:relative;
+  z-index:189;
+  margin-left:73px;
+  width:229.68px;
+  min-width:229.68px;
+  margin-top:-42.81999999999999px;
+  margin-bottom:11.799999999999997px;
+  min-height:31.02px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:22.690576553344727px;
+  line-height:26px;
+}
+.My-friendship-Garden-outer{
+  z-index:189;
+  position:relative;
+  display:flex;
+}
+.Group-231{
+  position:relative;
+  z-index:186;
+  margin-left:338px;
+  width:19.43px;
+  min-width:19.43px;
+  height:22.23px;
+  margin-top:-38.81999999999999px;
+  margin-bottom:16.58999999999999px;
+  min-height:22.23px;
+}
+.Group-231-outer{
+  z-index:186;
+  position:relative;
+  display:flex;
+}
+.Ellipse-129{
+  position:relative;
+  z-index:188;
+  margin-left:0%;
+  width:100%;
+  height:87.40440845704003%;
+  margin-top:10.29336078229542%;
+  content:url({{url_for('static', filename='ui7/Ellipse_129.png')}});
+}
+.Ellipse-129-outer{
+  z-index:188;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.q-{
+  position:relative;
+  z-index:187;
+  margin-left:30.880082346886248%;
+  width:41.17344312918166%;
+  height:100%;
+  margin-top:0%;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:16.04903221130371px;
+  line-height:18px;
+}
+.q--outer{
+  z-index:187;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-320{
+  position:relative;
+  z-index:208;
+  margin-left:0px;
+  width:378.08px;
+  min-width:378.08px;
+  height:1.77px;
+  margin-top:-0.8199999999999932px;
+  margin-bottom:-0.9500000000000028px;
+  min-height:1.77px;
+  content:url({{url_for('static', filename='ui7/Vector_320.png')}});
+}
+.Vector-320-outer{
+  z-index:208;
+  position:relative;
+  display:flex;
+}
+.q------2{
+  position:relative;
+  z-index:3;
+  margin-left:0px;
+  width:378.08px;
+  min-width:378.08px;
+  height:593.59px;
+  margin-top:-708px;
+  margin-bottom:114.40999999999997px;
+  min-height:593.59px;
+  content:url({{url_for('static', filename='ui7/_______2.png')}});
+}
+.q------2-outer{
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Frame-361{
+  position:relative;
+  z-index:8;
+  margin-left:199px;
+  width:162.54px;
+  min-width:162.54px;
+  height:40.63px;
+  margin-top:-699px;
+  margin-bottom:658.37px;
+  min-height:40.63px;
+  background-color:rgba(238, 244, 237, 1);
+  filter:drop-shadow(1.7667386531829834px 3.533477306365967px 5.300215721130371px rgba(0, 0, 0, 0.07999999821186066));
+  border:1.5628842115402222px solid rgba(152, 152, 152, 0.5);
+  box-sizing:border-box;
+  border-radius:12.503073692321777px;
+}
+.Frame-361-outer{
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Look-around{
+  position:relative;
+  z-index:9;
+  margin-left:8.437115788459778px;
+  width:141.7px;
+  min-width:141.7px;
+  margin-top:6.437115788459778px;
+  margin-bottom:5.544231576919543px;
+  min-height:23.96px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(85, 85, 85, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:17.266149520874023px;
+  line-height:20px;
+}
+.Look-around-outer{
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Frame-360{
+  position:relative;
+  z-index:6;
+  margin-left:22px;
+  width:157.24px;
+  min-width:157.24px;
+  height:40.63px;
+  margin-top:-699px;
+  margin-bottom:658.37px;
+  min-height:40.63px;
+  background-color:rgba(231, 238, 220, 1);
+  filter:drop-shadow(1.7667386531829834px 3.533477306365967px 5.300215721130371px rgba(0, 0, 0, 0.07999999821186066));
+  border:1.5628842115402222px solid rgba(30, 87, 90, 0.5);
+  box-sizing:border-box;
+  border-radius:12.503073692321777px;
+}
+.Frame-360-outer{
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Garden-Map{
+  position:relative;
+  z-index:7;
+  margin-left:8.437115788459778px;
+  width:136.4px;
+  min-width:136.4px;
+  margin-top:6.437115788459778px;
+  margin-bottom:5.544231576919543px;
+  min-height:23.96px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:17.266149520874023px;
+  line-height:20px;
+}
+.Garden-Map-outer{
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Group-232{
+  position:relative;
+  z-index:165;
+  margin-left:17px;
+  width:345px;
+  min-width:345px;
+  height:510.39px;
+  margin-top:-648px;
+  margin-bottom:137.61px;
+  min-height:510.39px;
+}
+.Group-232-outer{
+  z-index:165;
+  position:relative;
+  display:flex;
+}
+.Group-226{
+  position:relative;
+  z-index:181;
+  margin-left:103px;
+  width:138.69px;
+  min-width:138.69px;
+  height:138.69px;
+  margin-top:0px;
+  margin-bottom:371.7px;
+  min-height:138.69px;
+}
+.Group-226-outer{
+  z-index:181;
+  position:relative;
+  display:flex;
+}
+.Ellipse-91{
+  position:relative;
+  z-index:182;
+  margin-left:-1px;
+  width:139.84px;
+  min-width:139.84px;
+  height:139.84px;
+  margin-top:-1px;
+  margin-bottom:-0.1500000000000341px;
+  min-height:139.84px;
+  content:url({{url_for('static', filename='ui7/Ellipse_91.png')}});
+}
+.Ellipse-91-outer{
+  z-index:182;
+  position:relative;
+  display:flex;
+}
+.Frame-370{
+  position:relative;
+  z-index:166;
+  margin-left:0px;
+  width:345px;
+  min-width:345px;
+  height:441px;
+  margin-top:-441.39px;
+  margin-bottom:0.38999999999998636px;
+  min-height:441px;
+  background-color:rgba(252, 235, 81, 1);
+  filter:drop-shadow(0px 3.533477306365967px 3.533477306365967px rgba(0, 0, 0, 0.25));
+  border-radius:17.021451950073242px;
+}
+.Frame-370-outer{
+  z-index:166;
+  position:relative;
+  display:flex;
+}
+.Group-229{
+  position:relative;
+  z-index:168;
+  margin-left:37px;
+  width:287.98px;
+  min-width:287.98px;
+  height:39.75px;
+  margin-top:88px;
+  margin-bottom:313.25px;
+  min-height:39.75px;
+}
+.Group-229-outer{
+  z-index:168;
+  position:relative;
+  display:flex;
+}
+.Congratulation-{
+  position:relative;
+  z-index:169;
+  margin-left:27px;
+  width:260.59px;
+  min-width:260.59px;
+  margin-top:0px;
+  margin-bottom:0.09000000000003183px;
+  min-height:39.66px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:29.799747467041016px;
+  line-height:33px;
+}
+.Congratulation--outer{
+  z-index:169;
+  position:relative;
+  display:flex;
+}
+.Party-Popper{
+  position:relative;
+  z-index:170;
+  margin-left:0px;
+  width:36.22px;
+  min-width:36.22px;
+  height:36.22px;
+  margin-top:-35.75px;
+  margin-bottom:-0.4700000000000273px;
+  min-height:36.22px;
+  overflow:hidden;
+}
+.Party-Popper-outer{
+  z-index:170;
+  position:relative;
+  display:flex;
+}
+.image-447{
+  position:relative;
+  z-index:171;
+  margin-left:0px;
+  width:36.22px;
+  min-width:36.22px;
+  height:36.22px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:36.22px;
+  content:url({{url_for('static', filename='ui7/image_447.png')}});
+}
+.image-447-outer{
+  z-index:171;
+  position:relative;
+  display:flex;
+}
+.You-planted-your-fir{
+  position:relative;
+  z-index:172;
+  margin-left:34px;
+  width:279.14px;
+  min-width:279.14px;
+  margin-top:-302px;
+  margin-bottom:241.05px;
+  min-height:60.95px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:15.944815635681152px;
+}
+.You-planted-your-fir-outer{
+  z-index:172;
+  position:relative;
+  display:flex;
+}
+.Group-234{
+  position:relative;
+  z-index:173;
+  margin-left:10px;
+  width:326.67px;
+  min-width:326.67px;
+  height:118.26px;
+  margin-top:-194px;
+  margin-bottom:75.74000000000001px;
+  min-height:118.26px;
+}
+.Group-234-outer{
+  z-index:173;
+  position:relative;
+  display:flex;
+}
+.q---------------24{
+  position:relative;
+  z-index:176;
+  margin-left:238px;
+  width:47.28px;
+  min-width:47.28px;
+  height:61.03px;
+  margin-top:0px;
+  margin-bottom:57.23000000000002px;
+  min-height:61.03px;
+  content:url({{url_for('static', filename='ui7/________________24.png')}});
+}
+.q---------------24-outer{
+  z-index:176;
+  position:relative;
+  display:flex;
+}
+.q---------------23{
+  position:relative;
+  z-index:177;
+  margin-left:180px;
+  width:47.28px;
+  min-width:47.28px;
+  height:61.03px;
+  margin-top:-116.26px;
+  margin-bottom:55.23000000000002px;
+  min-height:61.03px;
+  content:url({{url_for('static', filename='ui7/________________23.png')}});
+}
+.q---------------23-outer{
+  z-index:177;
+  position:relative;
+  display:flex;
+}
+.q---------------22{
+  position:relative;
+  z-index:178;
+  margin-left:122px;
+  width:46.73px;
+  min-width:46.73px;
+  height:31.89px;
+  margin-top:-89.26px;
+  margin-bottom:57.370000000000005px;
+  min-height:31.89px;
+  content:url({{url_for('static', filename='ui7/________________22.png')}});
+}
+.q---------------22-outer{
+  z-index:178;
+  position:relative;
+  display:flex;
+}
+.q---------------30{
+  position:relative;
+  z-index:175;
+  margin-left:78px;
+  width:32.44px;
+  min-width:32.44px;
+  height:25.84px;
+  margin-top:-87.26px;
+  margin-bottom:61.41999999999996px;
+  min-height:25.84px;
+  content:url({{url_for('static', filename='ui7/________________30.png')}});
+}
+.q---------------30-outer{
+  z-index:175;
+  position:relative;
+  display:flex;
+}
+.q---------------31{
+  position:relative;
+  z-index:174;
+  margin-left:20px;
+  width:47.28px;
+  min-width:47.28px;
+  height:19.79px;
+  margin-top:-78.26px;
+  margin-bottom:58.47000000000003px;
+  min-height:19.79px;
+  content:url({{url_for('static', filename='ui7/________________31.png')}});
+}
+.q---------------31-outer{
+  z-index:174;
+  position:relative;
+  display:flex;
+}
+.Frame-929{
+  position:relative;
+  /*z-index:179;*/
+  z-index:9998;
+  margin-left:0px;
+  width:326.67px;
+  min-width:326.67px;
+  height:45.26px;
+  margin-top:-45.260000000000005px;
+  margin-bottom:0px;
+  min-height:45.26px;
+  background-color:rgba(228, 242, 216, 1);
+  filter:drop-shadow(0px 3.533477306365967px 3.533477306365967px rgba(0, 0, 0, 0.25));
+  border-radius:33.472103118896484px;
+}
+.Frame-929-outer{
+  /*z-index:190;*/
+  z-index:9999;
+  position:absolute;
+  /*top: 625;*/
+  /*right: 795;*/
+  top: 68%;
+  right: 41.5%;
+  display:flex;
+}
+.Learning-how-to-cult{
+  position:relative;
+  /*z-index:180;*/
+  z-index:9999;
+  margin-left:35px;
+  width:256px;
+  min-width:256px;
+  margin-top:13px;
+  margin-bottom:12.259999999999991px;
+  min-height:20px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:15.944815635681152px;
+  line-height:18px;
+}
+.Learning-how-to-cult-outer{
+  /*z-index:180;*/
+  z-index:9999;
+  position:relative;
+  display:flex;
+}
+.Skip{
+  position:relative;
+  z-index:167;
+  margin-left:24px;
+  width:309.18px;
+  min-width:309.18px;
+  margin-top:-55px;
+  margin-bottom:27.620000000000005px;
+  min-height:27.38px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(157, 155, 155, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:17.462427139282227px;
+  line-height:196.6249942779541%;
+}
+.Skip-outer{
+  z-index:167;
+  position:relative;
+  display:flex;
+}
+.icon-1-1{
+  position:relative;
+  z-index:183;
+  margin-left:130px;
+  width:123px;
+  min-width:123px;
+  height:129px;
+  margin-top:-644px;
+  margin-bottom:515px;
+  min-height:129px;
+  content:url({{url_for('static', filename='ui7/icon_1_1.png')}});
+}
+.icon-1-1-outer{
+  z-index:183;
+  position:relative;
+  display:flex;
+}
+.Group-184{
+  position:relative;
+  z-index:160;
+  margin-left:117px;
+  width:142.37px;
+  min-width:142.37px;
+  height:36.22px;
+  margin-top:-610px;
+  margin-bottom:573.78px;
+  min-height:36.22px;
+  filter:drop-shadow(-1.1464449167251587px -1.1464449167251587px 5.732224464416504px rgba(242, 226, 80, 0.25));
+}
+.Group-184-outer{
+  z-index:160;
+  position:relative;
+  display:flex;
+}
+.Frame-370-1{
+  position:relative;
+  z-index:161;
+  margin-left:0px;
+  width:142.37px;
+  min-width:142.37px;
+  height:36.22px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:36.22px;
+  background-color:rgba(252, 235, 81, 1);
+  border-radius:17.671955108642578px;
+}
+.Frame-370-1-outer{
+  z-index:161;
+  position:relative;
+  display:flex;
+}
+.New-Planting{
+  position:relative;
+  z-index:162;
+  margin-left:12px;
+  width:119.25px;
+  min-width:119.25px;
+  margin-top:6px;
+  margin-bottom:6.3700000000000045px;
+  min-height:23.85px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:19.131593704223633px;
+  line-height:22px;
+}
+.New-Planting-outer{
+  z-index:162;
+  position:relative;
+  display:flex;
+}
+.Group-190{
+  position:relative;
+  z-index:163;
+  margin-left:63px;
+  width:16.78px;
+  min-width:16.78px;
+  height:18.55px;
+  margin-top:-9.219999999999999px;
+  margin-bottom:-9.330000000000013px;
+  min-height:18.55px;
+}
+.Group-190-outer{
+  z-index:163;
+  position:relative;
+  display:flex;
+}
+.Polygon-9{
+  position:relative;
+  z-index:164;
+  margin-left:0px;
+  width:16.78px;
+  min-width:16.78px;
+  height:18.55px;
+  margin-top:-1px;
+  margin-bottom:1px;
+  min-height:18.55px;
+  content:url({{url_for('static', filename='ui7/Polygon_9.png')}});
+}
+.Polygon-9-outer{
+  z-index:164;
+  position:relative;
+  display:flex;
+}
+.q---------------41{
+  position:relative;
+  z-index:159;
+  margin-left:153px;
+  width:68.38px;
+  min-width:68.38px;
+  height:41.74px;
+  margin-top:-565px;
+  margin-bottom:523.26px;
+  min-height:41.74px;
+  content:url({{url_for('static', filename='ui7/________________41.png')}});
+}
+.q---------------41-outer{
+  z-index:159;
+  position:relative;
+  display:flex;
+}
+.Frame-370-2{
+  position:relative;
+  z-index:15;
+  margin-left:-1px;
+  width:379.85px;
+  min-width:379.85px;
+  height:924.89px;
+  margin-top:-476px;
+  margin-bottom:-448.8899999999999px;
+  min-height:924.89px;
+  background-color:rgba(255, 255, 255, 1);
+  filter:drop-shadow(1.7667386531829834px -7.066954612731934px 11.483800888061523px rgba(0, 0, 0, 0.07999999821186066));
+  border:1.3250539302825928px solid rgba(199, 201, 197, 0.5);
+  box-sizing:border-box;
+  border-radius:22.084232330322266px;
+  overflow:hidden;
+}
+.Frame-370-2-outer{
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Polygon-6{
+  position:relative;
+  z-index:23;
+  margin-left:159.6749460697174px;
+  width:70.67px;
+  min-width:70.67px;
+  height:9.72px;
+  margin-top:10.674946069717407px;
+  margin-bottom:900.5198921394347px;
+  min-height:9.72px;
+  content:url({{url_for('static', filename='ui7/Polygon_6.png')}});
+}
+.Polygon-6-outer{
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.Vector-323{
+  position:relative;
+  z-index:21;
+  margin-left:14.674946069717407px;
+  width:347.16px;
+  min-width:347.16px;
+  height:0.88px;
+  margin-top:-890.2150539302826px;
+  margin-bottom:885.3598921394347px;
+  min-height:0.88px;
+  content:url({{url_for('static', filename='ui7/Vector_323.png')}});
+}
+.Vector-323-outer{
+  z-index:21;
+  position:relative;
+  display:flex;
+}
+.Cultivating-List{
+  position:relative;
+  z-index:16;
+  margin-left:25.674946069717407px;
+  width:257.94px;
+  min-width:257.94px;
+  margin-top:-880.2150539302826px;
+  margin-bottom:852.4498921394347px;
+  min-height:23.79px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:500;
+  font-size:19.181428909301758px;
+  line-height:22px;
+}
+.Cultivating-List-outer{
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Vector-326{
+  position:relative;
+  z-index:22;
+  margin-left:14.674946069717407px;
+  width:346.72px;
+  min-width:346.72px;
+  height:0.44px;
+  margin-top:-845.2150539302826px;
+  margin-bottom:840.7998921394346px;
+  min-height:0.44px;
+  content:url({{url_for('static', filename='ui7/Vector_326.png')}});
+}
+.Vector-326-outer{
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.Group-170{
+  position:relative;
+  z-index:24;
+  margin-left:19.674946069717407px;
+  width:340.98px;
+  min-width:340.98px;
+  height:128.97px;
+  margin-top:-826.2150539302826px;
+  margin-bottom:693.2698921394347px;
+  min-height:128.97px;
+}
+.Group-170-outer{
+  z-index:24;
+  position:relative;
+  display:flex;
+}
+.My-impression-for-th{
+  position:relative;
+  z-index:30;
+  margin-left:107px;
+  width:224.38px;
+  min-width:224.38px;
+  margin-top:0px;
+  margin-bottom:115.72000000000003px;
+  min-height:13.25px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:15.728354454040527px;
+  line-height:18px;
+}
+.My-impression-for-th-outer{
+  z-index:30;
+  position:relative;
+  display:flex;
+}
+.Frame-377-1{
+  position:relative;
+  z-index:31;
+  margin-left:103px;
+  width:221.73px;
+  min-width:221.73px;
+  height:25.62px;
+  margin-top:-94.97px;
+  margin-bottom:69.35000000000002px;
+  min-height:25.62px;
+}
+.Frame-377-1-outer{
+  z-index:31;
+  position:relative;
+  display:flex;
+}
+.Frame-369-1{
+  position:relative;
+  z-index:34;
+  margin-left:87px;
+  width:135.16px;
+  min-width:135.16px;
+  height:25.62px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-369-1-outer{
+  z-index:34;
+  position:relative;
+  display:flex;
+}
+.like-classical-music-1{
+  position:relative;
+  z-index:35;
+  margin-left:9px;
+  width:117.49px;
+  min-width:117.49px;
+  margin-top:4px;
+  margin-bottom:4.840000000000032px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.like-classical-music-1-outer{
+  z-index:35;
+  position:relative;
+  display:flex;
+}
+.Frame-363-1{
+  position:relative;
+  z-index:32;
+  margin-left:0px;
+  width:78.62px;
+  min-width:78.62px;
+  height:25.62px;
+  margin-top:-25.62px;
+  margin-bottom:0px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-363-1-outer{
+  z-index:32;
+  position:relative;
+  display:flex;
+}
+.has-a-dog-1{
+  position:relative;
+  z-index:33;
+  margin-left:9px;
+  width:60.95px;
+  min-width:60.95px;
+  margin-top:4px;
+  margin-bottom:4.840000000000032px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.has-a-dog-1-outer{
+  z-index:33;
+  position:relative;
+  display:flex;
+}
+.Frame-370-4{
+  position:relative;
+  z-index:38;
+  margin-left:218px;
+  width:62.72px;
+  min-width:62.72px;
+  height:25.62px;
+  margin-top:-59.97px;
+  margin-bottom:34.35000000000002px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-370-4-outer{
+  z-index:38;
+  position:relative;
+  display:flex;
+}
+.Painter-1{
+  position:relative;
+  z-index:39;
+  margin-left:9px;
+  width:45.05px;
+  min-width:45.05px;
+  margin-top:4px;
+  margin-bottom:4.840000000000032px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.Painter-1-outer{
+  z-index:39;
+  position:relative;
+  display:flex;
+}
+.Frame-368-1{
+  position:relative;
+  z-index:36;
+  margin-left:103px;
+  width:106.89px;
+  min-width:106.89px;
+  height:25.62px;
+  margin-top:-59.97px;
+  margin-bottom:34.35000000000002px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-368-1-outer{
+  z-index:36;
+  position:relative;
+  display:flex;
+}
+.Good-at-piano-1{
+  position:relative;
+  z-index:37;
+  margin-left:9px;
+  width:89.22px;
+  min-width:89.22px;
+  margin-top:4px;
+  margin-bottom:4.840000000000032px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.Good-at-piano-1-outer{
+  z-index:37;
+  position:relative;
+  display:flex;
+}
+.Group-150-1{
+  position:relative;
+  z-index:25;
+  margin-left:3px;
+  width:56.54px;
+  min-width:56.54px;
+  height:18.23px;
+  margin-top:-37.97px;
+  margin-bottom:19.74000000000001px;
+  min-height:18.23px;
+}
+.Group-150-1-outer{
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.Ellipse-110-1{
+  position:relative;
+  z-index:28;
+  margin-left:28px;
+  width:23.41px;
+  min-width:23.41px;
+  height:22.29px;
+  margin-top:-3px;
+  margin-bottom:-1.0599999999999454px;
+  min-height:22.29px;
+  content:url({{url_for('static', filename='ui7/Ellipse_110_1.png')}});
+}
+.Ellipse-110-1-outer{
+  z-index:28;
+  position:relative;
+  display:flex;
+}
+.q8{
+  position:relative;
+  z-index:29;
+  margin-left:35px;
+  width:8.73px;
+  min-width:8.73px;
+  margin-top:-18.23px;
+  margin-bottom:0.9600000000000364px;
+  min-height:17.27px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:12.594340324401855px;
+  line-height:14px;
+}
+.q8-outer{
+  z-index:29;
+  position:relative;
+  display:flex;
+}
+.Rectangle-51-1{
+  position:relative;
+  z-index:27;
+  margin-left:41px;
+  width:15.02px;
+  min-width:15.02px;
+  height:4.42px;
+  margin-top:-11.23px;
+  margin-bottom:6.810000000000059px;
+  min-height:4.42px;
+  background-color:rgba(234, 234, 234, 1);
+  border-radius:57.97787094116211px;
+}
+.Rectangle-51-1-outer{
+  z-index:27;
+  position:relative;
+  display:flex;
+}
+.Rectangle-50-1{
+  position:relative;
+  z-index:26;
+  margin-left:0px;
+  width:44.17px;
+  min-width:44.17px;
+  height:4.42px;
+  margin-top:-11.23px;
+  margin-bottom:6.810000000000059px;
+  min-height:4.42px;
+  background-color:rgba(242, 210, 95, 1);
+  border-radius:57.97787094116211px;
+}
+.Rectangle-50-1-outer{
+  z-index:26;
+  position:relative;
+  display:flex;
+}
+.Frame-364-1{
+  position:relative;
+  z-index:43;
+  margin-left:103px;
+  width:113.95px;
+  min-width:113.95px;
+  height:25.62px;
+  margin-top:-25.97px;
+  margin-bottom:0.35000000000002274px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-364-1-outer{
+  z-index:43;
+  position:relative;
+  display:flex;
+}
+.like-hand-made-1{
+  position:relative;
+  z-index:44;
+  margin-left:9px;
+  width:96.29px;
+  min-width:96.29px;
+  margin-top:4px;
+  margin-bottom:4.840000000000032px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.like-hand-made-1-outer{
+  z-index:44;
+  position:relative;
+  display:flex;
+}
+.Growing-well{
+  position:relative;
+  z-index:42;
+  margin-left:0px;
+  width:81.27px;
+  min-width:81.27px;
+  margin-top:-20.97px;
+  margin-bottom:3.300000000000068px;
+  min-height:17.67px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(243, 177, 7, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:13.175986289978027px;
+  line-height:15px;
+}
+.Growing-well-outer{
+  z-index:42;
+  position:relative;
+  display:flex;
+}
+.Seeing-more-1{
+  position:relative;
+  z-index:40;
+  margin-left:262px;
+  width:79.5px;
+  min-width:79.5px;
+  margin-top:-20.97px;
+  margin-bottom:4.190000000000055px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(173, 178, 178, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.Seeing-more-1-outer{
+  z-index:40;
+  position:relative;
+  display:flex;
+}
+.Polygon-4-1{
+  position:relative;
+  z-index:41;
+  margin-left:233px;
+  width:18.55px;
+  min-width:18.55px;
+  height:9.72px;
+  margin-top:-17.97px;
+  margin-bottom:8.25px;
+  min-height:9.72px;
+  content:url({{url_for('static', filename='ui7/Polygon_4_1.png')}});
+}
+.Polygon-4-1-outer{
+  z-index:41;
+  position:relative;
+  display:flex;
+}
+.q---------------41-1{
+  position:relative;
+  z-index:119;
+  margin-left:22.674946069717407px;
+  width:68.38px;
+  min-width:68.38px;
+  height:41.74px;
+  margin-top:-804.2150539302826px;
+  margin-bottom:758.4998921394347px;
+  min-height:41.74px;
+  content:url({{url_for('static', filename='ui7/________________41_1.png')}});
+}
+.q---------------41-1-outer{
+  z-index:119;
+  position:relative;
+  display:flex;
+}
+.image-297{
+  position:relative;
+  z-index:17;
+  margin-left:124.67494606971741px;
+  width:171.37px;
+  min-width:171.37px;
+  height:177.56px;
+  margin-top:-743.2150539302826px;
+  margin-bottom:561.6798921394347px;
+  min-height:177.56px;
+  content:url({{url_for('static', filename='ui7/image_297.png')}});
+}
+.image-297-outer{
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.Frame-379{
+  position:relative;
+  z-index:67;
+  margin-left:-2.3250539302825928px;
+  width:379.85px;
+  min-width:379.85px;
+  height:379.86px;
+  margin-top:-676.2150539302826px;
+  margin-bottom:292.3798921394347px;
+  min-height:379.86px;
+}
+.Frame-379-outer{
+  z-index:67;
+  position:relative;
+  display:flex;
+}
+.Group-173-1{
+  position:relative;
+  z-index:68;
+  margin-left:0px;
+  width:379.85px;
+  min-width:379.85px;
+  height:379.86px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:379.86px;
+}
+.Group-173-1-outer{
+  z-index:68;
+  position:relative;
+  display:flex;
+}
+.Group-159-1{
+  position:relative;
+  z-index:69;
+  margin-left:0px;
+  width:379.85px;
+  min-width:379.85px;
+  height:379.86px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:379.86px;
+}
+.Group-159-1-outer{
+  z-index:69;
+  position:relative;
+  display:flex;
+}
+.q-----1{
+  position:relative;
+  z-index:70;
+  margin-left:0px;
+  width:379.85px;
+  min-width:379.85px;
+  height:252.58px;
+  margin-top:0px;
+  margin-bottom:127.27999999999997px;
+  min-height:252.58px;
+}
+.q-----1-outer{
+  z-index:70;
+  position:relative;
+  display:flex;
+}
+.q---5{
+  position:relative;
+  z-index:75;
+  margin-left:255px;
+  width:125.29px;
+  min-width:125.29px;
+  height:252.56px;
+  margin-top:0px;
+  margin-bottom:0.020000000000095497px;
+  min-height:252.56px;
+}
+.q---5-outer{
+  z-index:75;
+  position:relative;
+  display:flex;
+}
+.Group-152-3{
+  position:relative;
+  z-index:76;
+  margin-left:0px;
+  width:125.29px;
+  min-width:125.29px;
+  height:125.29px;
+  margin-top:0px;
+  margin-bottom:127.26999999999998px;
+  min-height:125.29px;
+}
+.Group-152-3-outer{
+  z-index:76;
+  position:relative;
+  display:flex;
+}
+.Vector-33{
+  position:relative;
+  z-index:78;
+  margin-left:99px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:102px;
+  margin-bottom:8.299999999999955px;
+  min-height:14.99px;
+}
+.Vector-33-outer{
+  z-index:78;
+  position:relative;
+  display:flex;
+}
+.Vector-34{
+  position:relative;
+  z-index:79;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:109.87324883255503%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_23.png')}});
+}
+.Vector-34-outer{
+  z-index:79;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.image-303-3{
+  position:relative;
+  z-index:77;
+  margin-left:0%;
+  width:100%;
+  height:100%;
+  margin-top:0%;
+  content:url({{url_for('static', filename='ui7/image_303_3.png')}});
+}
+.image-303-3-outer{
+  z-index:77;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-152-2{
+  position:relative;
+  z-index:80;
+  margin-left:0px;
+  width:125.29px;
+  min-width:125.29px;
+  height:125.29px;
+  margin-top:-125.56px;
+  margin-bottom:0.2699999999999818px;
+  min-height:125.29px;
+}
+.Group-152-2-outer{
+  z-index:80;
+  position:relative;
+  display:flex;
+}
+.Vector-31{
+  position:relative;
+  z-index:82;
+  margin-left:99px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:102px;
+  margin-bottom:8.299999999999955px;
+  min-height:14.99px;
+}
+.Vector-31-outer{
+  z-index:82;
+  position:relative;
+  display:flex;
+}
+.Vector-32{
+  position:relative;
+  z-index:83;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-13.3422281521014%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_22.png')}});
+}
+.Vector-32-outer{
+  z-index:83;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.image-303-2{
+  position:relative;
+  z-index:81;
+  margin-left:0%;
+  width:100%;
+  height:78.92090350387102%;
+  margin-top:0%;
+  content:url({{url_for('static', filename='ui7/image_303_2.png')}});
+}
+.image-303-2-outer{
+  z-index:81;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-151-1{
+  position:relative;
+  z-index:71;
+  margin-left:0px;
+  width:252.58px;
+  min-width:252.58px;
+  height:252.58px;
+  margin-top:-252.58px;
+  margin-bottom:0px;
+  min-height:252.58px;
+}
+.Group-151-1-outer{
+  z-index:71;
+  position:relative;
+  display:flex;
+}
+.image-301-1{
+  position:relative;
+  z-index:72;
+  margin-left:2px;
+  width:250.81px;
+  min-width:250.81px;
+  height:226.15px;
+  margin-top:0px;
+  margin-bottom:26.430000000000064px;
+  min-height:226.15px;
+  content:url({{url_for('static', filename='ui7/image_301_1.png')}});
+}
+.image-301-1-outer{
+  z-index:72;
+  position:relative;
+  display:flex;
+}
+.Vector-35{
+  position:relative;
+  z-index:73;
+  margin-left:225px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-22.580000000000013px;
+  margin-bottom:7.590000000000032px;
+  min-height:14.99px;
+}
+.Vector-35-outer{
+  z-index:73;
+  position:relative;
+  display:flex;
+}
+.Vector-36{
+  position:relative;
+  z-index:74;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-20.0133422281521%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_24.png')}});
+}
+.Vector-36-outer{
+  z-index:74;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.image-285-1{
+  position:relative;
+  z-index:86;
+  margin-left:255px;
+  width:125.29px;
+  min-width:125.29px;
+  height:-28.41px;
+  margin-top:-125.86000000000001px;
+  margin-bottom:154.26999999999998px;
+  min-height:-28.41px;
+  content:url({{url_for('static', filename='ui7/image_285_1.png')}});
+}
+.image-285-1-outer{
+  z-index:86;
+  position:relative;
+  display:flex;
+}
+.image-283-1{
+  position:relative;
+  z-index:85;
+  margin-left:128px;
+  width:125.3px;
+  min-width:125.3px;
+  height:-28.41px;
+  margin-top:-125.86000000000001px;
+  margin-bottom:154.26999999999998px;
+  min-height:-28.41px;
+  content:url({{url_for('static', filename='ui7/image_283_1.png')}});
+}
+.image-283-1-outer{
+  z-index:85;
+  position:relative;
+  display:flex;
+}
+.image-282-1{
+  position:relative;
+  z-index:84;
+  margin-left:2px;
+  width:123.53px;
+  min-width:123.53px;
+  height:-28.41px;
+  margin-top:-125.86000000000001px;
+  margin-bottom:154.26999999999998px;
+  min-height:-28.41px;
+  content:url({{url_for('static', filename='ui7/image_282_1.png')}});
+}
+.image-282-1-outer{
+  z-index:84;
+  position:relative;
+  display:flex;
+}
+.Vector-25{
+  position:relative;
+  z-index:91;
+  margin-left:102px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-23.860000000000014px;
+  margin-bottom:8.870000000000005px;
+  min-height:14.99px;
+}
+.Vector-25-outer{
+  z-index:91;
+  position:relative;
+  display:flex;
+}
+.Vector-26{
+  position:relative;
+  z-index:92;
+  margin-left:0%;
+  width:108.60965677719607%;
+  height:-861.3075383589061%;
+  margin-top:-5.817335660267598%;
+  content:url({{url_for('static', filename='ui7/Vector_19.png')}});
+}
+.Vector-26-outer{
+  z-index:92;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-27{
+  position:relative;
+  z-index:89;
+  margin-left:229px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-23.860000000000014px;
+  margin-bottom:8.870000000000005px;
+  min-height:14.99px;
+}
+.Vector-27-outer{
+  z-index:89;
+  position:relative;
+  display:flex;
+}
+.Vector-28{
+  position:relative;
+  z-index:90;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-861.3075383589061%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_20.png')}});
+}
+.Vector-28-outer{
+  z-index:90;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-29{
+  position:relative;
+  z-index:87;
+  margin-left:353px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-23.860000000000014px;
+  margin-bottom:8.870000000000005px;
+  min-height:14.99px;
+}
+.Vector-29-outer{
+  z-index:87;
+  position:relative;
+  display:flex;
+}
+.Vector-30{
+  position:relative;
+  z-index:88;
+  margin-left:0%;
+  width:108.60965677719616%;
+  height:-861.3075383589061%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_21.png')}});
+}
+.Vector-30-outer{
+  z-index:88;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-171{
+  position:relative;
+  z-index:45;
+  margin-left:14.674946069717407px;
+  width:346.28px;
+  min-width:346.28px;
+  height:135.15px;
+  margin-top:-278.2150539302826px;
+  margin-bottom:139.0898921394346px;
+  min-height:135.15px;
+}
+.Group-171-outer{
+  z-index:45;
+  position:relative;
+  display:flex;
+}
+.Vector-325{
+  position:relative;
+  z-index:46;
+  margin-left:0px;
+  width:346.72px;
+  min-width:346.72px;
+  height:-172.04px;
+  margin-top:0px;
+  margin-bottom:307.19000000000005px;
+  min-height:-172.04px;
+  content:url({{url_for('static', filename='ui7/Vector_325.png')}});
+}
+.Vector-325-outer{
+  z-index:46;
+  position:relative;
+  display:flex;
+}
+.q---------------39{
+  position:relative;
+  z-index:47;
+  margin-left:15px;
+  width:62.72px;
+  min-width:62.72px;
+  height:-189.92px;
+  margin-top:-117.15px;
+  margin-bottom:307.07000000000005px;
+  min-height:-189.92px;
+  content:url({{url_for('static', filename='ui7/________________39.png')}});
+}
+.q---------------39-outer{
+  z-index:47;
+  position:relative;
+  display:flex;
+}
+.Frame-377{
+  position:relative;
+  z-index:53;
+  margin-left:108px;
+  width:221.73px;
+  min-width:221.73px;
+  height:25.62px;
+  margin-top:-103.15px;
+  margin-bottom:77.5300000000002px;
+  min-height:25.62px;
+}
+.Frame-377-outer{
+  z-index:53;
+  position:relative;
+  display:flex;
+}
+.Frame-369{
+  position:relative;
+  z-index:56;
+  margin-left:87px;
+  width:135.16px;
+  min-width:135.16px;
+  height:25.62px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-369-outer{
+  z-index:56;
+  position:relative;
+  display:flex;
+}
+.like-classical-music{
+  position:relative;
+  z-index:57;
+  margin-left:9px;
+  width:117.49px;
+  min-width:117.49px;
+  margin-top:4px;
+  margin-bottom:4.839999999999918px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.like-classical-music-outer{
+  z-index:57;
+  position:relative;
+  display:flex;
+}
+.Frame-363{
+  position:relative;
+  z-index:54;
+  margin-left:0px;
+  width:78.62px;
+  min-width:78.62px;
+  height:25.62px;
+  margin-top:-25.62px;
+  margin-bottom:0px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-363-outer{
+  z-index:54;
+  position:relative;
+  display:flex;
+}
+.has-a-dog{
+  position:relative;
+  z-index:55;
+  margin-left:9px;
+  width:60.95px;
+  min-width:60.95px;
+  margin-top:4px;
+  margin-bottom:4.839999999999918px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.has-a-dog-outer{
+  z-index:55;
+  position:relative;
+  display:flex;
+}
+.Frame-370-3{
+  position:relative;
+  z-index:60;
+  margin-left:223px;
+  width:62.72px;
+  min-width:62.72px;
+  height:25.62px;
+  margin-top:-68.15px;
+  margin-bottom:42.5300000000002px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-370-3-outer{
+  z-index:60;
+  position:relative;
+  display:flex;
+}
+.Painter{
+  position:relative;
+  z-index:61;
+  margin-left:9px;
+  width:45.05px;
+  min-width:45.05px;
+  margin-top:4px;
+  margin-bottom:4.839999999999918px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.Painter-outer{
+  z-index:61;
+  position:relative;
+  display:flex;
+}
+.Frame-368{
+  position:relative;
+  z-index:58;
+  margin-left:108px;
+  width:106.89px;
+  min-width:106.89px;
+  height:25.62px;
+  margin-top:-68.15px;
+  margin-bottom:42.5300000000002px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-368-outer{
+  z-index:58;
+  position:relative;
+  display:flex;
+}
+.Good-at-piano{
+  position:relative;
+  z-index:59;
+  margin-left:9px;
+  width:89.22px;
+  min-width:89.22px;
+  margin-top:4px;
+  margin-bottom:4.839999999999918px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.Good-at-piano-outer{
+  z-index:59;
+  position:relative;
+  display:flex;
+}
+.Group-150{
+  position:relative;
+  z-index:48;
+  margin-left:8px;
+  width:56.54px;
+  min-width:56.54px;
+  height:18.23px;
+  margin-top:-35.150000000000006px;
+  margin-bottom:16.920000000000073px;
+  min-height:18.23px;
+}
+.Group-150-outer{
+  z-index:48;
+  position:relative;
+  display:flex;
+}
+.Ellipse-110{
+  position:relative;
+  z-index:51;
+  margin-left:5px;
+  width:23.41px;
+  min-width:23.41px;
+  height:-269.64px;
+  margin-top:-2px;
+  margin-bottom:289.87px;
+  min-height:-269.64px;
+  content:url({{url_for('static', filename='ui7/Ellipse_110.png')}});
+}
+.Ellipse-110-outer{
+  z-index:51;
+  position:relative;
+  display:flex;
+}
+.q22{
+  position:relative;
+  z-index:52;
+  margin-left:10px;
+  width:17.67px;
+  min-width:17.67px;
+  margin-top:-18.23px;
+  margin-bottom:0.5599999999999454px;
+  min-height:17.67px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:12.594340324401855px;
+  line-height:14px;
+}
+.q22-outer{
+  z-index:52;
+  position:relative;
+  display:flex;
+}
+.Rectangle-51{
+  position:relative;
+  z-index:50;
+  transform:rotate(-179.99999499104388deg);
+  margin-left:30px;
+  width:15.02px;
+  min-width:15.02px;
+  height:4.42px;
+  margin-top:-2.2300000000000004px;
+  margin-bottom:-2.1900000000000546px;
+  min-height:4.42px;
+  background-color:rgba(234, 234, 234, 1);
+  border-radius:57.97787094116211px;
+}
+.Rectangle-51-outer{
+  z-index:50;
+  position:relative;
+  display:flex;
+}
+.Rectangle-50{
+  position:relative;
+  z-index:49;
+  transform:rotate(-179.99999499104388deg);
+  margin-left:101px;
+  width:44.17px;
+  min-width:44.17px;
+  height:4.42px;
+  margin-top:-2.2300000000000004px;
+  margin-bottom:-2.1900000000000546px;
+  min-height:4.42px;
+  background-color:rgba(242, 210, 95, 1);
+  border-radius:57.97787094116211px;
+}
+.Rectangle-50-outer{
+  z-index:49;
+  position:relative;
+  display:flex;
+}
+.Frame-364{
+  position:relative;
+  z-index:65;
+  margin-left:108px;
+  width:113.95px;
+  min-width:113.95px;
+  height:25.62px;
+  margin-top:-34.150000000000006px;
+  margin-bottom:8.5300000000002px;
+  min-height:25.62px;
+  background-color:rgba(231, 238, 220, 1);
+  border-radius:12.499675750732422px;
+}
+.Frame-364-outer{
+  z-index:65;
+  position:relative;
+  display:flex;
+}
+.like-hand-made{
+  position:relative;
+  z-index:66;
+  margin-left:9px;
+  width:96.29px;
+  min-width:96.29px;
+  margin-top:4px;
+  margin-bottom:4.839999999999918px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(30, 87, 90, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.like-hand-made-outer{
+  z-index:66;
+  position:relative;
+  display:flex;
+}
+.Seeing-more{
+  position:relative;
+  z-index:62;
+  margin-left:267px;
+  width:79.5px;
+  min-width:79.5px;
+  margin-top:-29.150000000000006px;
+  margin-bottom:12.370000000000118px;
+  min-height:16.78px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(173, 178, 178, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:13.532103538513184px;
+  line-height:15px;
+}
+.Seeing-more-outer{
+  z-index:62;
+  position:relative;
+  display:flex;
+}
+.Polygon-4{
+  position:relative;
+  z-index:63;
+  margin-left:238px;
+  width:18.55px;
+  min-width:18.55px;
+  height:-280.91px;
+  margin-top:-26.150000000000006px;
+  margin-bottom:307.0600000000002px;
+  min-height:-280.91px;
+  content:url({{url_for('static', filename='ui7/Polygon_4.png')}});
+}
+.Polygon-4-outer{
+  z-index:63;
+  position:relative;
+  display:flex;
+}
+.About-to-lose{
+  position:relative;
+  z-index:64;
+  margin-left:5px;
+  width:81.27px;
+  min-width:81.27px;
+  margin-top:-17.150000000000006px;
+  margin-bottom:-0.5199999999999818px;
+  min-height:17.67px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(243, 21, 7, 1);
+  font-style:normal;
+  font-family:CoconPro;
+  font-weight:400;
+  font-size:13.175986289978027px;
+  line-height:15px;
+}
+.About-to-lose-outer{
+  z-index:64;
+  position:relative;
+  display:flex;
+}
+.Frame-380{
+  position:relative;
+  z-index:93;
+  margin-left:-2.3250539302825928px;
+  width:379.85px;
+  min-width:379.85px;
+  height:379.86px;
+  margin-top:-107.21505393028258px;
+  margin-bottom:-276.62010786056544px;
+  min-height:379.86px;
+}
+.Frame-380-outer{
+  z-index:93;
+  position:relative;
+  display:flex;
+}
+.Group-173{
+  position:relative;
+  z-index:94;
+  margin-left:0px;
+  width:379.85px;
+  min-width:379.85px;
+  height:379.86px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:379.86px;
+}
+.Group-173-outer{
+  z-index:94;
+  position:relative;
+  display:flex;
+}
+.Group-159{
+  position:relative;
+  z-index:95;
+  margin-left:0px;
+  width:379.85px;
+  min-width:379.85px;
+  height:379.86px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:379.86px;
+}
+.Group-159-outer{
+  z-index:95;
+  position:relative;
+  display:flex;
+}
+.q----{
+  position:relative;
+  z-index:96;
+  margin-left:0px;
+  width:379.85px;
+  min-width:379.85px;
+  height:252.58px;
+  margin-top:0px;
+  margin-bottom:127.2800000000002px;
+  min-height:252.58px;
+}
+.q-----outer{
+  z-index:96;
+  position:relative;
+  display:flex;
+}
+.q---4{
+  position:relative;
+  z-index:101;
+  margin-left:255px;
+  width:125.29px;
+  min-width:125.29px;
+  height:252.56px;
+  margin-top:0px;
+  margin-bottom:0.01999999999998181px;
+  min-height:252.56px;
+}
+.q---4-outer{
+  z-index:101;
+  position:relative;
+  display:flex;
+}
+.Group-152-1{
+  position:relative;
+  z-index:102;
+  margin-left:0px;
+  width:125.29px;
+  min-width:125.29px;
+  height:125.29px;
+  margin-top:0px;
+  margin-bottom:127.26999999999998px;
+  min-height:125.29px;
+}
+.Group-152-1-outer{
+  z-index:102;
+  position:relative;
+  display:flex;
+}
+.Vector-21{
+  position:relative;
+  z-index:104;
+  margin-left:99px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:102px;
+  margin-bottom:8.299999999999955px;
+  min-height:14.99px;
+}
+.Vector-21-outer{
+  z-index:104;
+  position:relative;
+  display:flex;
+}
+.Vector-22{
+  position:relative;
+  z-index:105;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-2959.573048699133%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_17.png')}});
+}
+.Vector-22-outer{
+  z-index:105;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.image-303-1{
+  position:relative;
+  z-index:103;
+  margin-left:0%;
+  width:100%;
+  height:-273.56532843802376%;
+  margin-top:0%;
+  content:url({{url_for('static', filename='ui7/image_303_1.png')}});
+}
+.image-303-1-outer{
+  z-index:103;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-152{
+  position:relative;
+  z-index:106;
+  margin-left:0px;
+  width:125.29px;
+  min-width:125.29px;
+  height:125.29px;
+  margin-top:-125.56px;
+  margin-bottom:0.2699999999999818px;
+  min-height:125.29px;
+}
+.Group-152-outer{
+  z-index:106;
+  position:relative;
+  display:flex;
+}
+.Vector-19{
+  position:relative;
+  z-index:108;
+  margin-left:99px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:102px;
+  margin-bottom:8.299999999999955px;
+  min-height:14.99px;
+}
+.Vector-19-outer{
+  z-index:108;
+  position:relative;
+  display:flex;
+}
+.Vector-20{
+  position:relative;
+  z-index:109;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-3808.539026017345%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_16.png')}});
+}
+.Vector-20-outer{
+  z-index:109;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.image-303{
+  position:relative;
+  z-index:107;
+  margin-left:0%;
+  width:100%;
+  height:-375.14566206401145%;
+  margin-top:0%;
+  content:url({{url_for('static', filename='ui7/image_303.png')}});
+}
+.image-303-outer{
+  z-index:107;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-151{
+  position:relative;
+  z-index:97;
+  margin-left:0px;
+  width:252.58px;
+  min-width:252.58px;
+  height:252.58px;
+  margin-top:-252.58px;
+  margin-bottom:0px;
+  min-height:252.58px;
+}
+.Group-151-outer{
+  z-index:97;
+  position:relative;
+  display:flex;
+}
+.image-301{
+  position:relative;
+  z-index:98;
+  margin-left:2px;
+  width:250.81px;
+  min-width:250.81px;
+  height:-342.75px;
+  margin-top:0px;
+  margin-bottom:595.3299999999999px;
+  min-height:-342.75px;
+  content:url({{url_for('static', filename='ui7/image_301.png')}});
+}
+.image-301-outer{
+  z-index:98;
+  position:relative;
+  display:flex;
+}
+.Vector-23{
+  position:relative;
+  z-index:99;
+  margin-left:225px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-22.580000000000013px;
+  margin-bottom:7.589999999999918px;
+  min-height:14.99px;
+}
+.Vector-23-outer{
+  z-index:99;
+  position:relative;
+  display:flex;
+}
+.Vector-24{
+  position:relative;
+  z-index:100;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-3815.2101400933957%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_18.png')}});
+}
+.Vector-24-outer{
+  z-index:100;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.image-285{
+  position:relative;
+  z-index:112;
+  margin-left:255px;
+  width:125.29px;
+  min-width:125.29px;
+  height:-597.31px;
+  margin-top:-125.86000000000001px;
+  margin-bottom:723.1700000000001px;
+  min-height:-597.31px;
+  content:url({{url_for('static', filename='ui7/image_285.png')}});
+}
+.image-285-outer{
+  z-index:112;
+  position:relative;
+  display:flex;
+}
+.image-283{
+  position:relative;
+  z-index:111;
+  margin-left:128px;
+  width:125.3px;
+  min-width:125.3px;
+  height:-597.31px;
+  margin-top:-125.86000000000001px;
+  margin-bottom:723.1700000000001px;
+  min-height:-597.31px;
+  content:url({{url_for('static', filename='ui7/image_283.png')}});
+}
+.image-283-outer{
+  z-index:111;
+  position:relative;
+  display:flex;
+}
+.image-282{
+  position:relative;
+  z-index:110;
+  margin-left:2px;
+  width:123.53px;
+  min-width:123.53px;
+  height:-597.31px;
+  margin-top:-125.86000000000001px;
+  margin-bottom:723.1700000000001px;
+  min-height:-597.31px;
+  content:url({{url_for('static', filename='ui7/image_282.png')}});
+}
+.image-282-outer{
+  z-index:110;
+  position:relative;
+  display:flex;
+}
+.Vector-13{
+  position:relative;
+  z-index:117;
+  margin-left:102px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-23.860000000000014px;
+  margin-bottom:8.870000000000118px;
+  min-height:14.99px;
+}
+.Vector-13-outer{
+  z-index:117;
+  position:relative;
+  display:flex;
+}
+.Vector-14{
+  position:relative;
+  z-index:118;
+  margin-left:0%;
+  width:108.60965677719607%;
+  height:-4656.5043362241495%;
+  margin-top:-5.817335660267598%;
+  content:url({{url_for('static', filename='ui7/Vector_13.png')}});
+}
+.Vector-14-outer{
+  z-index:118;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-15{
+  position:relative;
+  z-index:115;
+  margin-left:229px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-23.860000000000014px;
+  margin-bottom:8.870000000000118px;
+  min-height:14.99px;
+}
+.Vector-15-outer{
+  z-index:115;
+  position:relative;
+  display:flex;
+}
+.Vector-16{
+  position:relative;
+  z-index:116;
+  margin-left:-5.817335660267603%;
+  width:108.60965677719616%;
+  height:-4656.5043362241495%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_14.png')}});
+}
+.Vector-16-outer{
+  z-index:116;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-17{
+  position:relative;
+  z-index:113;
+  margin-left:353px;
+  width:17.19px;
+  min-width:17.19px;
+  height:14.99px;
+  margin-top:-23.860000000000014px;
+  margin-bottom:8.870000000000118px;
+  min-height:14.99px;
+}
+.Vector-17-outer{
+  z-index:113;
+  position:relative;
+  display:flex;
+}
+.Vector-18{
+  position:relative;
+  z-index:114;
+  margin-left:0%;
+  width:108.60965677719616%;
+  height:-4656.5043362241495%;
+  margin-top:-5.817335660267603%;
+  content:url({{url_for('static', filename='ui7/Vector_15.png')}});
+}
+.Vector-18-outer{
+  z-index:114;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-37{
+  position:relative;
+  z-index:20;
+  margin-left:88.77288718220795%;
+  width:4.645163289776938%;
+  height:-55.43902518137292%;
+  margin-top:262.7669760432685%;
+  content:url({{url_for('static', filename='ui7/Vector_25.png')}});
+}
+.Vector-37-outer{
+  z-index:20;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-38{
+  position:relative;
+  z-index:19;
+  margin-left:56.31527427540461%;
+  width:4.645163289776938%;
+  height:-55.43902518137292%;
+  margin-top:262.7669760432685%;
+  content:url({{url_for('static', filename='ui7/Vector_26.png')}});
+}
+.Vector-38-outer{
+  z-index:19;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-39{
+  position:relative;
+  z-index:18;
+  margin-left:24.123707376034076%;
+  width:4.645163289776938%;
+  height:-55.43902518137292%;
+  margin-top:262.7669760432685%;
+  content:url({{url_for('static', filename='ui7/Vector_27.png')}});
+}
+.Vector-39-outer{
+  z-index:18;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-164{
+  position:relative;
+  z-index:10;
+  margin-left:309px;
+  width:52.12px;
+  min-width:52.12px;
+  height:52.12px;
+  margin-top:-233px;
+  margin-bottom:180.88px;
+  min-height:52.12px;
+}
+.Group-164-outer{
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Ellipse-115{
+  position:relative;
+  z-index:11;
+  margin-left:-6px;
+  width:64.49px;
+  min-width:64.49px;
+  height:64.49px;
+  margin-top:-3px;
+  margin-bottom:-9.370000000000005px;
+  min-height:64.49px;
+  content:url({{url_for('static', filename='ui7/Ellipse_115.png')}});
+}
+.Ellipse-115-outer{
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.d-3{
+  position:relative;
+  z-index:14;
+  margin-left:4px;
+  width:41.52px;
+  min-width:41.52px;
+  height:36.22px;
+  margin-top:-42.12px;
+  margin-bottom:5.899999999999977px;
+  min-height:36.22px;
+  content:url({{url_for('static', filename='ui7/d_3.png')}});
+}
+.d-3-outer{
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.d-2{
+  position:relative;
+  z-index:13;
+  margin-left:5px;
+  width:41.52px;
+  min-width:41.52px;
+  height:36.22px;
+  margin-top:-42.12px;
+  margin-bottom:5.899999999999977px;
+  min-height:36.22px;
+  content:url({{url_for('static', filename='ui7/d_2.png')}});
+}
+.d-2-outer{
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.d-1{
+  position:relative;
+  z-index:12;
+  margin-left:4px;
+  width:41.52px;
+  min-width:41.52px;
+  height:36.22px;
+  margin-top:-42.12px;
+  margin-bottom:5.899999999999977px;
+  min-height:36.22px;
+  content:url({{url_for('static', filename='ui7/d_1.png')}});
+}
+.d-1-outer{
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.q---graden{
+  position:relative;
+  z-index:120;
+  margin-left:0px;
+  width:378.97px;
+  min-width:378.97px;
+  height:99.82px;
+  margin-top:-100px;
+  margin-bottom:0.18000000000006366px;
+  min-height:99.82px;
+}
+.q---graden-outer{
+  z-index:120;
+  position:relative;
+  display:flex;
+}
+.Group-128{
+  position:relative;
+  z-index:138;
+  margin-left:162px;
+  width:61.84px;
+  min-width:61.84px;
+  height:61.84px;
+  margin-top:2px;
+  margin-bottom:35.979999999999905px;
+  min-height:61.84px;
+}
+.Group-128-outer{
+  z-index:138;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---36---ca{
+  position:relative;
+  z-index:140;
+  margin-left:9px;
+  width:43.59px;
+  min-width:43.59px;
+  height:43.59px;
+  margin-top:9px;
+  margin-bottom:9.25px;
+  min-height:43.59px;
+}
+.iOS---icon---36---ca-outer{
+  z-index:140;
+  position:relative;
+  display:flex;
+}
+.iOS---icon---36---ca-1{
+  position:relative;
+  z-index:141;
+  margin-left:0px;
+  width:43.59px;
+  min-width:43.59px;
+  height:43.59px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:43.59px;
+}
+.iOS---icon---36---ca-1-outer{
+  z-index:141;
+  position:relative;
+  display:flex;
+}
+.q---1{
+  position:relative;
+  z-index:142;
+  margin-left:4px;
+  width:30.37px;
+  min-width:30.37px;
+  height:23.58px;
+  margin-top:8px;
+  margin-bottom:12.009999999999991px;
+  min-height:23.58px;
+  content:url({{url_for('static', filename='ui7/___.png')}});
+}
+.q---1-outer{
+  z-index:142;
+  position:relative;
+  display:flex;
+}
+.Ellipse-83-1{
+  position:relative;
+  z-index:139;
+  margin-left:0px;
+  width:61.84px;
+  height:61.84px;
+  margin-top:0px;
+  content:url({{url_for('static', filename='ui7/Ellipse_83_1.png')}});
+}
+.Ellipse-83-1-outer{
+  z-index:139;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.q--{
+  position:relative;
+  z-index:147;
+  margin-left:167px;
+  width:57.42px;
+  min-width:57.42px;
+  height:57.42px;
+  margin-top:-92.82px;
+  margin-bottom:35.39999999999998px;
+  min-height:57.42px;
+}
+.q---outer{
+  z-index:147;
+  position:relative;
+  display:flex;
+}
+.Group-188{
+  position:relative;
+  z-index:149;
+  margin-left:10px;
+  width:40.37px;
+  min-width:40.37px;
+  height:25.62px;
+  margin-top:17px;
+  margin-bottom:14.799999999999955px;
+  min-height:25.62px;
+}
+.Group-188-outer{
+  z-index:149;
+  position:relative;
+  display:flex;
+}
+.Vector-366{
+  position:relative;
+  z-index:158;
+  margin-left:39.63339113202874%;
+  width:4.38444389398068%;
+  height:48.28259172521467%;
+  margin-top:19.81669556601437%;
+  content:url({{url_for('static', filename='ui7/Vector_366.png')}});
+}
+.Vector-366-outer{
+  z-index:158;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-365{
+  position:relative;
+  z-index:157;
+  margin-left:24.77086945751796%;
+  width:30.64156551894972%;
+  height:6.908665105386417%;
+  margin-top:34.67921724052515%;
+  content:url({{url_for('static', filename='ui7/Vector_365.png')}});
+}
+.Vector-365-outer{
+  z-index:157;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-364{
+  position:relative;
+  z-index:156;
+  margin-left:22.29378251176616%;
+  width:34.45627941540748%;
+  height:55.776736924277905%;
+  margin-top:17.33960862026257%;
+  content:url({{url_for('static', filename='ui7/Vector_364.png')}});
+}
+.Vector-364-outer{
+  z-index:156;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector{
+  position:relative;
+  z-index:155;
+  margin-left:59.450086698043094%;
+  width:8.12484518206589%;
+  height:33.450429352068696%;
+  margin-top:24.770869457517957%;
+  content:url({{url_for('static', filename='ui7/Vector.png')}});
+}
+.Vector-outer{
+  z-index:155;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-1{
+  position:relative;
+  z-index:154;
+  margin-left:64.40426058954671%;
+  width:5.003715630418629%;
+  height:13.622170179547227%;
+  margin-top:42.11047807778054%;
+  content:url({{url_for('static', filename='ui7/Vector_1.png')}});
+}
+.Vector-1-outer{
+  z-index:154;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-2{
+  position:relative;
+  z-index:153;
+  margin-left:69.3584344810503%;
+  width:31.236066385930155%;
+  height:47.423887587822016%;
+  margin-top:-2.4770869457517963%;
+  content:url({{url_for('static', filename='ui7/Vector_2.png')}});
+}
+.Vector-2-outer{
+  z-index:153;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-3{
+  position:relative;
+  z-index:152;
+  margin-left:-2.477086945751795%;
+  width:43.52241763685904%;
+  height:77.01014832162373%;
+  margin-top:2.477086945751795%;
+  content:url({{url_for('static', filename='ui7/Vector_3.png')}});
+}
+.Vector-3-outer{
+  z-index:152;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-4{
+  position:relative;
+  z-index:151;
+  margin-left:12.385434728758975%;
+  width:56.527124102055964%;
+  height:91.37392661982825%;
+  margin-top:7.431260837255386%;
+  content:url({{url_for('static', filename='ui7/Vector_4.png')}});
+}
+.Vector-4-outer{
+  z-index:151;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-5{
+  position:relative;
+  z-index:150;
+  margin-left:59.450086698043116%;
+  width:22.566262075798868%;
+  height:55.30835284933645%;
+  margin-top:14.862521674510779%;
+  content:url({{url_for('static', filename='ui7/Vector_5.png')}});
+}
+.Vector-5-outer{
+  z-index:150;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Ellipse-83{
+  position:relative;
+  z-index:148;
+  margin-left:-10.449320794148376%;
+  width:118.46046673632874%;
+  height:118.4604667363288%;
+  margin-top:-8.70776732845698%;
+  content:url({{url_for('static', filename='ui7/Ellipse_83.png')}});
+}
+.Ellipse-83-outer{
+  z-index:148;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Group-195{
+  position:relative;
+  z-index:133;
+  margin-left:108px;
+  width:12.95px;
+  min-width:12.95px;
+  height:21.2px;
+  margin-top:-68.82px;
+  margin-bottom:47.61999999999989px;
+  min-height:21.2px;
+}
+.Group-195-outer{
+  z-index:133;
+  position:relative;
+  display:flex;
+}
+.Vector-6{
+  position:relative;
+  z-index:137;
+  margin-left:7.722007722007717%;
+  width:8.49420849420849%;
+  height:40.37735849056604%;
+  margin-top:69.49806949806946%;
+  content:url({{url_for('static', filename='ui7/Vector_6.png')}});
+}
+.Vector-6-outer{
+  z-index:137;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-7{
+  position:relative;
+  z-index:136;
+  margin-left:77.22007722007719%;
+  width:7.490347490347488%;
+  height:41.41509433962264%;
+  margin-top:23.16602316602316%;
+  content:url({{url_for('static', filename='ui7/Vector_7.png')}});
+}
+.Vector-7-outer{
+  z-index:136;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-8{
+  position:relative;
+  z-index:135;
+  margin-left:-15.444015444015434%;
+  width:65.55984555984551%;
+  height:75.89622641509435%;
+  margin-top:46.3320463320463%;
+  content:url({{url_for('static', filename='ui7/Vector_8.png')}});
+}
+.Vector-8-outer{
+  z-index:135;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Vector-9{
+  position:relative;
+  z-index:134;
+  margin-left:30.888030888030876%;
+  width:69.26640926640925%;
+  height:74.85849056603774%;
+  margin-top:-7.722007722007719%;
+  content:url({{url_for('static', filename='ui7/Vector_9.png')}});
+}
+.Vector-9-outer{
+  z-index:134;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.q---3{
+  position:relative;
+  z-index:126;
+  margin-left:329px;
+  width:18.73px;
+  min-width:18.73px;
+  height:18.82px;
+  margin-top:-66.82px;
+  margin-bottom:47.999999999999886px;
+  min-height:18.82px;
+}
+.q---3-outer{
+  z-index:126;
+  position:relative;
+  display:flex;
+}
+.Subtract{
+  position:relative;
+  z-index:128;
+  margin-left:0px;
+  width:18.73px;
+  min-width:18.73px;
+  height:8.61px;
+  margin-top:10px;
+  margin-bottom:0.21000000000003638px;
+  min-height:8.61px;
+  content:url({{url_for('static', filename='ui7/Subtract.png')}});
+}
+.Subtract-outer{
+  z-index:128;
+  position:relative;
+  display:flex;
+}
+.Ellipse-119{
+  position:relative;
+  z-index:127;
+  margin-left:26.6951414842498%;
+  width:49.54618259476762%;
+  height:49.30924548352815%;
+  margin-top:0%;
+  content:url({{url_for('static', filename='ui7/Ellipse_119.png')}});
+}
+.Ellipse-119-outer{
+  z-index:127;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.q------{
+  position:relative;
+  z-index:122;
+  margin-left:31px;
+  width:22.97px;
+  min-width:22.97px;
+  height:17.67px;
+  margin-top:-66.82px;
+  margin-bottom:49.14999999999998px;
+  min-height:17.67px;
+}
+.q-------outer{
+  z-index:122;
+  position:relative;
+  display:flex;
+}
+.Vector-11{
+  position:relative;
+  z-index:125;
+  margin-left:-12.689999999999998px;
+  width:4.28px;
+  height:3.32px;
+  margin-top:1.650000000000091px;
+  content:url({{url_for('static', filename='ui7/Vector_11.png')}});
+}
+.Vector-11-outer{
+  z-index:125;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Vector-12{
+  position:relative;
+  z-index:124;
+  margin-left:6.8700000000000045px;
+  width:7.84px;
+  height:5.89px;
+  margin-top:0.22000000000002728px;
+  content:url({{url_for('static', filename='ui7/Vector_12.png')}});
+}
+.Vector-12-outer{
+  z-index:124;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Vector-364-1{
+  position:relative;
+  z-index:123;
+  margin-left:-1.1199999999999974px;
+  width:23.85px;
+  height:18.55px;
+  margin-top:0.8799999999999955px;
+  content:url({{url_for('static', filename='ui7/Vector_364_1.png')}});
+}
+.Vector-364-1-outer{
+  z-index:123;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.q---2{
+  position:relative;
+  z-index:129;
+  margin-left:263px;
+  width:17.23px;
+  min-width:17.23px;
+  height:17.23px;
+  margin-top:-65.82px;
+  margin-bottom:48.58999999999992px;
+  min-height:17.23px;
+}
+.q---2-outer{
+  z-index:129;
+  position:relative;
+  display:flex;
+}
+.Vector-10{
+  position:relative;
+  z-index:132;
+  margin-left:0%;
+  width:107.66105629715608%;
+  height:107.66105629715612%;
+  margin-top:-5.803830528148575%;
+  content:url({{url_for('static', filename='ui7/Vector_10.png')}});
+}
+.Vector-10-outer{
+  z-index:132;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Ellipse-128{
+  position:relative;
+  z-index:131;
+  margin-left:63.84213580963423%;
+  width:10.272780034822961%;
+  height:10.272780034822983%;
+  margin-top:29.01915264074283%;
+  content:url({{url_for('static', filename='ui7/Ellipse_128.png')}});
+}
+.Ellipse-128-outer{
+  z-index:131;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Ellipse-127{
+  position:relative;
+  z-index:130;
+  margin-left:34.8229831688914%;
+  width:10.272780034822961%;
+  height:10.272780034822983%;
+  margin-top:29.01915264074283%;
+  content:url({{url_for('static', filename='ui7/Ellipse_127.png')}});
+}
+.Ellipse-127-outer{
+  z-index:130;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+.Mine{
+  position:relative;
+  z-index:146;
+  margin-left:295.03px;
+  width:28px;
+  height:16px;
+  margin-top:26.180000000000064px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:12.367170333862305px;
+  line-height:14px;
+}
+.Mine-outer{
+  z-index:146;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Chating{
+  position:relative;
+  z-index:145;
+  margin-left:162.02999999999997px;
+  width:45px;
+  height:16px;
+  margin-top:26.180000000000064px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:12.367170333862305px;
+  line-height:14px;
+}
+.Chating-outer{
+  z-index:145;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Finding{
+  position:relative;
+  z-index:144;
+  margin-left:-155.97000000000003px;
+  width:43px;
+  height:16px;
+  margin-top:26.180000000000064px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:400;
+  font-size:12.367170333862305px;
+  line-height:14px;
+}
+.Finding-outer{
+  z-index:144;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Garden{
+  position:relative;
+  z-index:143;
+  margin-left:-293.97px;
+  width:43px;
+  height:16px;
+  margin-top:26.180000000000064px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(46, 109, 55, 1);
+  font-style:normal;
+  font-family:Azo Sans;
+  font-weight:500;
+  font-size:12.367170333862305px;
+  line-height:14px;
+}
+.Garden-outer{
+  z-index:143;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Rectangle-27{
+  position:relative;
+  z-index:121;
+  margin-left:-2px;
+  width:378.97px;
+  height:80.39px;
+  margin-top:18.57000000000005px;
+  background-color:rgba(237, 249, 222, 1);
+}
+.Rectangle-27-outer{
+  z-index:121;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Harvest{
+  position:relative;
+  z-index:5;
+  margin-left:261px;
+  width:39.75px;
+  min-width:39.75px;
+  margin-top:-36px;
+  margin-bottom:-2.8700000000000045px;
+  min-height:38.87px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(2, 2, 2, 1);
+  font-style:normal;
+  font-family:Kalam;
+  font-weight:400;
+  font-size:12.367170333862305px;
+  line-height:20px;
+}
+.Harvest-outer{
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    </style>
+
+    </head>
+    <body class="websiteBody">
+      <div class="Page-outer">
+    <div
+      id="Page"
+      data-name="Page"
+      class="Page"
+    >
+      <div class="Frame-outer">
+      <div
+        id="Frame"
+        data-name="iPhone 13 Pro Max - 122"
+        class="Frame"
+      >
+        <div class="Rectangle-48-outer">
+        <div class="container">
+            <a href="/uid8">
+              <div class="Frame-929-outer">
+              <div
+                id="Frame-929"
+                data-name="Frame 929"
+                class="Frame-929"
+              >
+                <div class="Learning-how-to-cult-outer">
+                <div
+                  id="Learning-how-to-cult"
+                  data-name="Learning how to cultivating friends"
+                  class="Learning-how-to-cult"
+                ><div key="0">Learning how to cultivating friends</div>
+                </div>
+                </div>
+              </div>
+              </div>
+            </a>
+        </div>
+        <div
+          id="Rectangle-48"
+          data-name="Rectangle 48"
+          alt="Rectangle 48"
+          class="Rectangle-48"
+        >
+        </div>
+        </div>
+        <div class="Frame-366-outer">
+        <div
+          id="Frame-366"
+          data-name="Frame 366"
+          class="Frame-366"
+        >
+          <div class="iOS---status-bar-wit-outer">
+          <div
+            id="iOS---status-bar-wit"
+            data-name="iOS / status-bar-with-notch"
+            class="iOS---status-bar-wit"
+          >
+            <div class="notch-outer">
+            <img
+              id="notch"
+              data-name="notch"
+              alt="notch"
+              class="notch"
+            >
+            </div>
+            <div class="time-outer">
+            <div
+              id="time"
+              data-name="time"
+              class="time"
+            ><div key="0">9:41</div>
+            </div>
+            </div>
+            <div class="iOS---icon---status--outer">
+            <div
+              id="iOS---icon---status-"
+              data-name="iOS / icon / status-bar"
+              class="iOS---icon---status-"
+            >
+              <div class="iOS---icon---small---outer">
+              <div
+                id="iOS---icon---small--"
+                data-name="iOS / icon / small / battery"
+                class="iOS---icon---small--"
+              >
+                <div class="charge-outer">
+                <img
+                  id="charge"
+                  data-name="charge"
+                  alt="charge"
+                  class="charge"
+                >
+                </div>
+                <div class="node-outer">
+                <img
+                  id="node"
+                  data-name="node"
+                  alt="node"
+                  class="node"
+                >
+                </div>
+                <div class="outline-border-outer">
+                <img
+                  id="outline-border"
+                  data-name="outline border"
+                  alt="outline border"
+                  class="outline-border"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="iOS---icon---small---1-outer">
+              <div
+                id="iOS---icon---small---1"
+                data-name="iOS / icon / small / Wifi"
+                class="iOS---icon---small---1"
+              >
+                <div class="icon-outer">
+                <img
+                  id="icon"
+                  data-name="icon"
+                  alt="icon"
+                  class="icon"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="iOS---icon---small---2-outer">
+              <div
+                id="iOS---icon---small---2"
+                data-name="iOS / icon / small / Mobile Signal"
+                class="iOS---icon---small---2"
+              >
+                <div class="icon-1-outer">
+                <img
+                  id="icon-1"
+                  data-name="icon"
+                  alt="icon"
+                  class="icon-1"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="iOS---icon---small---3-outer">
+              <div
+                id="iOS---icon---small---3"
+                data-name="iOS / icon / small / bluetooth"
+                class="iOS---icon---small---3"
+              >
+                <div class="Bluetooth-outer">
+                <img
+                  id="Bluetooth"
+                  data-name="Bluetooth"
+                  alt="Bluetooth"
+                  class="Bluetooth"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="iOS---icon---small---4-outer">
+              <div
+                id="iOS---icon---small---4"
+                data-name="iOS / icon / small / clock"
+                class="iOS---icon---small---4"
+              >
+                <div class="Alarm-outer">
+                <img
+                  id="Alarm"
+                  data-name="Alarm"
+                  alt="Alarm"
+                  class="Alarm"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="battery-percentage-outer">
+              <div
+                id="battery-percentage"
+                data-name="battery percentage"
+                class="battery-percentage"
+              ><div key="0">100%</div>
+              </div>
+              </div>
+              <div class="carrier-outer">
+              <div
+                id="carrier"
+                data-name="carrier"
+                class="carrier"
+              ><div key="0">Figma</div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="image-275-outer">
+          <img
+            id="image-275"
+            data-name="image 275"
+            alt="image 275"
+            class="image-275"
+          >
+          </div>
+          <div class="My-friendship-Garden-outer">
+          <div
+            id="My-friendship-Garden"
+            data-name="My friendship Garden"
+            class="My-friendship-Garden"
+          ><div key="0">My friendship Garden</div>
+          </div>
+          </div>
+          <div class="Group-231-outer">
+          <div
+            id="Group-231"
+            data-name="Group 231"
+            class="Group-231"
+          >
+            <div class="Ellipse-129-outer">
+            <img
+              id="Ellipse-129"
+              data-name="Ellipse 129"
+              alt="Ellipse 129"
+              class="Ellipse-129"
+            >
+            </div>
+            <div class="q--outer">
+            <div
+              id="q-"
+              data-name="?"
+              class="q-"
+            ><div key="0">?</div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="Vector-320-outer">
+          <img
+            id="Vector-320"
+            data-name="Vector 320"
+            alt="Vector 320"
+            class="Vector-320"
+          >
+          </div>
+        </div>
+        </div>
+        <div class="q------2-outer">
+        <img
+          id="q------2"
+          data-name="植物园底图 2"
+          alt="植物园底图 2"
+          class="q------2"
+        >
+        </div>
+        <div class="Frame-361-outer">
+        <div
+          id="Frame-361"
+          data-name="Frame 361"
+          class="Frame-361"
+        >
+          <div class="Look-around-outer">
+          <div
+            id="Look-around"
+            data-name="Look around"
+            class="Look-around"
+          ><div key="0">Look around</div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="Frame-360-outer">
+        <div
+          id="Frame-360"
+          data-name="Frame 360"
+          class="Frame-360"
+        >
+          <div class="Garden-Map-outer">
+          <div
+            id="Garden-Map"
+            data-name="Garden Map"
+            class="Garden-Map"
+          ><div key="0">Garden Map</div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="Group-232-outer">
+        <div
+          id="Group-232"
+          data-name="Group 232"
+          class="Group-232"
+        >
+          <div class="Group-226-outer">
+          <div
+            id="Group-226"
+            data-name="Group 226"
+            class="Group-226"
+          >
+            <div class="Ellipse-91-outer">
+            <img
+              id="Ellipse-91"
+              data-name="Ellipse 91"
+              alt="Ellipse 91"
+              class="Ellipse-91"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="Frame-370-outer">
+          <div
+            id="Frame-370"
+            data-name="Frame 370"
+            class="Frame-370"
+          >
+            <div class="Group-229-outer">
+            <div
+              id="Group-229"
+              data-name="Group 229"
+              class="Group-229"
+            >
+              <div class="Congratulation--outer">
+              <div
+                id="Congratulation-"
+                data-name="Congratulation!"
+                class="Congratulation-"
+              ><div key="0">Congratulations!</div>
+              </div>
+              </div>
+              <div class="Party-Popper-outer">
+              <div
+                id="Party-Popper"
+                data-name=" Party Popper"
+                class="Party-Popper"
+              >
+                <div class="image-447-outer">
+                <img
+                  id="image-447"
+                  data-name="image 447"
+                  alt="image 447"
+                  class="image-447"
+                >
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="You-planted-your-fir-outer">
+            <div
+              id="You-planted-your-fir"
+              data-name="You planted your first seeds! Now, be patience, takeing care of your friendship garden You friends will come soon"
+              class="You-planted-your-fir"
+            ><div key="0">You planted your first seeds!</div>
+<div key="1">Now, be patient, </div>
+<div key="2">take care of your friendship garden</div>
+<div key="3">and your friends will come soon </div>
+            </div>
+            </div>
+            <div class="Group-234-outer">
+            <div
+              id="Group-234"
+              data-name="Group 234"
+              class="Group-234"
+            >
+              <div class="q---------------24-outer">
+              <img
+                id="q---------------24"
+                data-name="长出来的人(干净的导出版本) 24"
+                alt="长出来的人(干净的导出版本) 24"
+                class="q---------------24"
+              >
+              </div>
+              <div class="q---------------23-outer">
+              <img
+                id="q---------------23"
+                data-name="长出来的人(干净的导出版本) 23"
+                alt="长出来的人(干净的导出版本) 23"
+                class="q---------------23"
+              >
+              </div>
+              <div class="q---------------22-outer">
+              <img
+                id="q---------------22"
+                data-name="长出来的人(干净的导出版本) 22"
+                alt="长出来的人(干净的导出版本) 22"
+                class="q---------------22"
+              >
+              </div>
+              <div class="q---------------30-outer">
+              <img
+                id="q---------------30"
+                data-name="长出来的人(干净的导出版本) 30"
+                alt="长出来的人(干净的导出版本) 30"
+                class="q---------------30"
+              >
+              </div>
+              <div class="q---------------31-outer">
+              <img
+                id="q---------------31"
+                data-name="长出来的人(干净的导出版本) 31"
+                alt="长出来的人(干净的导出版本) 31"
+                class="q---------------31"
+              >
+              </div>
+                <!--<a href="/uid8">-->
+                <!--  <div class="Frame-929-outer">-->
+                <!--  <div-->
+                <!--    id="Frame-929"-->
+                <!--    data-name="Frame 929"-->
+                <!--    class="Frame-929"-->
+                <!--  >-->
+                <!--    <div class="Learning-how-to-cult-outer">-->
+                <!--    <div-->
+                <!--      id="Learning-how-to-cult"-->
+                <!--      data-name="Learning how to cultivating friends"-->
+                <!--      class="Learning-how-to-cult"-->
+                <!--    ><div key="0">Learning how to cultivating friends</div>-->
+                <!--    </div>-->
+                <!--    </div>-->
+                <!--  </div>-->
+                <!--  </div>-->
+                <!--</a>-->
+            </div>
+            </div>
+            <div class="Skip-outer">
+            <div
+              id="Skip"
+              data-name="Skip"
+              class="Skip"
+            ><div key="0">Skip</div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="icon-1-1-outer">
+        <img
+          id="icon-1-1"
+          data-name="icon 1"
+          alt="icon 1"
+          class="icon-1-1"
+        >
+        </div>
+        <div class="Group-184-outer">
+        <div
+          id="Group-184"
+          data-name="Group 184"
+          class="Group-184"
+        >
+          <div class="Frame-370-1-outer">
+          <div
+            id="Frame-370-1"
+            data-name="Frame 370"
+            class="Frame-370-1"
+          >
+            <div class="New-Planting-outer">
+            <div
+              id="New-Planting"
+              data-name="New Planting"
+              class="New-Planting"
+            ><div key="0">New Planting</div>
+            </div>
+            </div>
+            <div class="Group-190-outer">
+            <div
+              id="Group-190"
+              data-name="Group 190"
+              class="Group-190"
+            >
+              <div class="Polygon-9-outer">
+              <img
+                id="Polygon-9"
+                data-name="Polygon 9"
+                alt="Polygon 9"
+                class="Polygon-9"
+              >
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="q---------------41-outer">
+        <img
+          id="q---------------41"
+          data-name="长出来的人(干净的导出版本) 41"
+          alt="长出来的人(干净的导出版本) 41"
+          class="q---------------41"
+        >
+        </div>
+        <div class="Frame-370-2-outer">
+        <div
+          id="Frame-370-2"
+          data-name="Frame 370"
+          class="Frame-370-2"
+        >
+          <div class="Polygon-6-outer">
+          <img
+            id="Polygon-6"
+            data-name="Polygon 6"
+            alt="Polygon 6"
+            class="Polygon-6"
+          >
+          </div>
+          <div class="Vector-323-outer">
+          <img
+            id="Vector-323"
+            data-name="Vector 323"
+            alt="Vector 323"
+            class="Vector-323"
+          >
+          </div>
+          <div class="Cultivating-List-outer">
+          <div
+            id="Cultivating-List"
+            data-name="Cultivating List"
+            class="Cultivating-List"
+          ><div key="0">Cultivating List</div>
+          </div>
+          </div>
+          <div class="Vector-326-outer">
+          <img
+            id="Vector-326"
+            data-name="Vector 326"
+            alt="Vector 326"
+            class="Vector-326"
+          >
+          </div>
+          <div class="Group-170-outer">
+          <div
+            id="Group-170"
+            data-name="Group 170"
+            class="Group-170"
+          >
+            <div class="My-impression-for-th-outer">
+            <div
+              id="My-impression-for-th"
+              data-name="My impression for this friend"
+              class="My-impression-for-th"
+            ><div key="0">My impression for this friend</div>
+            </div>
+            </div>
+            <div class="Frame-377-1-outer">
+            <div
+              id="Frame-377-1"
+              data-name="Frame 377"
+              class="Frame-377-1"
+            >
+              <div class="Frame-369-1-outer">
+              <div
+                id="Frame-369-1"
+                data-name="Frame 369"
+                class="Frame-369-1"
+              >
+                <div class="like-classical-music-1-outer">
+                <div
+                  id="like-classical-music-1"
+                  data-name="like classical music"
+                  class="like-classical-music-1"
+                ><div key="0">like classical music</div>
+                </div>
+                </div>
+              </div>
+              </div>
+              <div class="Frame-363-1-outer">
+              <div
+                id="Frame-363-1"
+                data-name="Frame 363"
+                class="Frame-363-1"
+              >
+                <div class="has-a-dog-1-outer">
+                <div
+                  id="has-a-dog-1"
+                  data-name="has a dog"
+                  class="has-a-dog-1"
+                ><div key="0">has a dog</div>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Frame-370-4-outer">
+            <div
+              id="Frame-370-4"
+              data-name="Frame 370"
+              class="Frame-370-4"
+            >
+              <div class="Painter-1-outer">
+              <div
+                id="Painter-1"
+                data-name="Painter"
+                class="Painter-1"
+              ><div key="0">Painter</div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Frame-368-1-outer">
+            <div
+              id="Frame-368-1"
+              data-name="Frame 368"
+              class="Frame-368-1"
+            >
+              <div class="Good-at-piano-1-outer">
+              <div
+                id="Good-at-piano-1"
+                data-name="Good at piano"
+                class="Good-at-piano-1"
+              ><div key="0">Good at piano </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Group-150-1-outer">
+            <div
+              id="Group-150-1"
+              data-name="Group 150"
+              class="Group-150-1"
+            >
+              <div class="Ellipse-110-1-outer">
+              <img
+                id="Ellipse-110-1"
+                data-name="Ellipse 110"
+                alt="Ellipse 110"
+                class="Ellipse-110-1"
+              >
+              </div>
+              <div class="q8-outer">
+              <div
+                id="q8"
+                data-name="8"
+                class="q8"
+              ><div key="0">8</div>
+              </div>
+              </div>
+              <div class="Rectangle-51-1-outer">
+              <div
+                id="Rectangle-51-1"
+                data-name="Rectangle 51"
+                alt="Rectangle 51"
+                class="Rectangle-51-1"
+              >
+              </div>
+              </div>
+              <div class="Rectangle-50-1-outer">
+              <div
+                id="Rectangle-50-1"
+                data-name="Rectangle 50"
+                alt="Rectangle 50"
+                class="Rectangle-50-1"
+              >
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Frame-364-1-outer">
+            <div
+              id="Frame-364-1"
+              data-name="Frame 364"
+              class="Frame-364-1"
+            >
+              <div class="like-hand-made-1-outer">
+              <div
+                id="like-hand-made-1"
+                data-name="like hand-made"
+                class="like-hand-made-1"
+              ><div key="0">like hand-made</div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Growing-well-outer">
+            <div
+              id="Growing-well"
+              data-name="Growing well"
+              class="Growing-well"
+            ><div key="0">Growing well</div>
+            </div>
+            </div>
+            <div class="Seeing-more-1-outer">
+            <div
+              id="Seeing-more-1"
+              data-name="Seeing more"
+              class="Seeing-more-1"
+            ><div key="0">Seeing more</div>
+            </div>
+            </div>
+            <div class="Polygon-4-1-outer">
+            <img
+              id="Polygon-4-1"
+              data-name="Polygon 4"
+              alt="Polygon 4"
+              class="Polygon-4-1"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="q---------------41-1-outer">
+          <img
+            id="q---------------41-1"
+            data-name="长出来的人(干净的导出版本) 41"
+            alt="长出来的人(干净的导出版本) 41"
+            class="q---------------41-1"
+          >
+          </div>
+          <div class="image-297-outer">
+          <img
+            id="image-297"
+            data-name="image 297"
+            alt="image 297"
+            class="image-297"
+          >
+          </div>
+          <div class="Frame-379-outer">
+          <div
+            id="Frame-379"
+            data-name="Frame 379"
+            class="Frame-379"
+          >
+            <div class="Group-173-1-outer">
+            <div
+              id="Group-173-1"
+              data-name="Group 173"
+              class="Group-173-1"
+            >
+              <div class="Group-159-1-outer">
+              <div
+                id="Group-159-1"
+                data-name="Group 159"
+                class="Group-159-1"
+              >
+                <div class="q-----1-outer">
+                <div
+                  id="q-----1"
+                  data-name="大小组合"
+                  class="q-----1"
+                >
+                  <div class="q---5-outer">
+                  <div
+                    id="q---5"
+                    data-name="竖着"
+                    class="q---5"
+                  >
+                    <div class="Group-152-3-outer">
+                    <div
+                      id="Group-152-3"
+                      data-name="Group 152"
+                      class="Group-152-3"
+                    >
+                      <div class="Vector-33-outer">
+                      <div
+                        id="Vector-33"
+                        data-name="Vector"
+                        class="Vector-33"
+                      >
+                        <div class="Vector-34-outer">
+                        <img
+                          id="Vector-34"
+                          data-name="Vector"
+                          alt="Vector"
+                          class="Vector-34"
+                        >
+                        </div>
+                      </div>
+                      </div>
+                      <div class="image-303-3-outer">
+                      <img
+                        id="image-303-3"
+                        data-name="image 303"
+                        alt="image 303"
+                        class="image-303-3"
+                      >
+                      </div>
+                    </div>
+                    </div>
+                    <div class="Group-152-2-outer">
+                    <div
+                      id="Group-152-2"
+                      data-name="Group 152"
+                      class="Group-152-2"
+                    >
+                      <div class="Vector-31-outer">
+                      <div
+                        id="Vector-31"
+                        data-name="Vector"
+                        class="Vector-31"
+                      >
+                        <div class="Vector-32-outer">
+                        <img
+                          id="Vector-32"
+                          data-name="Vector"
+                          alt="Vector"
+                          class="Vector-32"
+                        >
+                        </div>
+                      </div>
+                      </div>
+                      <div class="image-303-2-outer">
+                      <img
+                        id="image-303-2"
+                        data-name="image 303"
+                        alt="image 303"
+                        class="image-303-2"
+                      >
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="Group-151-1-outer">
+                  <div
+                    id="Group-151-1"
+                    data-name="Group 151"
+                    class="Group-151-1"
+                  >
+                    <div class="image-301-1-outer">
+                    <img
+                      id="image-301-1"
+                      data-name="image 301"
+                      alt="image 301"
+                      class="image-301-1"
+                    >
+                    </div>
+                    <div class="Vector-35-outer">
+                    <div
+                      id="Vector-35"
+                      data-name="Vector"
+                      class="Vector-35"
+                    >
+                      <div class="Vector-36-outer">
+                      <img
+                        id="Vector-36"
+                        data-name="Vector"
+                        alt="Vector"
+                        class="Vector-36"
+                      >
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                </div>
+                <div class="image-285-1-outer">
+                <img
+                  id="image-285-1"
+                  data-name="image 285"
+                  alt="image 285"
+                  class="image-285-1"
+                >
+                </div>
+                <div class="image-283-1-outer">
+                <img
+                  id="image-283-1"
+                  data-name="image 283"
+                  alt="image 283"
+                  class="image-283-1"
+                >
+                </div>
+                <div class="image-282-1-outer">
+                <img
+                  id="image-282-1"
+                  data-name="image 282"
+                  alt="image 282"
+                  class="image-282-1"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="Vector-25-outer">
+              <div
+                id="Vector-25"
+                data-name="Vector"
+                class="Vector-25"
+              >
+                <div class="Vector-26-outer">
+                <img
+                  id="Vector-26"
+                  data-name="Vector"
+                  alt="Vector"
+                  class="Vector-26"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="Vector-27-outer">
+              <div
+                id="Vector-27"
+                data-name="Vector"
+                class="Vector-27"
+              >
+                <div class="Vector-28-outer">
+                <img
+                  id="Vector-28"
+                  data-name="Vector"
+                  alt="Vector"
+                  class="Vector-28"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="Vector-29-outer">
+              <div
+                id="Vector-29"
+                data-name="Vector"
+                class="Vector-29"
+              >
+                <div class="Vector-30-outer">
+                <img
+                  id="Vector-30"
+                  data-name="Vector"
+                  alt="Vector"
+                  class="Vector-30"
+                >
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="Group-171-outer">
+          <div
+            id="Group-171"
+            data-name="Group 171"
+            class="Group-171"
+          >
+            <div class="Vector-325-outer">
+            <img
+              id="Vector-325"
+              data-name="Vector 325"
+              alt="Vector 325"
+              class="Vector-325"
+            >
+            </div>
+            <div class="q---------------39-outer">
+            <img
+              id="q---------------39"
+              data-name="长出来的人(干净的导出版本) 39"
+              alt="长出来的人(干净的导出版本) 39"
+              class="q---------------39"
+            >
+            </div>
+            <div class="Frame-377-outer">
+            <div
+              id="Frame-377"
+              data-name="Frame 377"
+              class="Frame-377"
+            >
+              <div class="Frame-369-outer">
+              <div
+                id="Frame-369"
+                data-name="Frame 369"
+                class="Frame-369"
+              >
+                <div class="like-classical-music-outer">
+                <div
+                  id="like-classical-music"
+                  data-name="like classical music"
+                  class="like-classical-music"
+                ><div key="0">like classical music</div>
+                </div>
+                </div>
+              </div>
+              </div>
+              <div class="Frame-363-outer">
+              <div
+                id="Frame-363"
+                data-name="Frame 363"
+                class="Frame-363"
+              >
+                <div class="has-a-dog-outer">
+                <div
+                  id="has-a-dog"
+                  data-name="has a dog"
+                  class="has-a-dog"
+                ><div key="0">has a dog</div>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Frame-370-3-outer">
+            <div
+              id="Frame-370-3"
+              data-name="Frame 370"
+              class="Frame-370-3"
+            >
+              <div class="Painter-outer">
+              <div
+                id="Painter"
+                data-name="Painter"
+                class="Painter"
+              ><div key="0">Painter</div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Frame-368-outer">
+            <div
+              id="Frame-368"
+              data-name="Frame 368"
+              class="Frame-368"
+            >
+              <div class="Good-at-piano-outer">
+              <div
+                id="Good-at-piano"
+                data-name="Good at piano"
+                class="Good-at-piano"
+              ><div key="0">Good at piano </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Group-150-outer">
+            <div
+              id="Group-150"
+              data-name="Group 150"
+              class="Group-150"
+            >
+              <div class="Ellipse-110-outer">
+              <img
+                id="Ellipse-110"
+                data-name="Ellipse 110"
+                alt="Ellipse 110"
+                class="Ellipse-110"
+              >
+              </div>
+              <div class="q22-outer">
+              <div
+                id="q22"
+                data-name="22"
+                class="q22"
+              ><div key="0">22</div>
+              </div>
+              </div>
+              <div class="Rectangle-51-outer">
+              <div
+                id="Rectangle-51"
+                data-name="Rectangle 51"
+                alt="Rectangle 51"
+                class="Rectangle-51"
+              >
+              </div>
+              </div>
+              <div class="Rectangle-50-outer">
+              <div
+                id="Rectangle-50"
+                data-name="Rectangle 50"
+                alt="Rectangle 50"
+                class="Rectangle-50"
+              >
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Frame-364-outer">
+            <div
+              id="Frame-364"
+              data-name="Frame 364"
+              class="Frame-364"
+            >
+              <div class="like-hand-made-outer">
+              <div
+                id="like-hand-made"
+                data-name="like hand-made"
+                class="like-hand-made"
+              ><div key="0">like hand-made</div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Seeing-more-outer">
+            <div
+              id="Seeing-more"
+              data-name="Seeing more"
+              class="Seeing-more"
+            ><div key="0">Seeing more</div>
+            </div>
+            </div>
+            <div class="Polygon-4-outer">
+            <img
+              id="Polygon-4"
+              data-name="Polygon 4"
+              alt="Polygon 4"
+              class="Polygon-4"
+            >
+            </div>
+            <div class="About-to-lose-outer">
+            <div
+              id="About-to-lose"
+              data-name="About to lose"
+              class="About-to-lose"
+            ><div key="0">About to lose</div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="Frame-380-outer">
+          <div
+            id="Frame-380"
+            data-name="Frame 380"
+            class="Frame-380"
+          >
+            <div class="Group-173-outer">
+            <div
+              id="Group-173"
+              data-name="Group 173"
+              class="Group-173"
+            >
+              <div class="Group-159-outer">
+              <div
+                id="Group-159"
+                data-name="Group 159"
+                class="Group-159"
+              >
+                <div class="q-----outer">
+                <div
+                  id="q----"
+                  data-name="大小组合"
+                  class="q----"
+                >
+                  <div class="q---4-outer">
+                  <div
+                    id="q---4"
+                    data-name="竖着"
+                    class="q---4"
+                  >
+                    <div class="Group-152-1-outer">
+                    <div
+                      id="Group-152-1"
+                      data-name="Group 152"
+                      class="Group-152-1"
+                    >
+                      <div class="Vector-21-outer">
+                      <div
+                        id="Vector-21"
+                        data-name="Vector"
+                        class="Vector-21"
+                      >
+                        <div class="Vector-22-outer">
+                        <img
+                          id="Vector-22"
+                          data-name="Vector"
+                          alt="Vector"
+                          class="Vector-22"
+                        >
+                        </div>
+                      </div>
+                      </div>
+                      <div class="image-303-1-outer">
+                      <img
+                        id="image-303-1"
+                        data-name="image 303"
+                        alt="image 303"
+                        class="image-303-1"
+                      >
+                      </div>
+                    </div>
+                    </div>
+                    <div class="Group-152-outer">
+                    <div
+                      id="Group-152"
+                      data-name="Group 152"
+                      class="Group-152"
+                    >
+                      <div class="Vector-19-outer">
+                      <div
+                        id="Vector-19"
+                        data-name="Vector"
+                        class="Vector-19"
+                      >
+                        <div class="Vector-20-outer">
+                        <img
+                          id="Vector-20"
+                          data-name="Vector"
+                          alt="Vector"
+                          class="Vector-20"
+                        >
+                        </div>
+                      </div>
+                      </div>
+                      <div class="image-303-outer">
+                      <img
+                        id="image-303"
+                        data-name="image 303"
+                        alt="image 303"
+                        class="image-303"
+                      >
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="Group-151-outer">
+                  <div
+                    id="Group-151"
+                    data-name="Group 151"
+                    class="Group-151"
+                  >
+                    <div class="image-301-outer">
+                    <img
+                      id="image-301"
+                      data-name="image 301"
+                      alt="image 301"
+                      class="image-301"
+                    >
+                    </div>
+                    <div class="Vector-23-outer">
+                    <div
+                      id="Vector-23"
+                      data-name="Vector"
+                      class="Vector-23"
+                    >
+                      <div class="Vector-24-outer">
+                      <img
+                        id="Vector-24"
+                        data-name="Vector"
+                        alt="Vector"
+                        class="Vector-24"
+                      >
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                </div>
+                <div class="image-285-outer">
+                <img
+                  id="image-285"
+                  data-name="image 285"
+                  alt="image 285"
+                  class="image-285"
+                >
+                </div>
+                <div class="image-283-outer">
+                <img
+                  id="image-283"
+                  data-name="image 283"
+                  alt="image 283"
+                  class="image-283"
+                >
+                </div>
+                <div class="image-282-outer">
+                <img
+                  id="image-282"
+                  data-name="image 282"
+                  alt="image 282"
+                  class="image-282"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="Vector-13-outer">
+              <div
+                id="Vector-13"
+                data-name="Vector"
+                class="Vector-13"
+              >
+                <div class="Vector-14-outer">
+                <img
+                  id="Vector-14"
+                  data-name="Vector"
+                  alt="Vector"
+                  class="Vector-14"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="Vector-15-outer">
+              <div
+                id="Vector-15"
+                data-name="Vector"
+                class="Vector-15"
+              >
+                <div class="Vector-16-outer">
+                <img
+                  id="Vector-16"
+                  data-name="Vector"
+                  alt="Vector"
+                  class="Vector-16"
+                >
+                </div>
+              </div>
+              </div>
+              <div class="Vector-17-outer">
+              <div
+                id="Vector-17"
+                data-name="Vector"
+                class="Vector-17"
+              >
+                <div class="Vector-18-outer">
+                <img
+                  id="Vector-18"
+                  data-name="Vector"
+                  alt="Vector"
+                  class="Vector-18"
+                >
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="Vector-37-outer">
+          <img
+            id="Vector-37"
+            data-name="Vector"
+            alt="Vector"
+            class="Vector-37"
+          >
+          </div>
+          <div class="Vector-38-outer">
+          <img
+            id="Vector-38"
+            data-name="Vector"
+            alt="Vector"
+            class="Vector-38"
+          >
+          </div>
+          <div class="Vector-39-outer">
+          <img
+            id="Vector-39"
+            data-name="Vector"
+            alt="Vector"
+            class="Vector-39"
+          >
+          </div>
+        </div>
+        </div>
+        <div class="Group-164-outer">
+        <div
+          id="Group-164"
+          data-name="Group 164"
+          class="Group-164"
+        >
+          <div class="Ellipse-115-outer">
+          <img
+            id="Ellipse-115"
+            data-name="Ellipse 115"
+            alt="Ellipse 115"
+            class="Ellipse-115"
+          >
+          </div>
+          <div class="d-3-outer">
+          <img
+            id="d-3"
+            data-name="d 3"
+            alt="d 3"
+            class="d-3"
+          >
+          </div>
+          <div class="d-2-outer">
+          <img
+            id="d-2"
+            data-name="d 2"
+            alt="d 2"
+            class="d-2"
+          >
+          </div>
+          <div class="d-1-outer">
+          <img
+            id="d-1"
+            data-name="d 1"
+            alt="d 1"
+            class="d-1"
+          >
+          </div>
+        </div>
+        </div>
+        <div class="q---graden-outer">
+        <div
+          id="q---graden"
+          data-name="底部-graden"
+          class="q---graden"
+        >
+          <div class="Group-128-outer">
+          <div
+            id="Group-128"
+            data-name="Group 128"
+            class="Group-128"
+          >
+            <div class="iOS---icon---36---ca-outer">
+            <div
+              id="iOS---icon---36---ca"
+              data-name="iOS / icon / 36 / camera"
+              class="iOS---icon---36---ca"
+            >
+              <div class="iOS---icon---36---ca-1-outer">
+              <div
+                id="iOS---icon---36---ca-1"
+                data-name="iOS / icon / 36 / camera"
+                class="iOS---icon---36---ca-1"
+              >
+                <div class="q---1-outer">
+                <img
+                  id="q---1"
+                  data-name="􀌞"
+                  alt="􀌞"
+                  class="q---1"
+                >
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="Ellipse-83-1-outer">
+            <img
+              id="Ellipse-83-1"
+              data-name="Ellipse 83"
+              alt="Ellipse 83"
+              class="Ellipse-83-1"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="q---outer">
+          <div
+            id="q--"
+            data-name="浇花"
+            class="q--"
+          >
+            <div class="Group-188-outer">
+            <div
+              id="Group-188"
+              data-name="Group 188"
+              class="Group-188"
+            >
+              <div class="Vector-366-outer">
+              <img
+                id="Vector-366"
+                data-name="Vector 366"
+                alt="Vector 366"
+                class="Vector-366"
+              >
+              </div>
+              <div class="Vector-365-outer">
+              <img
+                id="Vector-365"
+                data-name="Vector 365"
+                alt="Vector 365"
+                class="Vector-365"
+              >
+              </div>
+              <div class="Vector-364-outer">
+              <img
+                id="Vector-364"
+                data-name="Vector 364"
+                alt="Vector 364"
+                class="Vector-364"
+              >
+              </div>
+              <div class="Vector-outer">
+              <img
+                id="Vector"
+                data-name="Vector"
+                alt="Vector"
+                class="Vector"
+              >
+              </div>
+              <div class="Vector-1-outer">
+              <img
+                id="Vector-1"
+                data-name="Vector"
+                alt="Vector"
+                class="Vector-1"
+              >
+              </div>
+              <div class="Vector-2-outer">
+              <img
+                id="Vector-2"
+                data-name="Vector"
+                alt="Vector"
+                class="Vector-2"
+              >
+              </div>
+              <div class="Vector-3-outer">
+              <img
+                id="Vector-3"
+                data-name="Vector"
+                alt="Vector"
+                class="Vector-3"
+              >
+              </div>
+              <div class="Vector-4-outer">
+              <img
+                id="Vector-4"
+                data-name="Vector"
+                alt="Vector"
+                class="Vector-4"
+              >
+              </div>
+              <div class="Vector-5-outer">
+              <img
+                id="Vector-5"
+                data-name="Vector"
+                alt="Vector"
+                class="Vector-5"
+              >
+              </div>
+            </div>
+            </div>
+            <div class="Ellipse-83-outer">
+            <img
+              id="Ellipse-83"
+              data-name="Ellipse 83"
+              alt="Ellipse 83"
+              class="Ellipse-83"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="Group-195-outer">
+          <div
+            id="Group-195"
+            data-name="Group 195"
+            class="Group-195"
+          >
+            <div class="Vector-6-outer">
+            <img
+              id="Vector-6"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-6"
+            >
+            </div>
+            <div class="Vector-7-outer">
+            <img
+              id="Vector-7"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-7"
+            >
+            </div>
+            <div class="Vector-8-outer">
+            <img
+              id="Vector-8"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-8"
+            >
+            </div>
+            <div class="Vector-9-outer">
+            <img
+              id="Vector-9"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-9"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="q---3-outer">
+          <div
+            id="q---3"
+            data-name="我的"
+            class="q---3"
+          >
+            <div class="Subtract-outer">
+            <img
+              id="Subtract"
+              data-name="Subtract"
+              alt="Subtract"
+              class="Subtract"
+            >
+            </div>
+            <div class="Ellipse-119-outer">
+            <img
+              id="Ellipse-119"
+              data-name="Ellipse 119"
+              alt="Ellipse 119"
+              class="Ellipse-119"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="q-------outer">
+          <div
+            id="q------"
+            data-name="叶子（选中）"
+            class="q------"
+          >
+            <div class="Vector-11-outer">
+            <img
+              id="Vector-11"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-11"
+            >
+            </div>
+            <div class="Vector-12-outer">
+            <img
+              id="Vector-12"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-12"
+            >
+            </div>
+            <div class="Vector-364-1-outer">
+            <img
+              id="Vector-364-1"
+              data-name="Vector 364"
+              alt="Vector 364"
+              class="Vector-364-1"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="q---2-outer">
+          <div
+            id="q---2"
+            data-name="聊天"
+            class="q---2"
+          >
+            <div class="Vector-10-outer">
+            <img
+              id="Vector-10"
+              data-name="Vector"
+              alt="Vector"
+              class="Vector-10"
+            >
+            </div>
+            <div class="Ellipse-128-outer">
+            <img
+              id="Ellipse-128"
+              data-name="Ellipse 128"
+              alt="Ellipse 128"
+              class="Ellipse-128"
+            >
+            </div>
+            <div class="Ellipse-127-outer">
+            <img
+              id="Ellipse-127"
+              data-name="Ellipse 127"
+              alt="Ellipse 127"
+              class="Ellipse-127"
+            >
+            </div>
+          </div>
+          </div>
+          <div class="Mine-outer">
+          <div
+            id="Mine"
+            data-name="Mine"
+            class="Mine"
+          ><div key="0">Mine</div>
+          </div>
+          </div>
+          <div class="Chating-outer">
+          <div
+            id="Chating"
+            data-name="Chating"
+            class="Chating"
+          ><div key="0">Chating</div>
+          </div>
+          </div>
+          <div class="Finding-outer">
+          <div
+            id="Finding"
+            data-name="Finding"
+            class="Finding"
+          ><div key="0">Finding</div>
+          </div>
+          </div>
+          <div class="Garden-outer">
+          <div
+            id="Garden"
+            data-name="Garden"
+            class="Garden"
+          ><div key="0">Garden</div>
+          </div>
+          </div>
+          <div class="Rectangle-27-outer">
+          <div
+            id="Rectangle-27"
+            data-name="Rectangle 27"
+            alt="Rectangle 27"
+            class="Rectangle-27"
+          >
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="Harvest-outer">
+        <div
+          id="Harvest"
+          data-name="Harvest"
+          class="Harvest"
+        ><div key="0">&nbsp;</div>
+<div key="1">Harvest</div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    </body>
+  </html>

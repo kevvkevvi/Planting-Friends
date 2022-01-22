@@ -1,0 +1,4377 @@
+<html style="height: 100%">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam:400">
+
+  <style>
+    .websiteBody {
+      margin: 0;
+    }
+
+    .Page {
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
+
+    .Page-outer {
+      z-index: 1;
+    }
+
+    .Frame {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      margin-left: 0;
+      height: 836px;
+      min-width: 200px;
+      max-width: 386.4px;
+      margin: auto;
+      background-color: rgba(238, 244, 237, 1);
+      border-radius: 17.690000534057617px;
+      overflow: hidden;
+    }
+
+    .Frame-outer {
+      z-index: 2;
+    }
+
+    .Rectangle-48 {
+      position: relative;
+      z-index: 4;
+      margin-left: -2px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 111.95px;
+      margin-top: -11px;
+      margin-bottom: 735.05px;
+      min-height: 111.95px;
+    }
+
+    .Rectangle-48-outer {
+      z-index: 4;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-366 {
+      position: fixed;
+      z-index: 157;
+      margin-left: auto;
+      width: 391.82px;
+      min-width: 200px;
+      height: 102.02px;
+      min-height: 102.02px;
+      left: -2px;
+      right: 0;
+      top: 0px;
+      bottom: 0;
+      margin-right: auto;
+      max-width: 386.4px;
+      background-color: rgba(255, 255, 255, 1);
+    }
+
+    .Frame-366-outer {
+      z-index: 157;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---status-bar-wit {
+      position: relative;
+      z-index: 163;
+      margin-left: 0px;
+      width: 384.72px;
+      min-width: 384.72px;
+      height: 45.14px;
+      margin-top: 0px;
+      margin-bottom: 56.879999999999995px;
+      min-height: 45.14px;
+      overflow: hidden;
+    }
+
+    .iOS---status-bar-wit-outer {
+      z-index: 163;
+      position: relative;
+      display: flex;
+    }
+
+    .notch {
+      position: relative;
+      z-index: 164;
+      margin-left: -0.040000000000020464px;
+      width: 224.68px;
+      height: 28.73px;
+      margin-top: 0px;
+      margin-bottom: 16.41px;
+      min-height: 28.73px;
+      content: url({{url_for('static',filename='ui6/notch.png')}});
+    }
+
+    .notch-outer {
+      z-index: 164;
+      justify-content: center;
+      position: relative;
+      display: flex;
+    }
+
+    .time {
+      position: relative;
+      z-index: 165;
+      margin-left: 33px;
+      width: 32.83px;
+      min-width: 32.83px;
+      margin-top: -32.14px;
+      margin-bottom: 10.600000000000001px;
+      min-height: 21.54px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(2, 2, 2, 1);
+      font-style: normal;
+      font-family: SF Pro Text;
+      font-weight: 400;
+      font-size: 15.388768196105957px;
+      letter-spacing: -0.050520358180033614px;
+      line-height: 21.544275283813477px;
+    }
+
+    .time-outer {
+      z-index: 165;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---status- {
+      position: relative;
+      z-index: 166;
+      margin-left: 223px;
+      width: 146.57px;
+      min-width: 146.57px;
+      height: 15px;
+      margin-top: -30.14px;
+      margin-bottom: 15.14px;
+      min-height: 15px;
+    }
+
+    .iOS---icon---status--outer {
+      z-index: 166;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---small-- {
+      position: relative;
+      z-index: 177;
+      margin-left: 124px;
+      width: 22.57px;
+      min-width: 22.57px;
+      height: 14.44px;
+      margin-top: 0px;
+      margin-bottom: 0.5600000000000023px;
+      min-height: 14.44px;
+      overflow: hidden;
+    }
+
+    .iOS---icon---small---outer {
+      z-index: 177;
+      position: relative;
+      display: flex;
+    }
+
+    .charge {
+      position: relative;
+      z-index: 180;
+      margin-left: -0.3199999999999932px;
+      width: 16.25px;
+      height: 6.62px;
+      margin-top: 0.18000000000000327px;
+      content: url({{url_for('static',filename='ui6/charge.png')}});
+    }
+
+    .charge-outer {
+      z-index: 180;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .node {
+      position: relative;
+      z-index: 179;
+      margin-left: 22.629999999999995px;
+      width: 1.2px;
+      height: 3.61px;
+      margin-top: 1.1700000000000017px;
+      content: url({{url_for('static',filename='ui6/node.png')}});
+    }
+
+    .node-outer {
+      z-index: 179;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .outline-border {
+      position: relative;
+      z-index: 178;
+      margin-left: -0.7099999999999795px;
+      width: 19.86px;
+      height: 10.23px;
+      margin-top: -0.2099999999999973px;
+      content: url({{url_for('static',filename='ui6/outline_border.png')}});
+    }
+
+    .outline-border-outer {
+      z-index: 178;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .iOS---icon---small---1 {
+      position: relative;
+      z-index: 174;
+      margin-left: 78px;
+      width: 14.44px;
+      min-width: 14.44px;
+      height: 14.44px;
+      margin-top: -15px;
+      margin-bottom: 0.5600000000000023px;
+      min-height: 14.44px;
+    }
+
+    .iOS---icon---small---1-outer {
+      z-index: 174;
+      position: relative;
+      display: flex;
+    }
+
+    .icon {
+      position: relative;
+      z-index: 175;
+      margin-left: 0px;
+      width: 13.79px;
+      min-width: 13.79px;
+      height: 9.9px;
+      margin-top: 3px;
+      margin-bottom: 1.5399999999999991px;
+      min-height: 9.9px;
+      content: url({{url_for('static',filename='ui6/icon.png')}});
+    }
+
+    .icon-outer {
+      z-index: 175;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---small---2 {
+      position: relative;
+      z-index: 171;
+      margin-left: 25px;
+      width: 18.06px;
+      min-width: 18.06px;
+      height: 14.44px;
+      margin-top: -15px;
+      margin-bottom: 0.5600000000000023px;
+      min-height: 14.44px;
+    }
+
+    .iOS---icon---small---2-outer {
+      z-index: 171;
+      position: relative;
+      display: flex;
+    }
+
+    .icon-1 {
+      position: relative;
+      z-index: 172;
+      margin-left: 1px;
+      width: 15.35px;
+      min-width: 15.35px;
+      height: 9.63px;
+      margin-top: 3px;
+      margin-bottom: 1.8099999999999952px;
+      min-height: 9.63px;
+      content: url({{url_for('static',filename='ui6/icon_1.png')}});
+    }
+
+    .icon-1-outer {
+      z-index: 172;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---small---3 {
+      position: relative;
+      z-index: 169;
+      margin-left: 13px;
+      width: 10.83px;
+      min-width: 10.83px;
+      height: 14.44px;
+      margin-top: -15px;
+      margin-bottom: 0.5600000000000023px;
+      min-height: 14.44px;
+    }
+
+    .iOS---icon---small---3-outer {
+      z-index: 169;
+      position: relative;
+      display: flex;
+    }
+
+    .Bluetooth {
+      position: relative;
+      z-index: 170;
+      margin-left: 2px;
+      width: 6.27px;
+      min-width: 6.27px;
+      height: 10.62px;
+      margin-top: 3px;
+      margin-bottom: 0.8200000000000003px;
+      min-height: 10.62px;
+      content: url({{url_for('static',filename='ui6/Bluetooth.png')}});
+    }
+
+    .Bluetooth-outer {
+      z-index: 170;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---small---4 {
+      position: relative;
+      z-index: 167;
+      margin-left: 0px;
+      width: 10.83px;
+      min-width: 10.83px;
+      height: 14.44px;
+      margin-top: -15px;
+      margin-bottom: 0.5600000000000023px;
+      min-height: 14.44px;
+    }
+
+    .iOS---icon---small---4-outer {
+      z-index: 167;
+      position: relative;
+      display: flex;
+    }
+
+    .Alarm {
+      position: relative;
+      z-index: 168;
+      margin-left: 1px;
+      width: 9.03px;
+      min-width: 9.03px;
+      height: 8.24px;
+      margin-top: 4px;
+      margin-bottom: 2.1999999999999957px;
+      min-height: 8.24px;
+      content: url({{url_for('static',filename='ui6/Alarm.png')}});
+    }
+
+    .Alarm-outer {
+      z-index: 168;
+      position: relative;
+      display: flex;
+    }
+
+    .battery-percentage {
+      position: relative;
+      z-index: 176;
+      margin-left: 94px;
+      width: 28px;
+      min-width: 28px;
+      height: 15px;
+      margin-top: 0px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(0, 0, 0, 1);
+      font-style: normal;
+      font-family: SF Pro Text;
+      font-weight: 400;
+      font-size: 10.833693504333496px;
+      letter-spacing: -0.004890371429170806px;
+      line-height: 14.444924354553223px;
+    }
+
+    .battery-percentage-outer {
+      z-index: 176;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .carrier {
+      position: relative;
+      z-index: 173;
+      margin-left: 45px;
+      width: 31px;
+      min-width: 31px;
+      height: 15px;
+      margin-top: 0px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: rgba(0, 0, 0, 1);
+      font-style: normal;
+      font-family: SF Pro Text;
+      font-weight: 400;
+      font-size: 10.833693504333496px;
+      letter-spacing: -0.004890371429170806px;
+      line-height: 14.444924354553223px;
+    }
+
+    .carrier-outer {
+      z-index: 173;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .image-275 {
+      position: relative;
+      z-index: 158;
+      margin-left: 2px;
+      width: 386.4px;
+      min-width: 386.4px;
+      height: 101.11px;
+      margin-top: -102.02px;
+      margin-bottom: 0.9099999999999966px;
+      min-height: 101.11px;
+      content: url({{url_for('static',filename='ui6/image_275.png')}});
+    }
+
+    .image-275-outer {
+      z-index: 158;
+      position: relative;
+      display: flex;
+    }
+
+    .My-friendship-Garden {
+      position: relative;
+      z-index: 162;
+      margin-left: 70px;
+      width: 234.73px;
+      min-width: 234.73px;
+      margin-top: -44.019999999999996px;
+      margin-bottom: 12.319999999999993px;
+      min-height: 31.7px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: CoconPro;
+      font-weight: 400;
+      font-size: 23.18988037109375px;
+      line-height: 26px;
+    }
+
+    .My-friendship-Garden-outer {
+      z-index: 162;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-231 {
+      position: relative;
+      z-index: 159;
+      margin-left: 346px;
+      width: 19.86px;
+      min-width: 19.86px;
+      height: 22.72px;
+      margin-top: -40.019999999999996px;
+      margin-bottom: 17.299999999999997px;
+      min-height: 22.72px;
+    }
+
+    .Group-231-outer {
+      z-index: 159;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-129 {
+      position: relative;
+      z-index: 161;
+      margin-left: 0%;
+      width: 100%;
+      height: 87.41197183098592%;
+      margin-top: 10.070493454179255%;
+      content: url({{url_for('static',filename='ui6/Ellipse_129.png')}});
+    }
+
+    .Ellipse-129-outer {
+      z-index: 161;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .q- {
+      position: relative;
+      z-index: 160;
+      margin-left: 30.211480362537756%;
+      width: 41.188318227593136%;
+      height: 100%;
+      margin-top: 0%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: CoconPro;
+      font-weight: 400;
+      font-size: 16.402189254760742px;
+      line-height: 18px;
+    }
+
+    .q--outer {
+      z-index: 160;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-320 {
+      position: relative;
+      z-index: 181;
+      margin-left: 2px;
+      width: 386.4px;
+      min-width: 386.4px;
+      height: 1.81px;
+      margin-top: -1.019999999999996px;
+      margin-bottom: -0.7900000000000063px;
+      min-height: 1.81px;
+      content: url({{url_for('static',filename='ui6/Vector_320.png')}});
+    }
+
+    .Vector-320-outer {
+      z-index: 181;
+      position: relative;
+      display: flex;
+    }
+
+    .q------2 {
+      position: relative;
+      z-index: 3;
+      margin-left: 0px;
+      width: 386.4px;
+      min-width: 386.4px;
+      height: 606.66px;
+      margin-top: -724px;
+      margin-bottom: 117.34000000000003px;
+      min-height: 606.66px;
+      content: url({{url_for('static',filename='ui6/_______2.png')}});
+    }
+
+    .q------2-outer {
+      z-index: 3;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-361 {
+      position: relative;
+      z-index: 9;
+      margin-left: 23px;
+      width: 160.7px;
+      min-width: 160.7px;
+      height: 41.53px;
+      margin-top: -714px;
+      margin-bottom: 672.47px;
+      min-height: 41.53px;
+      background-color: rgba(238, 244, 237, 1);
+      filter: drop-shadow(1.8056155443191528px 3.6112310886383057px 5.416846752166748px rgba(0, 0, 0, 0.07999999821186066));
+      border: 1.5972753763198853px solid rgba(152, 152, 152, 0.5);
+      box-sizing: border-box;
+      border-radius: 12.778203010559082px;
+    }
+
+    .Frame-361-outer {
+      z-index: 9;
+      position: relative;
+      display: flex;
+    }
+
+    .Garden-Map {
+      position: relative;
+      z-index: 10;
+      margin-left: 9.402724623680115px;
+      width: 139.4px;
+      min-width: 139.4px;
+      margin-top: 7.402724623680115px;
+      margin-bottom: 4.8454492473602215px;
+      min-height: 24.49px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(85, 85, 85, 1);
+      font-style: normal;
+      font-family: CoconPro;
+      font-weight: 400;
+      font-size: 17.646089553833008px;
+      line-height: 20px;
+    }
+
+    .Garden-Map-outer {
+      z-index: 10;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-360 {
+      position: relative;
+      z-index: 6;
+      margin-left: 203px;
+      width: 160.7px;
+      min-width: 160.7px;
+      height: 41.53px;
+      margin-top: -714px;
+      margin-bottom: 672.47px;
+      min-height: 41.53px;
+      background-color: rgba(231, 238, 220, 1);
+      filter: drop-shadow(1.8056155443191528px 3.6112310886383057px 5.416846752166748px rgba(0, 0, 0, 0.07999999821186066));
+      border: 1.5972753763198853px solid rgba(30, 87, 90, 0.5);
+      box-sizing: border-box;
+      border-radius: 12.778203010559082px;
+    }
+
+    .Frame-360-outer {
+      z-index: 6;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-936 {
+      position: relative;
+      z-index: 7;
+      margin-left: 9.402724623680115px;
+      width: 139.4px;
+      min-width: 139.4px;
+      height: 24.49px;
+      margin-top: 7.402724623680115px;
+      margin-bottom: 4.8454492473602215px;
+      min-height: 24.49px;
+    }
+
+    .Frame-936-outer {
+      z-index: 7;
+      position: relative;
+      display: flex;
+    }
+
+    .Look-around {
+      position: relative;
+      z-index: 8;
+      margin-left: 0px;
+      width: 139.4px;
+      min-width: 139.4px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 24.49px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: CoconPro;
+      font-weight: 400;
+      font-size: 17.646089553833008px;
+      line-height: 20px;
+    }
+
+    .Look-around-outer {
+      z-index: 8;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-164 {
+      position: relative;
+      z-index: 12;
+      margin-left: 160px;
+      width: 53.27px;
+      min-width: 53.27px;
+      height: 53.27px;
+      margin-top: -628px;
+      margin-bottom: 574.73px;
+      min-height: 53.27px;
+    }
+
+    .Group-164-outer {
+      z-index: 12;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-115 {
+      position: relative;
+      z-index: 13;
+      margin-left: -7px;
+      width: 65.9px;
+      min-width: 65.9px;
+      height: 65.9px;
+      margin-top: -3px;
+      margin-bottom: -9.629999999999995px;
+      min-height: 65.9px;
+      content: url({{url_for('static',filename='ui6/Ellipse_115.png')}});
+    }
+
+    .Ellipse-115-outer {
+      z-index: 13;
+      position: relative;
+      display: flex;
+    }
+
+    .d-3 {
+      position: relative;
+      z-index: 16;
+      margin-left: 3px;
+      width: 42.43px;
+      min-width: 42.43px;
+      height: 37.02px;
+      margin-top: -43.27px;
+      margin-bottom: 6.249999999999972px;
+      min-height: 37.02px;
+      content: url({{url_for('static',filename='ui6/d_3.png')}});
+    }
+
+    .d-3-outer {
+      z-index: 16;
+      position: relative;
+      display: flex;
+    }
+
+    .d-2 {
+      position: relative;
+      z-index: 15;
+      margin-left: 4px;
+      width: 42.43px;
+      min-width: 42.43px;
+      height: 37.02px;
+      margin-top: -43.27px;
+      margin-bottom: 6.249999999999972px;
+      min-height: 37.02px;
+      content: url({{url_for('static',filename='ui6/d_2.png')}});
+    }
+
+    .d-2-outer {
+      z-index: 15;
+      position: relative;
+      display: flex;
+    }
+
+    .d-1 {
+      position: relative;
+      z-index: 14;
+      margin-left: 3px;
+      width: 42.43px;
+      min-width: 42.43px;
+      height: 37.02px;
+      margin-top: -43.27px;
+      margin-bottom: 6.249999999999972px;
+      min-height: 37.02px;
+      content: url({{url_for('static',filename='ui6/d_1.png')}});
+    }
+
+    .d-1-outer {
+      z-index: 14;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-362 {
+      position: relative;
+      z-index: 11;
+      margin-left: 109px;
+      width: 154.38px;
+      min-width: 154.38px;
+      height: 82.16px;
+      margin-top: -593px;
+      margin-bottom: 510.84000000000003px;
+      min-height: 82.16px;
+      content: url({{url_for('static',filename='ui6/Vector_362.png')}});
+    }
+
+    .Vector-362-outer {
+      z-index: 21;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-370 {
+      position: relative;
+      z-index: 17;
+      margin-left: -3px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 945.24px;
+      margin-top: -488px;
+      margin-bottom: -457.24px;
+      min-height: 945.24px;
+      background-color: rgba(255, 255, 255, 1);
+      filter: drop-shadow(1.8056155443191528px -7.222462177276611px 11.73650074005127px rgba(0, 0, 0, 0.07999999821186066));
+      border: 1.354211688041687px solid rgba(199, 201, 197, 0.5);
+      box-sizing: border-box;
+      border-radius: 22.570194244384766px;
+      overflow: hidden;
+    }
+
+    .Frame-370-outer {
+      z-index: 17;
+      position: relative;
+      display: flex;
+    }
+
+    .Polygon-6 {
+      position: relative;
+      z-index: 25;
+      margin-left: 163.6457883119583px;
+      width: 72.22px;
+      min-width: 72.22px;
+      height: 9.93px;
+      margin-top: 10.645788311958313px;
+      margin-bottom: 920.6015766239166px;
+      min-height: 9.93px;
+      content: url({{url_for('static',filename='ui6/Polygon_6.png')}});
+    }
+
+    .Polygon-6-outer {
+      z-index: 25;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-323 {
+      position: relative;
+      z-index: 23;
+      margin-left: 14.645788311958313px;
+      width: 354.8px;
+      min-width: 354.8px;
+      height: 0.9px;
+      margin-top: -910.5942116880417px;
+      margin-bottom: 905.6315766239167px;
+      min-height: 0.9px;
+      content: url({{url_for('static',filename='ui6/Vector_323.png')}});
+    }
+
+    .Vector-323-outer {
+      z-index: 23;
+      position: relative;
+      display: flex;
+    }
+
+    .Seed-List {
+      position: relative;
+      z-index: 18;
+      margin-left: 25.645788311958313px;
+      width: 263.62px;
+      min-width: 263.62px;
+      margin-top: -899.5942116880417px;
+      margin-bottom: 871.2215766239167px;
+      min-height: 24.31px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 500;
+      font-size: 19.603513717651367px;
+      line-height: 23px;
+    }
+
+    .Seed-List-outer {
+      z-index: 18;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-896 {
+      position: relative;
+      z-index: 100;
+      margin-left: 7.645788311958313px;
+      width: 340.86px;
+      min-width: 340.86px;
+      height: 108.93px;
+      margin-top: -856.5942116880417px;
+      margin-bottom: 743.6015766239166px;
+      min-height: 108.93px;
+    }
+
+    .Frame-896-outer {
+      z-index: 100;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-228 {
+      position: relative;
+      z-index: 108;
+      margin-left: 232px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+    }
+
+    .Group-228-outer {
+      z-index: 108;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-190 {
+      position: relative;
+      z-index: 109;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+    }
+
+    .Group-190-outer {
+      z-index: 109;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-84 {
+      position: relative;
+      z-index: 111;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+      content: url({{url_for('static',filename='ui6/Ellipse_84.png')}});
+    }
+
+    .Ellipse-84-outer {
+      z-index: 111;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-83-2 {
+      position: relative;
+      z-index: 110;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: -108.93px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+      content: url({{url_for('static',filename='ui6/Ellipse_83_2.png')}});
+    }
+
+    .Ellipse-83-2-outer {
+      z-index: 110;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-195-1 {
+      position: relative;
+      z-index: 113;
+      margin-left: 48px;
+      width: 13.23px;
+      min-width: 13.23px;
+      height: 21.67px;
+      margin-top: -42.93000000000001px;
+      margin-bottom: 21.260000000000105px;
+      min-height: 21.67px;
+    }
+
+    .Group-195-1-outer {
+      z-index: 113;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-13 {
+      position: relative;
+      z-index: 117;
+      margin-left: 7.558578987150407%;
+      width: 8.465608465608458%;
+      height: 40.37840332256576%;
+      margin-top: 68.02721088435366%;
+      content: url({{url_for('static',filename='ui6/Vector_13.png')}});
+    }
+
+    .Vector-13-outer {
+      z-index: 117;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-14 {
+      position: relative;
+      z-index: 116;
+      margin-left: 75.5857898715041%;
+      width: 7.4829931972789065%;
+      height: 41.43977849561605%;
+      margin-top: 15.11715797430082%;
+      content: url({{url_for('static',filename='ui6/Vector_14.png')}});
+    }
+
+    .Vector-14-outer {
+      z-index: 116;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-15 {
+      position: relative;
+      z-index: 115;
+      margin-left: -7.558578987150409%;
+      width: 65.60846560846555%;
+      height: 75.86525149976927%;
+      margin-top: 45.35147392290246%;
+      content: url({{url_for('static',filename='ui6/Vector_15.png')}});
+    }
+
+    .Vector-15-outer {
+      z-index: 115;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-16 {
+      position: relative;
+      z-index: 114;
+      margin-left: 37.792894935752074%;
+      width: 69.3121693121693%;
+      height: 74.85002307337332%;
+      margin-top: -7.5585789871504145%;
+      content: url({{url_for('static',filename='ui6/Vector_16.png')}});
+    }
+
+    .Vector-16-outer {
+      z-index: 114;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Finding-more-seeds {
+      position: relative;
+      z-index: 112;
+      margin-left: -0.3199999999999932px;
+      width: 68.61px;
+      height: 32.5px;
+      margin-top: -26.430000000000064px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(46, 109, 55, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 12.63930892944336px;
+      line-height: 14px;
+    }
+
+    .Finding-more-seeds-outer {
+      z-index: 112;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Group-189 {
+      position: relative;
+      z-index: 104;
+      margin-left: 116px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: -108.93px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+    }
+
+    .Group-189-outer {
+      z-index: 104;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-84-1 {
+      position: relative;
+      z-index: 106;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+      content: url({{url_for('static',filename='ui6/Ellipse_84_1.png')}});
+    }
+
+    .Ellipse-84-1-outer {
+      z-index: 106;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-83-3 {
+      position: relative;
+      z-index: 105;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: -108.93px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+      content: url({{url_for('static',filename='ui6/Ellipse_83_3.png')}});
+    }
+
+    .Ellipse-83-3-outer {
+      z-index: 105;
+      position: relative;
+      display: flex;
+    }
+
+    .dfsdf-1 {
+      position: relative;
+      z-index: 107;
+      margin-left: 35px;
+      width: 42.01px;
+      min-width: 42.01px;
+      height: 38.51px;
+      margin-top: -70.93px;
+      margin-bottom: 32.42000000000007px;
+      min-height: 38.51px;
+      content: url({{url_for('static',filename='ui6/dfsdf_1.png')}});
+    }
+
+    .dfsdf-1-outer {
+      z-index: 107;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-186 {
+      position: relative;
+      z-index: 101;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: -108.93px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+    }
+
+    .Group-186-outer {
+      z-index: 101;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-80 {
+      position: relative;
+      z-index: 102;
+      margin-left: 0px;
+      width: 108.93px;
+      min-width: 108.93px;
+      height: 108.93px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 108.93px;
+      content: url({{url_for('static',filename='ui6/Ellipse_80.png')}});
+    }
+
+    .Ellipse-80-outer {
+      z-index: 102;
+      position: relative;
+      display: flex;
+    }
+
+    .dfsdf-1-1 {
+      position: relative;
+      z-index: 103;
+      margin-left: 34px;
+      width: 42.01px;
+      min-width: 42.01px;
+      height: 38.51px;
+      margin-top: -70.93px;
+      margin-bottom: 32.42000000000007px;
+      min-height: 38.51px;
+      content: url({{url_for('static',filename='ui6/dfsdf_1_1.png')}});
+    }
+
+    .dfsdf-1-1-outer {
+      z-index: 103;
+      position: relative;
+      display: flex;
+    }
+
+    .image-297 {
+      position: relative;
+      z-index: 19;
+      margin-left: 127.64578831195831px;
+      width: 175.14px;
+      min-width: 175.14px;
+      height: 181.46px;
+      margin-top: -760.5942116880417px;
+      margin-bottom: 575.0715766239166px;
+      min-height: 181.46px;
+      content: url({{url_for('static',filename='ui6/image_297.png')}});
+    }
+
+    .image-297-outer {
+      z-index: 19;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-327 {
+      position: relative;
+      z-index: 24;
+      margin-left: 14.645788311958313px;
+      width: 354.35px;
+      min-width: 354.35px;
+      height: 0.45px;
+      margin-top: -734.5942116880417px;
+      margin-bottom: 730.0815766239166px;
+      min-height: 0.45px;
+      content: url({{url_for('static',filename='ui6/Vector_327.png')}});
+    }
+
+    .Vector-327-outer {
+      z-index: 24;
+      position: relative;
+      display: flex;
+    }
+
+    .Recent-update-for-th {
+      position: relative;
+      z-index: 26;
+      margin-left: 23.645788311958313px;
+      width: 229.31px;
+      min-width: 229.31px;
+      margin-top: -726.5942116880417px;
+      margin-bottom: 698.1515766239166px;
+      min-height: 24.38px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 500;
+      font-size: 16.07445526123047px;
+      line-height: 18px;
+    }
+
+    .Recent-update-for-th-outer {
+      z-index: 26;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-173-1 {
+      position: relative;
+      z-index: 49;
+      margin-left: -2.354211688041687px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 388.22px;
+      margin-top: -694.5942116880417px;
+      margin-bottom: 302.3115766239166px;
+      min-height: 388.22px;
+    }
+
+    .Group-173-1-outer {
+      z-index: 49;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-159-1 {
+      position: relative;
+      z-index: 50;
+      margin-left: 0px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 388.22px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 388.22px;
+    }
+
+    .Group-159-1-outer {
+      z-index: 50;
+      position: relative;
+      display: flex;
+    }
+
+    .q-----1 {
+      position: relative;
+      z-index: 51;
+      margin-left: 0px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 258.14px;
+      margin-top: 0px;
+      margin-bottom: 130.08000000000004px;
+      min-height: 258.14px;
+    }
+
+    .q-----1-outer {
+      z-index: 51;
+      position: relative;
+      display: flex;
+    }
+
+    .q---5 {
+      position: relative;
+      z-index: 56;
+      margin-left: 260px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: 258.12px;
+      margin-top: 0px;
+      margin-bottom: 0.01999999999998181px;
+      min-height: 258.12px;
+    }
+
+    .q---5-outer {
+      z-index: 56;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-152-3 {
+      position: relative;
+      z-index: 57;
+      margin-left: 0px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: 128.05px;
+      margin-top: 0px;
+      margin-bottom: 130.07000000000005px;
+      min-height: 128.05px;
+    }
+
+    .Group-152-3-outer {
+      z-index: 57;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-37 {
+      position: relative;
+      z-index: 59;
+      margin-left: 101px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: 104px;
+      margin-bottom: 8.729999999999905px;
+      min-height: 15.32px;
+    }
+
+    .Vector-37-outer {
+      z-index: 59;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-38 {
+      position: relative;
+      z-index: 60;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: 109.85639686684071%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_27.png')}});
+    }
+
+    .Vector-38-outer {
+      z-index: 60;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .image-303-3 {
+      position: relative;
+      z-index: 58;
+      margin-left: 0.7809449433814916%;
+      width: 100%;
+      height: 100%;
+      margin-top: -0.7809449433814916%;
+      content: url({{url_for('static',filename='ui6/image_303_3.png')}});
+    }
+
+    .image-303-3-outer {
+      z-index: 58;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Group-152-2 {
+      position: relative;
+      z-index: 61;
+      margin-left: 0px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: 128.05px;
+      margin-top: -128.12px;
+      margin-bottom: 0.07000000000005002px;
+      min-height: 128.05px;
+    }
+
+    .Group-152-2-outer {
+      z-index: 61;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-35 {
+      position: relative;
+      z-index: 63;
+      margin-left: 101px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: 104px;
+      margin-bottom: 8.729999999999905px;
+      min-height: 15.32px;
+    }
+
+    .Vector-35-outer {
+      z-index: 63;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-36 {
+      position: relative;
+      z-index: 64;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: 21.93211488250653%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_26.png')}});
+    }
+
+    .Vector-36-outer {
+      z-index: 64;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .image-303-2 {
+      position: relative;
+      z-index: 62;
+      margin-left: 0.7809449433814916%;
+      width: 100%;
+      height: 83.1472081218274%;
+      margin-top: 0%;
+      content: url({{url_for('static',filename='ui6/image_303_2.png')}});
+    }
+
+    .image-303-2-outer {
+      z-index: 62;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Group-151-1 {
+      position: relative;
+      z-index: 52;
+      margin-left: 0px;
+      width: 258.14px;
+      min-width: 258.14px;
+      height: 258.14px;
+      margin-top: -258.14px;
+      margin-bottom: 0px;
+      min-height: 258.14px;
+    }
+
+    .Group-151-1-outer {
+      z-index: 52;
+      position: relative;
+      display: flex;
+    }
+
+    .image-301-1 {
+      position: relative;
+      z-index: 53;
+      margin-left: 4px;
+      width: 254.53px;
+      min-width: 254.53px;
+      height: 236.54px;
+      margin-top: -1px;
+      margin-bottom: 22.600000000000023px;
+      min-height: 236.54px;
+      content: url({{url_for('static',filename='ui6/image_301_1.png')}});
+    }
+
+    .image-301-1-outer {
+      z-index: 53;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-39 {
+      position: relative;
+      z-index: 54;
+      margin-left: 230px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -23.139999999999986px;
+      margin-bottom: 7.819999999999936px;
+      min-height: 15.32px;
+    }
+
+    .Vector-39-outer {
+      z-index: 54;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-40 {
+      position: relative;
+      z-index: 55;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: 15.274151436031332%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_28.png')}});
+    }
+
+    .Vector-40-outer {
+      z-index: 55;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .image-285-1 {
+      position: relative;
+      z-index: 67;
+      margin-left: 261px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: -23.62px;
+      margin-top: -128.22000000000003px;
+      margin-bottom: 151.84000000000003px;
+      min-height: -23.62px;
+      content: url({{url_for('static',filename='ui6/image_285_1.png')}});
+    }
+
+    .image-285-1-outer {
+      z-index: 67;
+      position: relative;
+      display: flex;
+    }
+
+    .image-283-1 {
+      position: relative;
+      z-index: 66;
+      margin-left: 130px;
+      width: 128.06px;
+      min-width: 128.06px;
+      height: -23.62px;
+      margin-top: -128.22000000000003px;
+      margin-bottom: 151.84000000000003px;
+      min-height: -23.62px;
+      content: url({{url_for('static',filename='ui6/image_283_1.png')}});
+    }
+
+    .image-283-1-outer {
+      z-index: 66;
+      position: relative;
+      display: flex;
+    }
+
+    .image-282-1 {
+      position: relative;
+      z-index: 65;
+      margin-left: 4px;
+      width: 124.44px;
+      min-width: 124.44px;
+      height: -23.62px;
+      margin-top: -128.22000000000003px;
+      margin-bottom: 151.84000000000003px;
+      min-height: -23.62px;
+      content: url({{url_for('static',filename='ui6/image_282_1.png')}});
+    }
+
+    .image-282-1-outer {
+      z-index: 65;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-29 {
+      position: relative;
+      z-index: 72;
+      margin-left: 105px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -24.220000000000027px;
+      margin-bottom: 8.899999999999977px;
+      min-height: 15.32px;
+    }
+
+    .Vector-29-outer {
+      z-index: 72;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-30 {
+      position: relative;
+      z-index: 73;
+      margin-left: -5.694760820045557%;
+      width: 108.65603644646922%;
+      height: -825.9791122715404%;
+      margin-top: -5.694760820045557%;
+      content: url({{url_for('static',filename='ui6/Vector_23.png')}});
+    }
+
+    .Vector-30-outer {
+      z-index: 73;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-31 {
+      position: relative;
+      z-index: 70;
+      margin-left: 234px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -24.220000000000027px;
+      margin-bottom: 8.899999999999977px;
+      min-height: 15.32px;
+    }
+
+    .Vector-31-outer {
+      z-index: 70;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-32 {
+      position: relative;
+      z-index: 71;
+      margin-left: -5.694760820045553%;
+      width: 108.65603644646913%;
+      height: -825.9791122715404%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_24.png')}});
+    }
+
+    .Vector-32-outer {
+      z-index: 71;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-33 {
+      position: relative;
+      z-index: 68;
+      margin-left: 361px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -24.220000000000027px;
+      margin-bottom: 8.899999999999977px;
+      min-height: 15.32px;
+    }
+
+    .Vector-33-outer {
+      z-index: 68;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-34 {
+      position: relative;
+      z-index: 69;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: -825.9791122715404%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_25.png')}});
+    }
+
+    .Vector-34-outer {
+      z-index: 69;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Group-171 {
+      position: relative;
+      z-index: 27;
+      margin-left: 14.645788311958313px;
+      width: 353.9px;
+      min-width: 353.9px;
+      height: 138.13px;
+      margin-top: -283.5942116880417px;
+      margin-bottom: 141.40157662391653px;
+      min-height: 138.13px;
+    }
+
+    .Group-171-outer {
+      z-index: 27;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-325 {
+      position: relative;
+      z-index: 28;
+      margin-left: 0px;
+      width: 354.35px;
+      min-width: 354.35px;
+      height: -174.02px;
+      margin-top: -1px;
+      margin-bottom: 313.1500000000001px;
+      min-height: -174.02px;
+      content: url({{url_for('static',filename='ui6/Vector_325.png')}});
+    }
+
+    .Vector-325-outer {
+      z-index: 28;
+      position: relative;
+      display: flex;
+    }
+
+    .q---------------39 {
+      position: relative;
+      z-index: 29;
+      margin-left: 16px;
+      width: 64.1px;
+      min-width: 64.1px;
+      height: -192.3px;
+      margin-top: -121.13px;
+      margin-bottom: 313.43000000000006px;
+      min-height: -192.3px;
+      content: url({{url_for('static',filename='ui6/________________39.png')}});
+    }
+
+    .q---------------39-outer {
+      z-index: 29;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-377 {
+      position: relative;
+      z-index: 35;
+      margin-left: 110px;
+      width: 226.6px;
+      min-width: 226.6px;
+      height: 26.18px;
+      margin-top: -106.13px;
+      margin-bottom: 79.95000000000005px;
+      min-height: 26.18px;
+    }
+
+    .Frame-377-outer {
+      z-index: 35;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-369 {
+      position: relative;
+      z-index: 38;
+      margin-left: 88px;
+      width: 138.13px;
+      min-width: 138.13px;
+      height: 26.18px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 26.18px;
+      background-color: rgba(231, 238, 220, 1);
+      border-radius: 12.77472972869873px;
+    }
+
+    .Frame-369-outer {
+      z-index: 38;
+      position: relative;
+      display: flex;
+    }
+
+    .like-classical-music {
+      position: relative;
+      z-index: 39;
+      margin-left: 9px;
+      width: 120.07px;
+      min-width: 120.07px;
+      margin-top: 5px;
+      margin-bottom: 4.029999999999973px;
+      min-height: 17.15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 13.829875946044922px;
+      line-height: 15px;
+    }
+
+    .like-classical-music-outer {
+      z-index: 39;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-363 {
+      position: relative;
+      z-index: 36;
+      margin-left: 0px;
+      width: 80.35px;
+      min-width: 80.35px;
+      height: 26.18px;
+      margin-top: -26.18px;
+      margin-bottom: 0px;
+      min-height: 26.18px;
+      background-color: rgba(231, 238, 220, 1);
+      border-radius: 12.77472972869873px;
+    }
+
+    .Frame-363-outer {
+      z-index: 36;
+      position: relative;
+      display: flex;
+    }
+
+    .has-a-dog {
+      position: relative;
+      z-index: 37;
+      margin-left: 9px;
+      width: 62.29px;
+      min-width: 62.29px;
+      margin-top: 5px;
+      margin-bottom: 4.029999999999973px;
+      min-height: 17.15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 13.829875946044922px;
+      line-height: 15px;
+    }
+
+    .has-a-dog-outer {
+      z-index: 37;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-370-1 {
+      position: relative;
+      z-index: 42;
+      margin-left: 228px;
+      width: 64.1px;
+      min-width: 64.1px;
+      height: 26.18px;
+      margin-top: -71.13px;
+      margin-bottom: 44.950000000000045px;
+      min-height: 26.18px;
+      background-color: rgba(231, 238, 220, 1);
+      border-radius: 12.77472972869873px;
+    }
+
+    .Frame-370-1-outer {
+      z-index: 42;
+      position: relative;
+      display: flex;
+    }
+
+    .Painter {
+      position: relative;
+      z-index: 43;
+      margin-left: 9px;
+      width: 46.04px;
+      min-width: 46.04px;
+      margin-top: 5px;
+      margin-bottom: 4.029999999999973px;
+      min-height: 17.15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 13.829875946044922px;
+      line-height: 15px;
+    }
+
+    .Painter-outer {
+      z-index: 43;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-368 {
+      position: relative;
+      z-index: 40;
+      margin-left: 110px;
+      width: 109.24px;
+      min-width: 109.24px;
+      height: 26.18px;
+      margin-top: -71.13px;
+      margin-bottom: 44.950000000000045px;
+      min-height: 26.18px;
+      background-color: rgba(231, 238, 220, 1);
+      border-radius: 12.77472972869873px;
+    }
+
+    .Frame-368-outer {
+      z-index: 40;
+      position: relative;
+      display: flex;
+    }
+
+    .Good-at-piano {
+      position: relative;
+      z-index: 41;
+      margin-left: 9px;
+      width: 91.18px;
+      min-width: 91.18px;
+      margin-top: 5px;
+      margin-bottom: 4.029999999999973px;
+      min-height: 17.15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 13.829875946044922px;
+      line-height: 15px;
+    }
+
+    .Good-at-piano-outer {
+      z-index: 41;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-150 {
+      position: relative;
+      z-index: 30;
+      margin-left: 8px;
+      width: 57.78px;
+      min-width: 57.78px;
+      height: 18.63px;
+      margin-top: -36.129999999999995px;
+      margin-bottom: 17.5px;
+      min-height: 18.63px;
+    }
+
+    .Group-150-outer {
+      z-index: 30;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-110 {
+      position: relative;
+      z-index: 33;
+      margin-left: 6px;
+      width: 23.93px;
+      min-width: 23.93px;
+      height: -273.77px;
+      margin-top: -3px;
+      margin-bottom: 295.4000000000001px;
+      min-height: -273.77px;
+      content: url({{url_for('static',filename='ui6/Ellipse_110.png')}});
+    }
+
+    .Ellipse-110-outer {
+      z-index: 33;
+      position: relative;
+      display: flex;
+    }
+
+    .q22 {
+      position: relative;
+      z-index: 34;
+      margin-left: 10px;
+      width: 18.06px;
+      min-width: 18.06px;
+      margin-top: -18.63px;
+      margin-bottom: 0.5700000000001637px;
+      min-height: 18.06px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: CoconPro;
+      font-weight: 400;
+      font-size: 12.871478080749512px;
+      line-height: 15px;
+    }
+
+    .q22-outer {
+      z-index: 34;
+      position: relative;
+      display: flex;
+    }
+
+    .Rectangle-51 {
+      position: relative;
+      z-index: 32;
+      transform: rotate(-179.99999499104388deg);
+      margin-left: 31px;
+      width: 15.35px;
+      min-width: 15.35px;
+      height: 4.51px;
+      margin-top: -2.629999999999999px;
+      margin-bottom: -1.8799999999998818px;
+      min-height: 4.51px;
+      background-color: rgba(234, 234, 234, 1);
+      border-radius: 59.25366973876953px;
+    }
+
+    .Rectangle-51-outer {
+      z-index: 32;
+      position: relative;
+      display: flex;
+    }
+
+    .Rectangle-50 {
+      position: relative;
+      z-index: 31;
+      transform: rotate(-179.99999499104388deg);
+      margin-left: 103px;
+      width: 45.14px;
+      min-width: 45.14px;
+      height: 4.51px;
+      margin-top: -2.629999999999999px;
+      margin-bottom: -1.8799999999998818px;
+      min-height: 4.51px;
+      background-color: rgba(242, 210, 95, 1);
+      border-radius: 59.25366973876953px;
+    }
+
+    .Rectangle-50-outer {
+      z-index: 31;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-364 {
+      position: relative;
+      z-index: 47;
+      margin-left: 110px;
+      width: 116.46px;
+      min-width: 116.46px;
+      height: 26.18px;
+      margin-top: -35.129999999999995px;
+      margin-bottom: 8.950000000000045px;
+      min-height: 26.18px;
+      background-color: rgba(231, 238, 220, 1);
+      border-radius: 12.77472972869873px;
+    }
+
+    .Frame-364-outer {
+      z-index: 47;
+      position: relative;
+      display: flex;
+    }
+
+    .like-hand-made {
+      position: relative;
+      z-index: 48;
+      margin-left: 9px;
+      width: 98.41px;
+      min-width: 98.41px;
+      margin-top: 5px;
+      margin-bottom: 4.029999999999973px;
+      min-height: 17.15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(30, 87, 90, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 13.829875946044922px;
+      line-height: 15px;
+    }
+
+    .like-hand-made-outer {
+      z-index: 48;
+      position: relative;
+      display: flex;
+    }
+
+    .Seeing-more {
+      position: relative;
+      z-index: 44;
+      margin-left: 273px;
+      width: 81.25px;
+      min-width: 81.25px;
+      margin-top: -31.129999999999995px;
+      margin-bottom: 13.980000000000018px;
+      min-height: 17.15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(173, 178, 178, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 13.829875946044922px;
+      line-height: 15px;
+    }
+
+    .Seeing-more-outer {
+      z-index: 44;
+      position: relative;
+      display: flex;
+    }
+
+    .Polygon-4 {
+      position: relative;
+      z-index: 45;
+      margin-left: 243px;
+      width: 18.96px;
+      min-width: 18.96px;
+      height: -285.29px;
+      margin-top: -28.129999999999995px;
+      margin-bottom: 313.4200000000001px;
+      min-height: -285.29px;
+      content: url({{url_for('static',filename='ui6/Polygon_4.png')}});
+    }
+
+    .Polygon-4-outer {
+      z-index: 45;
+      position: relative;
+      display: flex;
+    }
+
+    .About-to-lose {
+      position: relative;
+      z-index: 46;
+      margin-left: 6px;
+      width: 83.06px;
+      min-width: 83.06px;
+      margin-top: -18.129999999999995px;
+      margin-bottom: 0.07000000000016371px;
+      min-height: 18.06px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(243, 21, 7, 1);
+      font-style: normal;
+      font-family: CoconPro;
+      font-weight: 400;
+      font-size: 13.465922355651855px;
+      line-height: 15px;
+    }
+
+    .About-to-lose-outer {
+      z-index: 46;
+      position: relative;
+      display: flex;
+    }
+
+    .Frame-380 {
+      position: relative;
+      z-index: 74;
+      margin-left: -2.354211688041687px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 388.22px;
+      margin-top: -109.5942116880417px;
+      margin-bottom: -282.6884233760834px;
+      min-height: 388.22px;
+    }
+
+    .Frame-380-outer {
+      z-index: 74;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-173 {
+      position: relative;
+      z-index: 75;
+      margin-left: 0px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 388.22px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 388.22px;
+    }
+
+    .Group-173-outer {
+      z-index: 75;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-159 {
+      position: relative;
+      z-index: 76;
+      margin-left: 0px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 388.22px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 388.22px;
+    }
+
+    .Group-159-outer {
+      z-index: 76;
+      position: relative;
+      display: flex;
+    }
+
+    .q---- {
+      position: relative;
+      z-index: 77;
+      margin-left: 0px;
+      width: 388.21px;
+      min-width: 388.21px;
+      height: 258.14px;
+      margin-top: 0px;
+      margin-bottom: 130.08000000000015px;
+      min-height: 258.14px;
+    }
+
+    .q-----outer {
+      z-index: 77;
+      position: relative;
+      display: flex;
+    }
+
+    .q---4 {
+      position: relative;
+      z-index: 82;
+      margin-left: 260px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: 258.12px;
+      margin-top: 0px;
+      margin-bottom: 0.01999999999998181px;
+      min-height: 258.12px;
+    }
+
+    .q---4-outer {
+      z-index: 82;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-152-1 {
+      position: relative;
+      z-index: 83;
+      margin-left: 0px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: 128.05px;
+      margin-top: 0px;
+      margin-bottom: 130.06999999999994px;
+      min-height: 128.05px;
+    }
+
+    .Group-152-1-outer {
+      z-index: 83;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-25 {
+      position: relative;
+      z-index: 85;
+      margin-left: 101px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: 104px;
+      margin-bottom: 8.730000000000018px;
+      min-height: 15.32px;
+    }
+
+    .Vector-25-outer {
+      z-index: 85;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-26 {
+      position: relative;
+      z-index: 86;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: -2947.715404699739%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_21.png')}});
+    }
+
+    .Vector-26-outer {
+      z-index: 86;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .image-303-1 {
+      position: relative;
+      z-index: 84;
+      margin-left: 0.7809449433814916%;
+      width: 100%;
+      height: -272.1436938695822%;
+      margin-top: -0.7809449433814916%;
+      content: url({{url_for('static',filename='ui6/image_303_1.png')}});
+    }
+
+    .image-303-1-outer {
+      z-index: 84;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Group-152 {
+      position: relative;
+      z-index: 87;
+      margin-left: 0px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: 128.05px;
+      margin-top: -128.12px;
+      margin-bottom: 0.06999999999993634px;
+      min-height: 128.05px;
+    }
+
+    .Group-152-outer {
+      z-index: 87;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-23 {
+      position: relative;
+      z-index: 89;
+      margin-left: 101px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: 104px;
+      margin-bottom: 8.730000000000018px;
+      min-height: 15.32px;
+    }
+
+    .Vector-23-outer {
+      z-index: 89;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-24 {
+      position: relative;
+      z-index: 90;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: -3796.6710182767624%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_20.png')}});
+    }
+
+    .Vector-24-outer {
+      z-index: 90;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .image-303 {
+      position: relative;
+      z-index: 88;
+      margin-left: 0.7809449433814916%;
+      width: 100%;
+      height: -373.7212026552128%;
+      margin-top: 0%;
+      content: url({{url_for('static',filename='ui6/image_303.png')}});
+    }
+
+    .image-303-outer {
+      z-index: 88;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Group-151 {
+      position: relative;
+      z-index: 78;
+      margin-left: 0px;
+      width: 258.14px;
+      min-width: 258.14px;
+      height: 258.14px;
+      margin-top: -258.14px;
+      margin-bottom: 0px;
+      min-height: 258.14px;
+    }
+
+    .Group-151-outer {
+      z-index: 78;
+      position: relative;
+      display: flex;
+    }
+
+    .image-301 {
+      position: relative;
+      z-index: 79;
+      margin-left: 4px;
+      width: 254.53px;
+      min-width: 254.53px;
+      height: -348.48px;
+      margin-top: -1px;
+      margin-bottom: 607.6199999999999px;
+      min-height: -348.48px;
+      content: url({{url_for('static',filename='ui6/image_301.png')}});
+    }
+
+    .image-301-outer {
+      z-index: 79;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-27 {
+      position: relative;
+      z-index: 80;
+      margin-left: 230px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -23.139999999999986px;
+      margin-bottom: 7.819999999999936px;
+      min-height: 15.32px;
+    }
+
+    .Vector-27-outer {
+      z-index: 80;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-28 {
+      position: relative;
+      z-index: 81;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: -3803.394255874673%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_22.png')}});
+    }
+
+    .Vector-28-outer {
+      z-index: 81;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .image-285 {
+      position: relative;
+      z-index: 93;
+      margin-left: 261px;
+      width: 128.05px;
+      min-width: 128.05px;
+      height: -608.64px;
+      margin-top: -128.22000000000003px;
+      margin-bottom: 736.86px;
+      min-height: -608.64px;
+      content: url({{url_for('static',filename='ui6/image_285.png')}});
+    }
+
+    .image-285-outer {
+      z-index: 93;
+      position: relative;
+      display: flex;
+    }
+
+    .image-283 {
+      position: relative;
+      z-index: 92;
+      margin-left: 130px;
+      width: 128.06px;
+      min-width: 128.06px;
+      height: -608.64px;
+      margin-top: -128.22000000000003px;
+      margin-bottom: 736.86px;
+      min-height: -608.64px;
+      content: url({{url_for('static',filename='ui6/image_283.png')}});
+    }
+
+    .image-283-outer {
+      z-index: 92;
+      position: relative;
+      display: flex;
+    }
+
+    .image-282 {
+      position: relative;
+      z-index: 91;
+      margin-left: 4px;
+      width: 124.44px;
+      min-width: 124.44px;
+      height: -608.64px;
+      margin-top: -128.22000000000003px;
+      margin-bottom: 736.86px;
+      min-height: -608.64px;
+      content: url({{url_for('static',filename='ui6/image_282.png')}});
+    }
+
+    .image-282-outer {
+      z-index: 91;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-17 {
+      position: relative;
+      z-index: 98;
+      margin-left: 105px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -24.220000000000027px;
+      margin-bottom: 8.900000000000091px;
+      min-height: 15.32px;
+    }
+
+    .Vector-17-outer {
+      z-index: 98;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-18 {
+      position: relative;
+      z-index: 99;
+      margin-left: -5.694760820045557%;
+      width: 108.65603644646922%;
+      height: -4644.647519582245%;
+      margin-top: -5.694760820045557%;
+      content: url({{url_for('static',filename='ui6/Vector_17.png')}});
+    }
+
+    .Vector-18-outer {
+      z-index: 99;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-19 {
+      position: relative;
+      z-index: 96;
+      margin-left: 234px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -24.220000000000027px;
+      margin-bottom: 8.900000000000091px;
+      min-height: 15.32px;
+    }
+
+    .Vector-19-outer {
+      z-index: 96;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-20 {
+      position: relative;
+      z-index: 97;
+      margin-left: -5.694760820045553%;
+      width: 108.65603644646913%;
+      height: -4644.647519582245%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_18.png')}});
+    }
+
+    .Vector-20-outer {
+      z-index: 97;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-21 {
+      position: relative;
+      z-index: 94;
+      margin-left: 361px;
+      width: 17.56px;
+      min-width: 17.56px;
+      height: 15.32px;
+      margin-top: -24.220000000000027px;
+      margin-bottom: 8.900000000000091px;
+      min-height: 15.32px;
+    }
+
+    .Vector-21-outer {
+      z-index: 94;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-22 {
+      position: relative;
+      z-index: 95;
+      margin-left: 0%;
+      width: 108.65603644646913%;
+      height: -4644.647519582245%;
+      margin-top: -5.694760820045553%;
+      content: url({{url_for('static',filename='ui6/Vector_19.png')}});
+    }
+
+    .Vector-22-outer {
+      z-index: 95;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-41 {
+      position: relative;
+      z-index: 22;
+      margin-left: 88.93612699100218%;
+      width: 4.646654286690128%;
+      height: -55.24734458973382%;
+      margin-top: 262.56741042082376%;
+      content: url({{url_for('static',filename='ui6/Vector_29.png')}});
+    }
+
+    .Vector-41-outer {
+      z-index: 22;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-42 {
+      position: relative;
+      z-index: 21;
+      margin-left: 56.39653114583322%;
+      width: 4.646654286690128%;
+      height: -55.24734458973382%;
+      margin-top: 262.56741042082376%;
+      content: url({{url_for('static',filename='ui6/Vector_30.png')}});
+    }
+
+    .Vector-42-outer {
+      z-index: 21;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-43 {
+      position: relative;
+      z-index: 20;
+      margin-left: 24.11725206742561%;
+      width: 4.6466542866901275%;
+      height: -55.24734458973382%;
+      margin-top: 262.5674104208237%;
+      content: url({{url_for('static',filename='ui6/Vector_31.png')}});
+    }
+
+    .Vector-43-outer {
+      z-index: 20;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .q---graden {
+      position: relative;
+      z-index: 118;
+      margin-left: 0px;
+      width: 387.3px;
+      min-width: 387.3px;
+      height: 102.02px;
+      margin-top: -99px;
+      margin-bottom: -3.019999999999982px;
+      min-height: 102.02px;
+    }
+
+    .q---graden-outer {
+      z-index: 118;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-128 {
+      position: relative;
+      z-index: 136;
+      margin-left: 166px;
+      width: 63.2px;
+      min-width: 63.2px;
+      height: 63.2px;
+      margin-top: 2px;
+      margin-bottom: 36.819999999999936px;
+      min-height: 63.2px;
+    }
+
+    .Group-128-outer {
+      z-index: 136;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---36---ca {
+      position: relative;
+      z-index: 138;
+      margin-left: 10px;
+      width: 44.55px;
+      min-width: 44.55px;
+      height: 44.55px;
+      margin-top: 10px;
+      margin-bottom: 8.650000000000091px;
+      min-height: 44.55px;
+    }
+
+    .iOS---icon---36---ca-outer {
+      z-index: 138;
+      position: relative;
+      display: flex;
+    }
+
+    .iOS---icon---36---ca-1 {
+      position: relative;
+      z-index: 139;
+      margin-left: 0px;
+      width: 44.55px;
+      min-width: 44.55px;
+      height: 44.55px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 44.55px;
+    }
+
+    .iOS---icon---36---ca-1-outer {
+      z-index: 139;
+      position: relative;
+      display: flex;
+    }
+
+    .q---1 {
+      position: relative;
+      z-index: 140;
+      margin-left: 4px;
+      width: 31.04px;
+      min-width: 31.04px;
+      height: 24.1px;
+      margin-top: 7px;
+      margin-bottom: 13.449999999999932px;
+      min-height: 24.1px;
+      content: url({{url_for('static',filename='ui6/___.png')}});
+    }
+
+    .q---1-outer {
+      z-index: 140;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-83-1 {
+      position: relative;
+      z-index: 137;
+      margin-left: 0px;
+      width: 63.2px;
+      height: 63.2px;
+      margin-top: 0px;
+      content: url({{url_for('static',filename='ui6/Ellipse_83_1.png')}});
+    }
+
+    .Ellipse-83-1-outer {
+      z-index: 137;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .q-- {
+      position: relative;
+      z-index: 145;
+      margin-left: 170px;
+      width: 58.68px;
+      min-width: 58.68px;
+      height: 58.68px;
+      margin-top: -95.02px;
+      margin-bottom: 36.34000000000003px;
+      min-height: 58.68px;
+    }
+
+    .q---outer {
+      z-index: 145;
+      position: relative;
+      display: flex;
+    }
+
+    .Group-188 {
+      position: relative;
+      z-index: 147;
+      margin-left: 10px;
+      width: 41.26px;
+      min-width: 41.26px;
+      height: 26.19px;
+      margin-top: 17px;
+      margin-bottom: 15.489999999999895px;
+      min-height: 26.19px;
+    }
+
+    .Group-188-outer {
+      z-index: 147;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-366 {
+      position: relative;
+      z-index: 156;
+      margin-left: 41.20213281628697%;
+      width: 4.386815317498789%;
+      height: 48.262695685376094%;
+      margin-top: 21.81289384391663%;
+      content: url({{url_for('static',filename='ui6/Vector_366.png')}});
+    }
+
+    .Vector-366-outer {
+      z-index: 156;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-365 {
+      position: relative;
+      z-index: 155;
+      margin-left: 26.660203587009207%;
+      width: 30.634997576345125%;
+      height: 6.911034746086292%;
+      margin-top: 33.931168201648084%;
+      content: url({{url_for('static',filename='ui6/Vector_365.png')}});
+    }
+
+    .Vector-365-outer {
+      z-index: 155;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-364 {
+      position: relative;
+      z-index: 154;
+      margin-left: 24.236548715462927%;
+      width: 34.44013572467282%;
+      height: 55.784650630011456%;
+      margin-top: 19.389238972370343%;
+      content: url({{url_for('static',filename='ui6/Vector_364.png')}});
+    }
+
+    .Vector-364-outer {
+      z-index: 154;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector {
+      position: relative;
+      z-index: 153;
+      margin-left: 63.01502666020359%;
+      width: 8.119243819680078%;
+      height: 33.44788087056128%;
+      margin-top: 24.23654871546292%;
+      content: url({{url_for('static',filename='ui6/Vector.png')}});
+    }
+
+    .Vector-outer {
+      z-index: 153;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-1 {
+      position: relative;
+      z-index: 152;
+      margin-left: 65.43868153174989%;
+      width: 4.992729035385362%;
+      height: 13.631156930126002%;
+      margin-top: 41.20213281628697%;
+      content: url({{url_for('static',filename='ui6/Vector_1.png')}});
+    }
+
+    .Vector-1-outer {
+      z-index: 152;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-2 {
+      position: relative;
+      z-index: 151;
+      margin-left: 72.70964614638875%;
+      width: 31.240911294231697%;
+      height: 47.42268041237113%;
+      margin-top: -2.4236548715462916%;
+      content: url({{url_for('static',filename='ui6/Vector_2.png')}});
+    }
+
+    .Vector-2-outer {
+      z-index: 151;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-3 {
+      position: relative;
+      z-index: 150;
+      margin-left: 0%;
+      width: 43.52884149297142%;
+      height: 77.01412752959145%;
+      margin-top: 2.423654871546293%;
+      content: url({{url_for('static',filename='ui6/Vector_3.png')}});
+    }
+
+    .Vector-3-outer {
+      z-index: 150;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-4 {
+      position: relative;
+      z-index: 149;
+      margin-left: 14.541929229277752%;
+      width: 56.519631604459526%;
+      height: 91.33256968308514%;
+      margin-top: 9.694619486185168%;
+      content: url({{url_for('static',filename='ui6/Vector_4.png')}});
+    }
+
+    .Vector-4-outer {
+      z-index: 149;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-5 {
+      position: relative;
+      z-index: 148;
+      margin-left: 63.0150266602036%;
+      width: 22.56422685409598%;
+      height: 55.28827796869034%;
+      margin-top: 14.541929229277754%;
+      content: url({{url_for('static',filename='ui6/Vector_5.png')}});
+    }
+
+    .Vector-5-outer {
+      z-index: 148;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Ellipse-83 {
+      position: relative;
+      z-index: 146;
+      margin-left: -8.520790729379684%;
+      width: 118.47307430129511%;
+      height: 118.47307430129516%;
+      margin-top: -8.520790729379684%;
+      content: url({{url_for('static',filename='ui6/Ellipse_83.png')}});
+    }
+
+    .Ellipse-83-outer {
+      z-index: 146;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Group-195 {
+      position: relative;
+      z-index: 131;
+      margin-left: 110px;
+      width: 13.23px;
+      min-width: 13.23px;
+      height: 21.67px;
+      margin-top: -70.02px;
+      margin-bottom: 48.35000000000002px;
+      min-height: 21.67px;
+    }
+
+    .Group-195-outer {
+      z-index: 131;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-6 {
+      position: relative;
+      z-index: 135;
+      margin-left: 7.558578987150415%;
+      width: 8.465608465608467%;
+      height: 40.37840332256576%;
+      margin-top: 68.02721088435374%;
+      content: url({{url_for('static',filename='ui6/Vector_6.png')}});
+    }
+
+    .Vector-6-outer {
+      z-index: 135;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-7 {
+      position: relative;
+      z-index: 134;
+      margin-left: 75.5857898715041%;
+      width: 7.4829931972789065%;
+      height: 41.43977849561605%;
+      margin-top: 15.11715797430082%;
+      content: url({{url_for('static',filename='ui6/Vector_7.png')}});
+    }
+
+    .Vector-7-outer {
+      z-index: 134;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-8 {
+      position: relative;
+      z-index: 133;
+      margin-left: -7.558578987150417%;
+      width: 65.60846560846562%;
+      height: 75.86525149976927%;
+      margin-top: 37.79289493575209%;
+      content: url({{url_for('static',filename='ui6/Vector_8.png')}});
+    }
+
+    .Vector-8-outer {
+      z-index: 133;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Vector-9 {
+      position: relative;
+      z-index: 132;
+      margin-left: 37.792894935752074%;
+      width: 69.3121693121693%;
+      height: 74.85002307337332%;
+      margin-top: -7.5585789871504145%;
+      content: url({{url_for('static',filename='ui6/Vector_9.png')}});
+    }
+
+    .Vector-9-outer {
+      z-index: 132;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .q---3 {
+      position: relative;
+      z-index: 124;
+      margin-left: 336px;
+      width: 19.14px;
+      min-width: 19.14px;
+      height: 19.23px;
+      margin-top: -69.02px;
+      margin-bottom: 49.789999999999964px;
+      min-height: 19.23px;
+    }
+
+    .q---3-outer {
+      z-index: 124;
+      position: relative;
+      display: flex;
+    }
+
+    .Subtract {
+      position: relative;
+      z-index: 126;
+      margin-left: 0px;
+      width: 19.14px;
+      min-width: 19.14px;
+      height: 8.8px;
+      margin-top: 11px;
+      margin-bottom: -0.5699999999999363px;
+      min-height: 8.8px;
+      content: url({{url_for('static',filename='ui6/Subtract.png')}});
+    }
+
+    .Subtract-outer {
+      z-index: 126;
+      position: relative;
+      display: flex;
+    }
+
+    .Ellipse-119 {
+      position: relative;
+      z-index: 125;
+      margin-left: 26.123301985370993%;
+      width: 49.529780564263405%;
+      height: 49.297971918876755%;
+      margin-top: 0%;
+      content: url({{url_for('static',filename='ui6/Ellipse_119.png')}});
+    }
+
+    .Ellipse-119-outer {
+      z-index: 125;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .q---2 {
+      position: relative;
+      z-index: 127;
+      margin-left: 269px;
+      width: 17.6px;
+      min-width: 17.6px;
+      height: 17.6px;
+      margin-top: -68.02px;
+      margin-bottom: 50.41999999999996px;
+      min-height: 17.6px;
+    }
+
+    .q---2-outer {
+      z-index: 127;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-10 {
+      position: relative;
+      z-index: 130;
+      margin-left: -5.6818181818181674%;
+      width: 107.72727272727246%;
+      height: 107.72727272727272%;
+      margin-top: 0%;
+      content: url({{url_for('static',filename='ui6/Vector_10.png')}});
+    }
+
+    .Vector-10-outer {
+      z-index: 130;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Ellipse-128 {
+      position: relative;
+      z-index: 129;
+      margin-left: 62.49999999999992%;
+      width: 10.284090909090896%;
+      height: 10.284090909090908%;
+      margin-top: 28.40909090909087%;
+      content: url({{url_for('static',filename='ui6/Ellipse_128.png')}});
+    }
+
+    .Ellipse-128-outer {
+      z-index: 129;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .Ellipse-127 {
+      position: relative;
+      z-index: 128;
+      margin-left: 34.090909090909044%;
+      width: 10.284090909090896%;
+      height: 10.284090909090908%;
+      margin-top: 28.40909090909087%;
+      content: url({{url_for('static',filename='ui6/Ellipse_127.png')}});
+    }
+
+    .Ellipse-127-outer {
+      z-index: 128;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .q------ {
+      position: relative;
+      z-index: 120;
+      margin-left: 32px;
+      width: 23.47px;
+      min-width: 23.47px;
+      height: 18.06px;
+      margin-top: -68.02px;
+      margin-bottom: 49.960000000000036px;
+      min-height: 18.06px;
+    }
+
+    .q-------outer {
+      z-index: 120;
+      position: relative;
+      display: flex;
+    }
+
+    .Vector-11 {
+      position: relative;
+      z-index: 123;
+      margin-left: -11.089999999999996px;
+      width: 4.38px;
+      height: 3.39px;
+      margin-top: 1.330000000000041px;
+      content: url({{url_for('static',filename='ui6/Vector_11.png')}});
+    }
+
+    .Vector-11-outer {
+      z-index: 123;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Vector-12 {
+      position: relative;
+      z-index: 122;
+      margin-left: 6.539999999999999px;
+      width: 8.01px;
+      height: 6.02px;
+      margin-top: -2.0399999999999636px;
+      content: url({{url_for('static',filename='ui6/Vector_12.png')}});
+    }
+
+    .Vector-12-outer {
+      z-index: 122;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Vector-364-1 {
+      position: relative;
+      z-index: 121;
+      margin-left: 0.9099999999999966px;
+      width: 24.38px;
+      height: 18.96px;
+      margin-top: -1.099999999999909px;
+      content: url({{url_for('static',filename='ui6/Vector_364_1.png')}});
+    }
+
+    .Vector-364-1-outer {
+      z-index: 121;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Mine {
+      position: relative;
+      z-index: 144;
+      margin-left: 303.7px;
+      width: 29px;
+      height: 16px;
+      margin-top: 25.980000000000018px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(46, 109, 55, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 12.63930892944336px;
+      line-height: 14px;
+    }
+
+    .Mine-outer {
+      z-index: 144;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Chating {
+      position: relative;
+      z-index: 143;
+      margin-left: 166.7px;
+      width: 46px;
+      height: 16px;
+      margin-top: 25.980000000000018px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(46, 109, 55, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 12.63930892944336px;
+      line-height: 14px;
+    }
+
+    .Chating-outer {
+      z-index: 143;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Finding {
+      position: relative;
+      z-index: 142;
+      margin-left: -159.3px;
+      width: 44px;
+      height: 16px;
+      margin-top: 25.980000000000018px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(46, 109, 55, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 400;
+      font-size: 12.63930892944336px;
+      line-height: 14px;
+    }
+
+    .Finding-outer {
+      z-index: 142;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Garden {
+      position: relative;
+      z-index: 141;
+      margin-left: -301.3px;
+      width: 44px;
+      height: 16px;
+      margin-top: 25.980000000000018px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(46, 109, 55, 1);
+      font-style: normal;
+      font-family: Azo Sans;
+      font-weight: 500;
+      font-size: 12.63930892944336px;
+      line-height: 14px;
+    }
+
+    .Garden-outer {
+      z-index: 141;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Rectangle-27 {
+      position: relative;
+      z-index: 119;
+      margin-left: 0px;
+      width: 387.3px;
+      height: 82.16px;
+      margin-top: 18.139999999999986px;
+      background-color: rgba(237, 249, 222, 1);
+    }
+
+    .Rectangle-27-outer {
+      z-index: 119;
+      justify-content: center;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      align-items: center;
+    }
+
+    .Harvest {
+      position: relative;
+      z-index: 5;
+      margin-left: 267px;
+      width: 40.63px;
+      min-width: 40.63px;
+      margin-top: -37px;
+      margin-bottom: -2.7200000000000273px;
+      min-height: 39.72px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      color: rgba(2, 2, 2, 1);
+      font-style: normal;
+      font-family: Kalam;
+      font-weight: 400;
+      font-size: 12.63930892944336px;
+      line-height: 20px;
+    }
+
+    .Harvest-outer {
+      z-index: 5;
+      position: relative;
+      display: flex;
+    }
+  </style>
+
+</head>
+
+<body class="websiteBody">
+  <div class="Page-outer">
+    <div id="Page" data-name="Page" class="Page">
+      <div class="Frame-outer">
+        <div id="Frame" data-name="iPhone 13 Pro Max - 97" class="Frame">
+          <div class="Rectangle-48-outer">
+            <div id="Rectangle-48" data-name="Rectangle 48" alt="Rectangle 48" class="Rectangle-48">
+            </div>
+          </div>
+          <div class="Frame-366-outer">
+            <div id="Frame-366" data-name="Frame 366" class="Frame-366">
+              <div class="iOS---status-bar-wit-outer">
+                <div id="iOS---status-bar-wit" data-name="iOS / status-bar-with-notch" class="iOS---status-bar-wit">
+                  <div class="notch-outer">
+                    <img id="notch" data-name="notch" alt="notch" class="notch">
+                  </div>
+                  <div class="time-outer">
+                    <div id="time" data-name="time" class="time">
+                      <div key="0">9:41</div>
+                    </div>
+                  </div>
+                  <div class="iOS---icon---status--outer">
+                    <div id="iOS---icon---status-" data-name="iOS / icon / status-bar" class="iOS---icon---status-">
+                      <div class="iOS---icon---small---outer">
+                        <div id="iOS---icon---small--" data-name="iOS / icon / small / battery"
+                          class="iOS---icon---small--">
+                          <div class="charge-outer">
+                            <img id="charge" data-name="charge" alt="charge" class="charge">
+                          </div>
+                          <div class="node-outer">
+                            <img id="node" data-name="node" alt="node" class="node">
+                          </div>
+                          <div class="outline-border-outer">
+                            <img id="outline-border" data-name="outline border" alt="outline border"
+                              class="outline-border">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="iOS---icon---small---1-outer">
+                        <div id="iOS---icon---small---1" data-name="iOS / icon / small / Wifi"
+                          class="iOS---icon---small---1">
+                          <div class="icon-outer">
+                            <img id="icon" data-name="icon" alt="icon" class="icon">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="iOS---icon---small---2-outer">
+                        <div id="iOS---icon---small---2" data-name="iOS / icon / small / Mobile Signal"
+                          class="iOS---icon---small---2">
+                          <div class="icon-1-outer">
+                            <img id="icon-1" data-name="icon" alt="icon" class="icon-1">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="iOS---icon---small---3-outer">
+                        <div id="iOS---icon---small---3" data-name="iOS / icon / small / bluetooth"
+                          class="iOS---icon---small---3">
+                          <div class="Bluetooth-outer">
+                            <img id="Bluetooth" data-name="Bluetooth" alt="Bluetooth" class="Bluetooth">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="iOS---icon---small---4-outer">
+                        <div id="iOS---icon---small---4" data-name="iOS / icon / small / clock"
+                          class="iOS---icon---small---4">
+                          <div class="Alarm-outer">
+                            <img id="Alarm" data-name="Alarm" alt="Alarm" class="Alarm">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="battery-percentage-outer">
+                        <div id="battery-percentage" data-name="battery percentage" class="battery-percentage">
+                          <div key="0">100%</div>
+                        </div>
+                      </div>
+                      <div class="carrier-outer">
+                        <div id="carrier" data-name="carrier" class="carrier">
+                          <div key="0">Figma</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="image-275-outer">
+                <img id="image-275" data-name="image 275" alt="image 275" class="image-275">
+              </div>
+              <div class="My-friendship-Garden-outer">
+                <div id="My-friendship-Garden" data-name="My friendship Garden" class="My-friendship-Garden">
+                  <div key="0">My friendship Garden</div>
+                </div>
+              </div>
+              <div class="Group-231-outer">
+                <div id="Group-231" data-name="Group 231" class="Group-231">
+                  <div class="Ellipse-129-outer">
+                    <img id="Ellipse-129" data-name="Ellipse 129" alt="Ellipse 129" class="Ellipse-129">
+                  </div>
+                  <div class="q--outer">
+                    <div id="q-" data-name="?" class="q-">
+                      <div key="0">?</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Vector-320-outer">
+                <img id="Vector-320" data-name="Vector 320" alt="Vector 320" class="Vector-320">
+              </div>
+            </div>
+          </div>
+          <div class="q------2-outer">
+            <img id="q------2" data-name="植物园底图 2" alt="植物园底图 2" class="q------2">
+          </div>
+          <div class="Frame-361-outer">
+            <div id="Frame-361" data-name="Frame 361" class="Frame-361">
+              <div class="Garden-Map-outer">
+                <div id="Garden-Map" data-name="Garden Map" class="Garden-Map">
+                  <div key="0">Garden Map</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Frame-360-outer">
+            <div id="Frame-360" data-name="Frame 360" class="Frame-360">
+              <div class="Frame-936-outer">
+                <div id="Frame-936" data-name="Frame 936" class="Frame-936">
+                  <div class="Look-around-outer">
+                    <div id="Look-around" data-name="Look around" class="Look-around">
+                      <div key="0">Seed</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Group-164-outer">
+            <div id="Group-164" data-name="Group 164" class="Group-164">
+              <div class="Ellipse-115-outer">
+                <img id="Ellipse-115" data-name="Ellipse 115" alt="Ellipse 115" class="Ellipse-115">
+              </div>
+              <div class="d-3-outer">
+                <img id="d-3" data-name="d 3" alt="d 3" class="d-3">
+              </div>
+              <div class="d-2-outer">
+                <img id="d-2" data-name="d 2" alt="d 2" class="d-2">
+              </div>
+              <div class="d-1-outer">
+                <img id="d-1" data-name="d 1" alt="d 1" class="d-1">
+              </div>
+            </div>
+            </div>
+            <a href="/uid7">
+              <div class="Vector-362-outer">
+                <img id="Vector-362" data-name="Vector 362" alt="Vector 362" class="Vector-362">
+              </div>
+            </a>
+            <div class="Frame-370-outer">
+            <div id="Frame-370" data-name="Frame 370" class="Frame-370">
+              <div class="Polygon-6-outer">
+                <img id="Polygon-6" data-name="Polygon 6" alt="Polygon 6" class="Polygon-6">
+              </div>
+              <div class="Vector-323-outer">
+                <img id="Vector-323" data-name="Vector 323" alt="Vector 323" class="Vector-323">
+              </div>
+              <div class="Seed-List-outer">
+                <div id="Seed-List" data-name="Seed List" class="Seed-List">
+                  <div key="0">Seed List</div>
+                </div>
+              </div>
+              <div class="Frame-896-outer">
+                <div id="Frame-896" data-name="Frame 896" class="Frame-896">
+                  <div class="Group-228-outer">
+                    <div id="Group-228" data-name="Group 228" class="Group-228">
+                      <div class="Group-190-outer">
+                        <div id="Group-190" data-name="Group 190" class="Group-190">
+                          <div class="Ellipse-84-outer">
+                            <img id="Ellipse-84" data-name="Ellipse 84" alt="Ellipse 84" class="Ellipse-84">
+                          </div>
+                          <div class="Ellipse-83-2-outer">
+                            <img id="Ellipse-83-2" data-name="Ellipse 83" alt="Ellipse 83" class="Ellipse-83-2">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="Group-195-1-outer">
+                        <div id="Group-195-1" data-name="Group 195" class="Group-195-1">
+                          <div class="Vector-13-outer">
+                            <img id="Vector-13" data-name="Vector" alt="Vector" class="Vector-13">
+                          </div>
+                          <div class="Vector-14-outer">
+                            <img id="Vector-14" data-name="Vector" alt="Vector" class="Vector-14">
+                          </div>
+                          <div class="Vector-15-outer">
+                            <img id="Vector-15" data-name="Vector" alt="Vector" class="Vector-15">
+                          </div>
+                          <div class="Vector-16-outer">
+                            <img id="Vector-16" data-name="Vector" alt="Vector" class="Vector-16">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="Finding-more-seeds-outer">
+                        <div id="Finding-more-seeds" data-name="Finding more seeds" class="Finding-more-seeds">
+                          <div key="0">Finding</div>
+                          <div key="1">more seeds</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Group-189-outer">
+                    <div id="Group-189" data-name="Group 189" class="Group-189">
+                      <div class="Ellipse-84-1-outer">
+                        <img id="Ellipse-84-1" data-name="Ellipse 84" alt="Ellipse 84" class="Ellipse-84-1">
+                      </div>
+                      <div class="Ellipse-83-3-outer">
+                        <img id="Ellipse-83-3" data-name="Ellipse 83" alt="Ellipse 83" class="Ellipse-83-3">
+                      </div>
+                      <div class="dfsdf-1-outer">
+                        <img id="dfsdf-1" data-name="dfsdf 1" alt="dfsdf 1" class="dfsdf-1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Group-186-outer">
+                    <div id="Group-186" data-name="Group 186" class="Group-186">
+                      <div class="Ellipse-80-outer">
+                        <img id="Ellipse-80" data-name="Ellipse 80" alt="Ellipse 80" class="Ellipse-80">
+                      </div>
+                      <div class="dfsdf-1-1-outer">
+                        <img id="dfsdf-1-1" data-name="dfsdf 1" alt="dfsdf 1" class="dfsdf-1-1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="image-297-outer">-->
+              <!--  <img id="image-297" data-name="image 297" alt="image 297" class="image-297">-->
+              <!--</div>-->
+              <div class="Vector-327-outer">
+                <img id="Vector-327" data-name="Vector 327" alt="Vector 327" class="Vector-327">
+              </div>
+              <div class="Recent-update-for-th-outer">
+                <div id="Recent-update-for-th" data-name="Recent update for this favorite" class="Recent-update-for-th">
+                  <div key="0">Recent update for this favorite</div>
+                </div>
+              </div>
+              <div class="Group-173-1-outer">
+                <div id="Group-173-1" data-name="Group 173" class="Group-173-1">
+                  <div class="Group-159-1-outer">
+                    <div id="Group-159-1" data-name="Group 159" class="Group-159-1">
+                      <div class="q-----1-outer">
+                        <div id="q-----1" data-name="大小组合" class="q-----1">
+                          <div class="q---5-outer">
+                            <div id="q---5" data-name="竖着" class="q---5">
+                              <div class="Group-152-3-outer">
+                                <div id="Group-152-3" data-name="Group 152" class="Group-152-3">
+                                  <div class="Vector-37-outer">
+                                    <div id="Vector-37" data-name="Vector" class="Vector-37">
+                                      <div class="Vector-38-outer">
+                                        <img id="Vector-38" data-name="Vector" alt="Vector" class="Vector-38">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="image-303-3-outer">
+                                    <img id="image-303-3" data-name="image 303" alt="image 303" class="image-303-3">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="Group-152-2-outer">
+                                <div id="Group-152-2" data-name="Group 152" class="Group-152-2">
+                                  <div class="Vector-35-outer">
+                                    <div id="Vector-35" data-name="Vector" class="Vector-35">
+                                      <div class="Vector-36-outer">
+                                        <img id="Vector-36" data-name="Vector" alt="Vector" class="Vector-36">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="image-303-2-outer">
+                                    <img id="image-303-2" data-name="image 303" alt="image 303" class="image-303-2">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="Group-151-1-outer">
+                            <div id="Group-151-1" data-name="Group 151" class="Group-151-1">
+                              <div class="image-301-1-outer">
+                                <img id="image-301-1" data-name="image 301" alt="image 301" class="image-301-1">
+                              </div>
+                              <div class="Vector-39-outer">
+                                <div id="Vector-39" data-name="Vector" class="Vector-39">
+                                  <div class="Vector-40-outer">
+                                    <img id="Vector-40" data-name="Vector" alt="Vector" class="Vector-40">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="image-285-1-outer">
+                        <img id="image-285-1" data-name="image 285" alt="image 285" class="image-285-1">
+                      </div>
+                      <div class="image-283-1-outer">
+                        <img id="image-283-1" data-name="image 283" alt="image 283" class="image-283-1">
+                      </div>
+                      <div class="image-282-1-outer">
+                        <img id="image-282-1" data-name="image 282" alt="image 282" class="image-282-1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Vector-29-outer">
+                    <div id="Vector-29" data-name="Vector" class="Vector-29">
+                      <div class="Vector-30-outer">
+                        <img id="Vector-30" data-name="Vector" alt="Vector" class="Vector-30">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Vector-31-outer">
+                    <div id="Vector-31" data-name="Vector" class="Vector-31">
+                      <div class="Vector-32-outer">
+                        <img id="Vector-32" data-name="Vector" alt="Vector" class="Vector-32">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Vector-33-outer">
+                    <div id="Vector-33" data-name="Vector" class="Vector-33">
+                      <div class="Vector-34-outer">
+                        <img id="Vector-34" data-name="Vector" alt="Vector" class="Vector-34">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Group-171-outer">
+                <div id="Group-171" data-name="Group 171" class="Group-171">
+                  <div class="Vector-325-outer">
+                    <img id="Vector-325" data-name="Vector 325" alt="Vector 325" class="Vector-325">
+                  </div>
+                  <div class="q---------------39-outer">
+                    <img id="q---------------39" data-name="长出来的人(干净的导出版本) 39" alt="长出来的人(干净的导出版本) 39"
+                      class="q---------------39">
+                  </div>
+                  <div class="Frame-377-outer">
+                    <div id="Frame-377" data-name="Frame 377" class="Frame-377">
+                      <div class="Frame-369-outer">
+                        <div id="Frame-369" data-name="Frame 369" class="Frame-369">
+                          <div class="like-classical-music-outer">
+                            <div id="like-classical-music" data-name="like classical music"
+                              class="like-classical-music">
+                              <div key="0">like classical music</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="Frame-363-outer">
+                        <div id="Frame-363" data-name="Frame 363" class="Frame-363">
+                          <div class="has-a-dog-outer">
+                            <div id="has-a-dog" data-name="has a dog" class="has-a-dog">
+                              <div key="0">has a dog</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Frame-370-1-outer">
+                    <div id="Frame-370-1" data-name="Frame 370" class="Frame-370-1">
+                      <div class="Painter-outer">
+                        <div id="Painter" data-name="Painter" class="Painter">
+                          <div key="0">Painter</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Frame-368-outer">
+                    <div id="Frame-368" data-name="Frame 368" class="Frame-368">
+                      <div class="Good-at-piano-outer">
+                        <div id="Good-at-piano" data-name="Good at piano" class="Good-at-piano">
+                          <div key="0">Good at piano </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Group-150-outer">
+                    <div id="Group-150" data-name="Group 150" class="Group-150">
+                      <div class="Ellipse-110-outer">
+                        <img id="Ellipse-110" data-name="Ellipse 110" alt="Ellipse 110" class="Ellipse-110">
+                      </div>
+                      <div class="q22-outer">
+                        <div id="q22" data-name="22" class="q22">
+                          <div key="0">22</div>
+                        </div>
+                      </div>
+                      <div class="Rectangle-51-outer">
+                        <div id="Rectangle-51" data-name="Rectangle 51" alt="Rectangle 51" class="Rectangle-51">
+                        </div>
+                      </div>
+                      <div class="Rectangle-50-outer">
+                        <div id="Rectangle-50" data-name="Rectangle 50" alt="Rectangle 50" class="Rectangle-50">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Frame-364-outer">
+                    <div id="Frame-364" data-name="Frame 364" class="Frame-364">
+                      <div class="like-hand-made-outer">
+                        <div id="like-hand-made" data-name="like hand-made" class="like-hand-made">
+                          <div key="0">like hand-made</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Seeing-more-outer">
+                    <div id="Seeing-more" data-name="Seeing more" class="Seeing-more">
+                      <div key="0">Seeing more</div>
+                    </div>
+                  </div>
+                  <div class="Polygon-4-outer">
+                    <img id="Polygon-4" data-name="Polygon 4" alt="Polygon 4" class="Polygon-4">
+                  </div>
+                  <div class="About-to-lose-outer">
+                    <div id="About-to-lose" data-name="About to lose" class="About-to-lose">
+                      <div key="0">About to lose</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Frame-380-outer">
+                <div id="Frame-380" data-name="Frame 380" class="Frame-380">
+                  <div class="Group-173-outer">
+                    <div id="Group-173" data-name="Group 173" class="Group-173">
+                      <div class="Group-159-outer">
+                        <div id="Group-159" data-name="Group 159" class="Group-159">
+                          <div class="q-----outer">
+                            <div id="q----" data-name="大小组合" class="q----">
+                              <div class="q---4-outer">
+                                <div id="q---4" data-name="竖着" class="q---4">
+                                  <div class="Group-152-1-outer">
+                                    <div id="Group-152-1" data-name="Group 152" class="Group-152-1">
+                                      <div class="Vector-25-outer">
+                                        <div id="Vector-25" data-name="Vector" class="Vector-25">
+                                          <div class="Vector-26-outer">
+                                            <img id="Vector-26" data-name="Vector" alt="Vector" class="Vector-26">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="image-303-1-outer">
+                                        <img id="image-303-1" data-name="image 303" alt="image 303" class="image-303-1">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="Group-152-outer">
+                                    <div id="Group-152" data-name="Group 152" class="Group-152">
+                                      <div class="Vector-23-outer">
+                                        <div id="Vector-23" data-name="Vector" class="Vector-23">
+                                          <div class="Vector-24-outer">
+                                            <img id="Vector-24" data-name="Vector" alt="Vector" class="Vector-24">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="image-303-outer">
+                                        <img id="image-303" data-name="image 303" alt="image 303" class="image-303">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="Group-151-outer">
+                                <div id="Group-151" data-name="Group 151" class="Group-151">
+                                  <div class="image-301-outer">
+                                    <img id="image-301" data-name="image 301" alt="image 301" class="image-301">
+                                  </div>
+                                  <div class="Vector-27-outer">
+                                    <div id="Vector-27" data-name="Vector" class="Vector-27">
+                                      <div class="Vector-28-outer">
+                                        <img id="Vector-28" data-name="Vector" alt="Vector" class="Vector-28">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="image-285-outer">
+                            <img id="image-285" data-name="image 285" alt="image 285" class="image-285">
+                          </div>
+                          <div class="image-283-outer">
+                            <img id="image-283" data-name="image 283" alt="image 283" class="image-283">
+                          </div>
+                          <div class="image-282-outer">
+                            <img id="image-282" data-name="image 282" alt="image 282" class="image-282">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="Vector-17-outer">
+                        <div id="Vector-17" data-name="Vector" class="Vector-17">
+                          <div class="Vector-18-outer">
+                            <img id="Vector-18" data-name="Vector" alt="Vector" class="Vector-18">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="Vector-19-outer">
+                        <div id="Vector-19" data-name="Vector" class="Vector-19">
+                          <div class="Vector-20-outer">
+                            <img id="Vector-20" data-name="Vector" alt="Vector" class="Vector-20">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="Vector-21-outer">
+                        <div id="Vector-21" data-name="Vector" class="Vector-21">
+                          <div class="Vector-22-outer">
+                            <img id="Vector-22" data-name="Vector" alt="Vector" class="Vector-22">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Vector-41-outer">
+                <img id="Vector-41" data-name="Vector" alt="Vector" class="Vector-41">
+              </div>
+              <div class="Vector-42-outer">
+                <img id="Vector-42" data-name="Vector" alt="Vector" class="Vector-42">
+              </div>
+              <div class="Vector-43-outer">
+                <img id="Vector-43" data-name="Vector" alt="Vector" class="Vector-43">
+              </div>
+            </div>
+          </div>
+          <div class="q---graden-outer">
+            <div id="q---graden" data-name="底部-graden" class="q---graden">
+              <div class="Group-128-outer">
+                <div id="Group-128" data-name="Group 128" class="Group-128">
+                  <div class="iOS---icon---36---ca-outer">
+                    <div id="iOS---icon---36---ca" data-name="iOS / icon / 36 / camera" class="iOS---icon---36---ca">
+                      <div class="iOS---icon---36---ca-1-outer">
+                        <div id="iOS---icon---36---ca-1" data-name="iOS / icon / 36 / camera"
+                          class="iOS---icon---36---ca-1">
+                          <div class="q---1-outer">
+                            <img id="q---1" data-name="􀌞" alt="􀌞" class="q---1">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Ellipse-83-1-outer">
+                    <img id="Ellipse-83-1" data-name="Ellipse 83" alt="Ellipse 83" class="Ellipse-83-1">
+                  </div>
+                </div>
+              </div>
+              <div class="q---outer">
+                <div id="q--" data-name="浇花" class="q--">
+                  <div class="Group-188-outer">
+                    <div id="Group-188" data-name="Group 188" class="Group-188">
+                      <div class="Vector-366-outer">
+                        <img id="Vector-366" data-name="Vector 366" alt="Vector 366" class="Vector-366">
+                      </div>
+                      <div class="Vector-365-outer">
+                        <img id="Vector-365" data-name="Vector 365" alt="Vector 365" class="Vector-365">
+                      </div>
+                      <div class="Vector-364-outer">
+                        <img id="Vector-364" data-name="Vector 364" alt="Vector 364" class="Vector-364">
+                      </div>
+                      <div class="Vector-outer">
+                        <img id="Vector" data-name="Vector" alt="Vector" class="Vector">
+                      </div>
+                      <div class="Vector-1-outer">
+                        <img id="Vector-1" data-name="Vector" alt="Vector" class="Vector-1">
+                      </div>
+                      <div class="Vector-2-outer">
+                        <img id="Vector-2" data-name="Vector" alt="Vector" class="Vector-2">
+                      </div>
+                      <div class="Vector-3-outer">
+                        <img id="Vector-3" data-name="Vector" alt="Vector" class="Vector-3">
+                      </div>
+                      <div class="Vector-4-outer">
+                        <img id="Vector-4" data-name="Vector" alt="Vector" class="Vector-4">
+                      </div>
+                      <div class="Vector-5-outer">
+                        <img id="Vector-5" data-name="Vector" alt="Vector" class="Vector-5">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Ellipse-83-outer">
+                    <img id="Ellipse-83" data-name="Ellipse 83" alt="Ellipse 83" class="Ellipse-83">
+                  </div>
+                </div>
+              </div>
+              <div class="Group-195-outer">
+                <div id="Group-195" data-name="Group 195" class="Group-195">
+                  <div class="Vector-6-outer">
+                    <img id="Vector-6" data-name="Vector" alt="Vector" class="Vector-6">
+                  </div>
+                  <div class="Vector-7-outer">
+                    <img id="Vector-7" data-name="Vector" alt="Vector" class="Vector-7">
+                  </div>
+                  <div class="Vector-8-outer">
+                    <img id="Vector-8" data-name="Vector" alt="Vector" class="Vector-8">
+                  </div>
+                  <div class="Vector-9-outer">
+                    <img id="Vector-9" data-name="Vector" alt="Vector" class="Vector-9">
+                  </div>
+                </div>
+              </div>
+              <div class="q---3-outer">
+                <div id="q---3" data-name="我的" class="q---3">
+                  <div class="Subtract-outer">
+                    <img id="Subtract" data-name="Subtract" alt="Subtract" class="Subtract">
+                  </div>
+                  <div class="Ellipse-119-outer">
+                    <img id="Ellipse-119" data-name="Ellipse 119" alt="Ellipse 119" class="Ellipse-119">
+                  </div>
+                </div>
+              </div>
+              <div class="q---2-outer">
+                <div id="q---2" data-name="聊天" class="q---2">
+                  <div class="Vector-10-outer">
+                    <img id="Vector-10" data-name="Vector" alt="Vector" class="Vector-10">
+                  </div>
+                  <div class="Ellipse-128-outer">
+                    <img id="Ellipse-128" data-name="Ellipse 128" alt="Ellipse 128" class="Ellipse-128">
+                  </div>
+                  <div class="Ellipse-127-outer">
+                    <img id="Ellipse-127" data-name="Ellipse 127" alt="Ellipse 127" class="Ellipse-127">
+                  </div>
+                </div>
+              </div>
+              <div class="q-------outer">
+                <div id="q------" data-name="叶子（选中）" class="q------">
+                  <div class="Vector-11-outer">
+                    <img id="Vector-11" data-name="Vector" alt="Vector" class="Vector-11">
+                  </div>
+                  <div class="Vector-12-outer">
+                    <img id="Vector-12" data-name="Vector" alt="Vector" class="Vector-12">
+                  </div>
+                  <div class="Vector-364-1-outer">
+                    <img id="Vector-364-1" data-name="Vector 364" alt="Vector 364" class="Vector-364-1">
+                  </div>
+                </div>
+              </div>
+              <div class="Mine-outer">
+                <div id="Mine" data-name="Mine" class="Mine">
+                  <div key="0">Mine</div>
+                </div>
+              </div>
+              <div class="Chating-outer">
+                <div id="Chating" data-name="Chating" class="Chating">
+                  <div key="0">Chating</div>
+                </div>
+              </div>
+              <div class="Finding-outer">
+                <div id="Finding" data-name="Finding" class="Finding">
+                  <div key="0">Finding</div>
+                </div>
+              </div>
+              <div class="Garden-outer">
+                <div id="Garden" data-name="Garden" class="Garden">
+                  <div key="0">Garden</div>
+                </div>
+              </div>
+              <div class="Rectangle-27-outer">
+                <div id="Rectangle-27" data-name="Rectangle 27" alt="Rectangle 27" class="Rectangle-27">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Harvest-outer">
+            <div id="Harvest" data-name="Harvest" class="Harvest">
+              <div key="0">&nbsp;</div>
+              <div key="1">Harvest</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
